@@ -1,4 +1,0 @@
-interface:
-  display_name: "Learning Marketplace UI"
-  short_description: "Build polished responsive learning marketplaces"
-  default_prompt: "Use $build-learning-marketplace-ui to design a responsive learning marketplace dashboard for my project."
