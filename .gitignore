@@ -10,3 +10,4 @@ data/smartreco.db
 data/chroma_data/
 .coverage
 htmlcov/
+.codex
