@@ -1,0 +1,37 @@
+.course-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.filter-pill {
+  background: #fff;
+  border: 1px solid #dedfe7;
+  border-radius: 999px;
+  color: #707284;
+  font-size: 14px;
+  line-height: 1;
+  padding: 12px 17px;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.filter-pill:hover,
+.filter-pill:focus-visible,
+.filter-pill.active {
+  background: #5347ed;
+  border-color: #5347ed;
+  color: #fff;
+}
+
+.filter-pill:focus-visible {
+  outline: 3px solid rgba(83, 71, 237, 0.2);
+  outline-offset: 2px;
+}
+
+.filter-separator {
+  background: #dedfe7;
+  height: 28px;
+  margin: 0 5px;
+  width: 1px;
+}

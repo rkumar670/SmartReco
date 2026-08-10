@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% from "course_icon.html" import course_icon %}
+{% block title %}Explore courses · SmartReco{% endblock %}
+{% block content %}
+<section class="hero">
+  <div class="shell hero-layout">
+    <div class="hero-copy">
+      <span class="eyebrow">AI-POWERED LEARNING MARKETPLACE</span>
+      <h1>Find the right course for your next step.</h1>
+      <p>Explore practical courses across technology, design, business, and career growth. SmartReco learns from your interests to make every recommendation more relevant.</p>
+      <form class="hero-search" action="/courses" method="get" data-track-search>
+        <span aria-hidden="true">⌕</span>
+        <input name="q" value="{{ search_query }}" placeholder="What do you want to learn?" aria-label="Search courses">
+        <button class="button">Search courses</button>
+      </form>
+      <div class="hero-stats"><span><strong>{{ products|length }}+</strong> courses</span><span><strong>8</strong> learning tracks</span><span><strong>Personalized</strong> for you</span></div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      <div class="hero-badge badge-main"><span>✦</span><strong>Smart recommendations</strong><small>Based on what holds your attention</small></div>
+      <div class="hero-badge badge-top">AI & ML <strong>24 courses</strong></div>
+      <div class="hero-badge badge-bottom">Career ready <strong>Learn by doing</strong></div>
+    </div>
+  </div>
+</section>
+
+{% include "recommendation_shelf.html" %}
+
+<section class="section shell catalog-section">
+  <div class="section-head catalog-head"><div><span class="eyebrow">EXPLORE THE CATALOGUE</span><h2>Courses to move you forward</h2></div><span class="result-count">{{ products|length }} results</span></div>
+  <nav class="filter-rail" aria-label="Filter courses">
+    <a class="filter-pill{% if not search_query %} active{% endif %}" href="/">All courses</a>
+    {% for value, label in [('ai-ml','AI & ML'),('web-dev','Web Dev'),('data','Data'),('security','Security'),('product','Product'),('design','Design'),('cloud','Cloud'),('career','Career'),('laptop','Laptop')] %}
+    <a class="filter-pill{% if search_query and search_query|lower == value %} active{% endif %}" href="/?q={{ value }}" data-track="category_view" data-category="{{ value }}">{{ label }}</a>
+    {% endfor %}
+    <span class="filter-divider"></span>
+    {% for value, label in [('beginner','Beginner'),('intermediate','Intermediate'),('advanced','Advanced')] %}
+    <a class="filter-pill{% if search_query and search_query|lower == value %} active{% endif %}" href="/?q={{ value }}" data-track="category_view" data-category="{{ value }}">{{ label }}</a>
+    {% endfor %}
+  </nav>
+  {% if products %}
+  <div class="course-grid">
+    {% for product in products %}
+    {% set visual_track = product.track or product.category|lower|replace(' ', '-') %}
+    <article class="course-card track-{{ visual_track }}">
+      <a class="course-art" href="/products/{{ product.id }}" data-track="product_click" data-product-id="{{ product.id }}">
+        <span class="course-icon">{{ course_icon(visual_track) }}</span><span class="provider">{{ product.provider or product.category }}</span>
+      </a>
+      <div class="course-body">
+        <div class="course-meta"><span>{{ product.level or 'All levels' }}</span><span>{{ product.track or product.category }}</span></div>
+        <h3><a href="/products/{{ product.id }}" data-track="product_click" data-product-id="{{ product.id }}">{{ product.title }}</a></h3>
+        <p class="course-description">{{ product.description }}</p>
+        <div class="course-footer"><strong>{% if product.price == 0 %}Free{% else %}{{ '$' if product.currency == 'USD' else '₹' }}{{ '%.0f'|format(product.price) }}{% endif %}</strong>{% if product.rating %}<span class="rating">★ {{ '%.1f'|format(product.rating) }}</span>{% endif %}</div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="empty-state"><span>⌕</span><h3>No courses found</h3><p>Try another topic or clear the current filter.</p><a class="button" href="/">View all courses</a></div>
+  {% endif %}
+</section>
+{% endblock %}

@@ -1,0 +1,1464 @@
+00:30:40.161 connect
+00:30:40.161 PRAGMA ./data/smartreco.db
+00:30:40.163 PRAGMA ./data/smartreco.db
+00:30:40.163 PRAGMA ./data/smartreco.db
+00:30:40.163 PRAGMA ./data/smartreco.db
+00:30:40.165 PRAGMA ./data/smartreco.db
+00:30:40.165 PRAGMA ./data/smartreco.db
+00:30:40.165 PRAGMA ./data/smartreco.db
+00:30:40.165 PRAGMA ./data/smartreco.db
+00:30:40.165 connect
+00:30:40.167 connect
+00:30:40.167 PRAGMA ./data/smartreco.db
+00:30:40.167 connect
+00:30:40.167 connect
+00:30:40.167 PRAGMA ./data/smartreco.db
+00:30:40.169 connect
+00:30:40.169 CREATE ./data/smartreco.db
+00:30:40.760 GET /health
+INFO:     127.0.0.1:58576 - "GET /health HTTP/1.1" 200 OK
+00:31:04.672 GET /
+00:31:04.676   connect
+00:31:04.702   SELECT ./data/smartreco.db
+00:31:04.709   SELECT ./data/smartreco.db
+00:31:04.713   SELECT ./data/smartreco.db
+00:31:04.720   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53137 - "GET / HTTP/1.1" 200 OK
+00:31:08.983 GET /api/recommendations/latest
+00:31:08.985   connect
+00:31:08.985   SELECT ./data/smartreco.db
+00:31:08.988   SELECT ./data/smartreco.db
+00:31:08.990   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53137 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:31:09.982 POST /api/events
+00:31:09.984   connect
+00:31:09.984   SELECT ./data/smartreco.db
+00:31:09.986   SELECT ./data/smartreco.db
+00:31:09.988   INSERT ./data/smartreco.db
+00:31:10.009   behavior events ingested
+INFO:     127.0.0.1:53137 - "POST /api/events HTTP/1.1" 200 OK
+00:31:10.013 connect
+00:31:10.013 SELECT ./data/smartreco.db
+00:31:10.017 SELECT ./data/smartreco.db
+00:31:10.017 SELECT ./data/smartreco.db
+00:31:10.019 SELECT ./data/smartreco.db
+00:31:12.983 GET /api/recommendations/latest
+00:31:12.984   connect
+00:31:12.985   SELECT ./data/smartreco.db
+00:31:12.986   SELECT ./data/smartreco.db
+00:31:12.987   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53137 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:31:16.977 GET /api/recommendations/latest
+00:31:16.983   connect
+00:31:16.985   SELECT ./data/smartreco.db
+00:31:16.985   SELECT ./data/smartreco.db
+00:31:16.991   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53137 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:31:20.977 GET /api/recommendations/latest
+00:31:20.977   connect
+00:31:20.977   SELECT ./data/smartreco.db
+00:31:20.977   SELECT ./data/smartreco.db
+00:31:20.977   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53137 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:31:23.420 GET /
+00:31:23.422   connect
+00:31:23.423   SELECT ./data/smartreco.db
+00:31:23.426   SELECT ./data/smartreco.db
+00:31:23.428   SELECT ./data/smartreco.db
+00:31:23.431   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53137 - "GET / HTTP/1.1" 200 OK
+00:31:23.468 GET /static/app.css ? v='20260811'
+INFO:     127.0.0.1:53137 - "GET /static/app.css?v=20260811 HTTP/1.1" 200 OK
+00:31:27.576 GET /api/recommendations/latest
+00:31:27.576   connect
+00:31:27.576   SELECT ./data/smartreco.db
+00:31:27.576   SELECT ./data/smartreco.db
+00:31:27.576   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53137 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:31:28.558 POST /api/events
+00:31:28.558   connect
+00:31:28.558   SELECT ./data/smartreco.db
+00:31:28.558   SELECT ./data/smartreco.db
+00:31:28.558   INSERT ./data/smartreco.db
+00:31:28.558   behavior events ingested
+INFO:     127.0.0.1:53137 - "POST /api/events HTTP/1.1" 200 OK
+00:31:28.574 connect
+00:31:28.574 SELECT ./data/smartreco.db
+00:31:28.576 SELECT ./data/smartreco.db
+00:31:28.576 SELECT ./data/smartreco.db
+00:31:28.578 SELECT ./data/smartreco.db
+00:31:31.571 GET /api/recommendations/latest
+00:31:31.581   connect
+00:31:31.581   SELECT ./data/smartreco.db
+00:31:31.581   SELECT ./data/smartreco.db
+00:31:31.590   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53137 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:31:35.570 GET /api/recommendations/latest
+00:31:35.574   connect
+00:31:35.574   SELECT ./data/smartreco.db
+00:31:35.574   SELECT ./data/smartreco.db
+00:31:35.574   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53137 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:31:39.110 POST /api/events
+00:31:39.121 GET /products/42
+             POST /api/events
+00:31:39.130   connect
+00:31:39.132   SELECT ./data/smartreco.db
+             GET /products/42
+00:31:39.132   connect
+00:31:39.138   SELECT ./data/smartreco.db
+             POST /api/events
+00:31:39.140   SELECT ./data/smartreco.db
+             GET /products/42
+00:31:39.146   SELECT ./data/smartreco.db
+             POST /api/events
+00:31:39.148   INSERT ./data/smartreco.db
+00:31:39.179   behavior events ingested
+INFO:     127.0.0.1:49491 - "GET /products/42 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53137 - "POST /api/events HTTP/1.1" 200 OK
+00:31:39.187 connect
+00:31:39.188 SELECT ./data/smartreco.db
+00:31:39.191 SELECT ./data/smartreco.db
+00:31:39.193 SELECT ./data/smartreco.db
+00:31:39.193 SELECT ./data/smartreco.db
+00:31:39.215 GET /static/app.css ? v='20260811'
+INFO:     127.0.0.1:53137 - "GET /static/app.css?v=20260811 HTTP/1.1" 304 Not Modified
+00:31:40.752 connect
+00:31:40.756 SELECT ./data/smartreco.db
+00:32:23.192 GET /login
+00:32:23.192   connect
+00:32:23.192   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:60598 - "GET /login HTTP/1.1" 200 OK
+00:32:23.242 GET /static/app.css ? v='20260811'
+INFO:     127.0.0.1:60598 - "GET /static/app.css?v=20260811 HTTP/1.1" 304 Not Modified
+00:32:23.750 GET /admin/products
+00:32:23.752   connect
+00:32:23.753   SELECT ./data/smartreco.db
+00:32:23.754   SELECT ./data/smartreco.db
+00:32:23.755   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:60598 - "GET /admin/products HTTP/1.1" 200 OK
+00:32:37.309 GET /
+00:32:37.311   connect
+00:32:37.312   SELECT ./data/smartreco.db
+00:32:37.314   SELECT ./data/smartreco.db
+00:32:37.315   SELECT ./data/smartreco.db
+00:32:37.317   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:56674 - "GET / HTTP/1.1" 200 OK
+00:32:37.613 GET /admin/products
+00:32:37.615   connect
+00:32:37.615   SELECT ./data/smartreco.db
+00:32:37.616   SELECT ./data/smartreco.db
+00:32:37.617   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:56674 - "GET /admin/products HTTP/1.1" 200 OK
+00:32:37.639 GET /static/app.css ? v='20260811'
+INFO:     127.0.0.1:56674 - "GET /static/app.css?v=20260811 HTTP/1.1" 304 Not Modified
+00:32:40.182 connect
+00:32:40.182 SELECT ./data/smartreco.db
+00:32:44.019 GET /products/1
+00:32:44.023   connect
+00:32:44.023   SELECT ./data/smartreco.db
+00:32:44.023   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53305 - "GET /products/1 HTTP/1.1" 200 OK
+00:32:54.554 GET /
+00:32:54.554   connect
+00:32:54.554   SELECT ./data/smartreco.db
+00:32:54.560   SELECT ./data/smartreco.db
+00:32:54.560   SELECT ./data/smartreco.db
+00:32:54.560   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:54736 - "GET / HTTP/1.1" 200 OK
+00:32:54.582 GET /static/app.css ? v='20260811'
+INFO:     127.0.0.1:54736 - "GET /static/app.css?v=20260811 HTTP/1.1" 304 Not Modified
+00:32:58.611 GET /api/recommendations/latest
+00:32:58.611   connect
+00:32:58.611   SELECT ./data/smartreco.db
+00:32:58.616   SELECT ./data/smartreco.db
+00:32:58.618   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:54736 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:32:59.612 POST /api/events
+00:32:59.612   connect
+00:32:59.617   SELECT ./data/smartreco.db
+00:32:59.617   SELECT ./data/smartreco.db
+00:32:59.617   INSERT ./data/smartreco.db
+00:32:59.617   behavior events ingested
+INFO:     127.0.0.1:54736 - "POST /api/events HTTP/1.1" 200 OK
+00:32:59.628 connect
+00:32:59.628 SELECT ./data/smartreco.db
+00:32:59.628 SELECT ./data/smartreco.db
+00:32:59.632 SELECT ./data/smartreco.db
+00:32:59.632 SELECT ./data/smartreco.db
+00:32:59.796 GET /
+00:32:59.799   connect
+00:32:59.799   SELECT ./data/smartreco.db
+00:32:59.799   SELECT ./data/smartreco.db
+00:32:59.799   SELECT ./data/smartreco.db
+00:32:59.799   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:54736 - "GET / HTTP/1.1" 200 OK
+00:33:03.841 GET /api/recommendations/latest
+00:33:03.842   connect
+00:33:03.842   SELECT ./data/smartreco.db
+00:33:03.844   SELECT ./data/smartreco.db
+00:33:03.846   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:54736 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:33:04.849 POST /api/events
+00:33:04.852   connect
+00:33:04.852   SELECT ./data/smartreco.db
+00:33:04.852   SELECT ./data/smartreco.db
+00:33:04.852   INSERT ./data/smartreco.db
+00:33:04.852   behavior events ingested
+INFO:     127.0.0.1:54736 - "POST /api/events HTTP/1.1" 200 OK
+00:33:04.852 connect
+00:33:04.852 SELECT ./data/smartreco.db
+00:33:04.852 SELECT ./data/smartreco.db
+00:33:04.852 SELECT ./data/smartreco.db
+00:33:04.868 SELECT ./data/smartreco.db
+00:33:05.260 GET /products/1
+00:33:05.263   connect
+00:33:05.264   SELECT ./data/smartreco.db
+00:33:05.266   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:54736 - "GET /products/1 HTTP/1.1" 200 OK
+00:33:40.182 connect
+00:33:40.183 SELECT ./data/smartreco.db
+00:33:47.081 GET /
+00:33:47.084   connect
+00:33:47.085   SELECT ./data/smartreco.db
+00:33:47.087   SELECT ./data/smartreco.db
+00:33:47.088   SELECT ./data/smartreco.db
+00:33:47.090   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57000 - "GET / HTTP/1.1" 200 OK
+00:33:47.114 GET /static/app.css ? v='20260811'
+INFO:     127.0.0.1:57000 - "GET /static/app.css?v=20260811 HTTP/1.1" 304 Not Modified
+00:33:48.138 GET /
+00:33:48.138   connect
+00:33:48.138   SELECT ./data/smartreco.db
+00:33:48.144   SELECT ./data/smartreco.db
+00:33:48.145   SELECT ./data/smartreco.db
+00:33:48.147   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57000 - "GET / HTTP/1.1" 200 OK
+00:33:52.242 GET /api/recommendations/latest
+00:33:52.242   connect
+00:33:52.242   SELECT ./data/smartreco.db
+00:33:52.242   SELECT ./data/smartreco.db
+00:33:52.242   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57000 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:33:53.242 POST /api/events
+00:33:53.245   connect
+00:33:53.245   SELECT ./data/smartreco.db
+00:33:53.246   SELECT ./data/smartreco.db
+00:33:53.247   INSERT ./data/smartreco.db
+00:33:53.253   behavior events ingested
+INFO:     127.0.0.1:57000 - "POST /api/events HTTP/1.1" 200 OK
+00:33:53.255 connect
+00:33:53.255 SELECT ./data/smartreco.db
+00:33:53.256 SELECT ./data/smartreco.db
+00:33:53.259 SELECT ./data/smartreco.db
+00:33:53.261 SELECT ./data/smartreco.db
+00:33:56.241 GET /api/recommendations/latest
+00:33:56.244   connect
+00:33:56.244   SELECT ./data/smartreco.db
+00:33:56.249   SELECT ./data/smartreco.db
+00:33:56.251   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57000 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:34:00.255 GET /api/recommendations/latest
+00:34:00.255   connect
+00:34:00.255   SELECT ./data/smartreco.db
+00:34:00.255   SELECT ./data/smartreco.db
+00:34:00.255   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57000 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:34:04.254 GET /api/recommendations/latest
+00:34:04.254   connect
+00:34:04.254   SELECT ./data/smartreco.db
+00:34:04.254   SELECT ./data/smartreco.db
+00:34:04.254   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57000 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:34:08.253 GET /api/recommendations/latest
+00:34:08.255   connect
+00:34:08.256   SELECT ./data/smartreco.db
+00:34:08.256   SELECT ./data/smartreco.db
+00:34:08.259   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57000 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:34:12.240 GET /api/recommendations/latest
+00:34:12.249   connect
+00:34:12.251   SELECT ./data/smartreco.db
+00:34:12.256   SELECT ./data/smartreco.db
+00:34:12.259   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57000 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:34:16.246 GET /api/recommendations/latest
+00:34:16.246   connect
+00:34:16.246   SELECT ./data/smartreco.db
+00:34:16.246   SELECT ./data/smartreco.db
+00:34:16.246   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57000 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:34:20.246 GET /api/recommendations/latest
+00:34:20.246   connect
+00:34:20.246   SELECT ./data/smartreco.db
+00:34:20.246   SELECT ./data/smartreco.db
+00:34:20.246   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57000 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:34:24.240 GET /api/recommendations/latest
+00:34:24.242   connect
+00:34:24.242   SELECT ./data/smartreco.db
+00:34:24.244   SELECT ./data/smartreco.db
+00:34:24.245   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57000 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:34:28.242 GET /api/recommendations/latest
+00:34:28.242   connect
+00:34:28.242   SELECT ./data/smartreco.db
+00:34:28.242   SELECT ./data/smartreco.db
+00:34:28.242   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57000 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:34:36.525 GET /
+00:34:36.528   connect
+00:34:36.529   SELECT ./data/smartreco.db
+00:34:36.541   SELECT ./data/smartreco.db
+00:34:36.546   SELECT ./data/smartreco.db
+00:34:36.549   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:55143 - "GET / HTTP/1.1" 200 OK
+00:34:36.584 GET /static/app.css ? v='20260811'
+INFO:     127.0.0.1:55143 - "GET /static/app.css?v=20260811 HTTP/1.1" 200 OK
+00:34:40.185 connect
+00:34:40.185 SELECT ./data/smartreco.db
+00:34:40.601 GET /api/recommendations/latest
+00:34:40.603   connect
+00:34:40.603   SELECT ./data/smartreco.db
+00:34:40.605   SELECT ./data/smartreco.db
+00:34:40.605   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:55143 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:34:41.609 POST /api/events
+00:34:41.609   connect
+00:34:41.609   SELECT ./data/smartreco.db
+00:34:41.615   SELECT ./data/smartreco.db
+00:34:41.615   INSERT ./data/smartreco.db
+00:34:41.615   behavior events ingested
+INFO:     127.0.0.1:50725 - "POST /api/events HTTP/1.1" 200 OK
+00:34:41.615 connect
+00:34:41.615 SELECT ./data/smartreco.db
+00:34:41.615 SELECT ./data/smartreco.db
+00:34:41.625 SELECT ./data/smartreco.db
+00:34:41.626 SELECT ./data/smartreco.db
+00:34:44.614 GET /api/recommendations/latest
+00:34:44.618   connect
+00:34:44.618   SELECT ./data/smartreco.db
+00:34:44.620   SELECT ./data/smartreco.db
+00:34:44.624   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:34:49.190 GET /api/recommendations/latest
+00:34:49.190   connect
+00:34:49.190   SELECT ./data/smartreco.db
+00:34:49.190   SELECT ./data/smartreco.db
+00:34:49.190   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:34:53.187 GET /api/recommendations/latest
+00:34:53.192   connect
+00:34:53.193   SELECT ./data/smartreco.db
+00:34:53.196   SELECT ./data/smartreco.db
+00:34:53.197   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:34:56.607 GET /api/recommendations/latest
+00:34:56.610   connect
+00:34:56.611   SELECT ./data/smartreco.db
+00:34:56.614   SELECT ./data/smartreco.db
+00:34:56.616   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:35:00.610 GET /api/recommendations/latest
+00:35:00.610   connect
+00:35:00.610   SELECT ./data/smartreco.db
+00:35:00.610   SELECT ./data/smartreco.db
+00:35:00.610   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:35:04.609 GET /api/recommendations/latest
+00:35:04.610   connect
+00:35:04.611   SELECT ./data/smartreco.db
+00:35:04.612   SELECT ./data/smartreco.db
+00:35:04.613   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:35:08.615 GET /api/recommendations/latest
+00:35:08.615   connect
+00:35:08.615   SELECT ./data/smartreco.db
+00:35:08.620   SELECT ./data/smartreco.db
+00:35:08.620   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:35:13.186 GET /api/recommendations/latest
+00:35:13.188   connect
+00:35:13.188   SELECT ./data/smartreco.db
+00:35:13.190   SELECT ./data/smartreco.db
+00:35:13.190   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:35:17.185 GET /api/recommendations/latest
+00:35:17.185   connect
+00:35:17.185   SELECT ./data/smartreco.db
+00:35:17.185   SELECT ./data/smartreco.db
+00:35:17.185   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:35:21.183 GET /api/recommendations/latest
+00:35:21.185   connect
+00:35:21.185   SELECT ./data/smartreco.db
+00:35:21.186   SELECT ./data/smartreco.db
+00:35:21.187   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:35:25.184 GET /api/recommendations/latest
+00:35:25.184   connect
+00:35:25.184   SELECT ./data/smartreco.db
+00:35:25.184   SELECT ./data/smartreco.db
+00:35:25.184   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:35:29.190 GET /api/recommendations/latest
+00:35:29.193   connect
+00:35:29.193   SELECT ./data/smartreco.db
+00:35:29.196   SELECT ./data/smartreco.db
+00:35:29.196   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:35:33.183 GET /api/recommendations/latest
+00:35:33.185   connect
+00:35:33.185   SELECT ./data/smartreco.db
+00:35:33.186   SELECT ./data/smartreco.db
+00:35:33.187   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:35:37.191 GET /api/recommendations/latest
+00:35:37.192   connect
+00:35:37.193   SELECT ./data/smartreco.db
+00:35:37.194   SELECT ./data/smartreco.db
+00:35:37.195   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:35:40.176 connect
+00:35:40.176 SELECT ./data/smartreco.db
+00:35:41.180 GET /api/recommendations/latest
+00:35:41.183   connect
+00:35:41.185   SELECT ./data/smartreco.db
+00:35:41.185   SELECT ./data/smartreco.db
+00:35:41.185   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:35:45.190 GET /api/recommendations/latest
+00:35:45.195   connect
+00:35:45.198   SELECT ./data/smartreco.db
+00:35:45.200   SELECT ./data/smartreco.db
+00:35:45.200   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:35:49.189 GET /api/recommendations/latest
+00:35:49.189   connect
+00:35:49.189   SELECT ./data/smartreco.db
+00:35:49.189   SELECT ./data/smartreco.db
+00:35:49.189   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:35:53.193 GET /api/recommendations/latest
+00:35:53.194   connect
+00:35:53.195   SELECT ./data/smartreco.db
+00:35:53.196   SELECT ./data/smartreco.db
+00:35:53.197   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:35:57.196 GET /api/recommendations/latest
+00:35:57.198   connect
+00:35:57.200   SELECT ./data/smartreco.db
+00:35:57.200   SELECT ./data/smartreco.db
+00:35:57.202   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:36:01.194 GET /api/recommendations/latest
+00:36:01.194   connect
+00:36:01.194   SELECT ./data/smartreco.db
+00:36:01.194   SELECT ./data/smartreco.db
+00:36:01.194   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:36:05.181 GET /api/recommendations/latest
+00:36:05.181   connect
+00:36:05.181   SELECT ./data/smartreco.db
+00:36:05.187   SELECT ./data/smartreco.db
+00:36:05.187   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:36:09.196 GET /api/recommendations/latest
+00:36:09.196   connect
+00:36:09.200   SELECT ./data/smartreco.db
+00:36:09.200   SELECT ./data/smartreco.db
+00:36:09.200   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:50725 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:36:40.179 connect
+00:36:40.179 SELECT ./data/smartreco.db
+00:37:07.191 GET /api/recommendations/latest
+00:37:07.191   connect
+00:37:07.191   SELECT ./data/smartreco.db
+00:37:07.191   SELECT ./data/smartreco.db
+00:37:07.191   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53869 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:37:15.834 GET /api/recommendations/latest
+00:37:15.836   connect
+00:37:15.837   SELECT ./data/smartreco.db
+00:37:15.838   SELECT ./data/smartreco.db
+00:37:15.839   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62970 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:37:16.601 GET /api/recommendations/latest
+00:37:16.602   connect
+00:37:16.603   SELECT ./data/smartreco.db
+00:37:16.603   SELECT ./data/smartreco.db
+00:37:16.604   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62970 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:37:20.612 GET /api/recommendations/latest
+00:37:20.612   connect
+00:37:20.612   SELECT ./data/smartreco.db
+00:37:20.612   SELECT ./data/smartreco.db
+00:37:20.612   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62970 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:37:25.190 GET /api/recommendations/latest
+00:37:25.190   connect
+00:37:25.190   SELECT ./data/smartreco.db
+00:37:25.190   SELECT ./data/smartreco.db
+00:37:25.195   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62970 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:37:29.184 GET /api/recommendations/latest
+00:37:29.184   connect
+00:37:29.184   SELECT ./data/smartreco.db
+00:37:29.184   SELECT ./data/smartreco.db
+00:37:29.189   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62970 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:37:33.182 GET /api/recommendations/latest
+00:37:33.182   connect
+00:37:33.182   SELECT ./data/smartreco.db
+00:37:33.182   SELECT ./data/smartreco.db
+00:37:33.182   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62970 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:37:37.183 GET /api/recommendations/latest
+00:37:37.183   connect
+00:37:37.183   SELECT ./data/smartreco.db
+00:37:37.183   SELECT ./data/smartreco.db
+00:37:37.183   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62970 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:37:40.185 connect
+00:37:40.185 SELECT ./data/smartreco.db
+00:37:41.192 GET /api/recommendations/latest
+00:37:41.192   connect
+00:37:41.192   SELECT ./data/smartreco.db
+00:37:41.192   SELECT ./data/smartreco.db
+00:37:41.192   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62970 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:37:45.184 GET /api/recommendations/latest
+00:37:45.184   connect
+00:37:45.184   SELECT ./data/smartreco.db
+00:37:45.184   SELECT ./data/smartreco.db
+00:37:45.184   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62970 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:37:49.186 GET /api/recommendations/latest
+00:37:49.186   connect
+00:37:49.186   SELECT ./data/smartreco.db
+00:37:49.192   SELECT ./data/smartreco.db
+00:37:49.192   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62970 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:37:53.184 GET /api/recommendations/latest
+00:37:53.186   connect
+00:37:53.188   SELECT ./data/smartreco.db
+00:37:53.188   SELECT ./data/smartreco.db
+00:37:53.190   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62970 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:37:57.186 GET /api/recommendations/latest
+00:37:57.186   connect
+00:37:57.189   SELECT ./data/smartreco.db
+00:37:57.189   SELECT ./data/smartreco.db
+00:37:57.189   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62970 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:38:01.189 GET /api/recommendations/latest
+00:38:01.189   connect
+00:38:01.189   SELECT ./data/smartreco.db
+00:38:01.189   SELECT ./data/smartreco.db
+00:38:01.189   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62970 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:38:05.187 GET /api/recommendations/latest
+00:38:05.187   connect
+00:38:05.187   SELECT ./data/smartreco.db
+00:38:05.187   SELECT ./data/smartreco.db
+00:38:05.187   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62970 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:38:09.189 GET /api/recommendations/latest
+00:38:09.189   connect
+00:38:09.189   SELECT ./data/smartreco.db
+00:38:09.189   SELECT ./data/smartreco.db
+00:38:09.189   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62970 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:38:13.180 GET /api/recommendations/latest
+00:38:13.180   connect
+00:38:13.180   SELECT ./data/smartreco.db
+00:38:13.180   SELECT ./data/smartreco.db
+00:38:13.180   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62970 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:38:17.186 GET /api/recommendations/latest
+00:38:17.193   connect
+00:38:17.194   SELECT ./data/smartreco.db
+00:38:17.197   SELECT ./data/smartreco.db
+00:38:17.200   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62970 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:38:21.194 GET /api/recommendations/latest
+00:38:21.202   connect
+00:38:21.206   SELECT ./data/smartreco.db
+00:38:21.210   SELECT ./data/smartreco.db
+00:38:21.212   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62970 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:38:30.224 GET /api/recommendations/latest
+00:38:30.226   connect
+00:38:30.226   SELECT ./data/smartreco.db
+00:38:30.226   SELECT ./data/smartreco.db
+00:38:30.226   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53373 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:38:32.613 GET /api/recommendations/latest
+00:38:32.613   connect
+00:38:32.613   SELECT ./data/smartreco.db
+00:38:32.613   SELECT ./data/smartreco.db
+00:38:32.613   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53373 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:38:37.182 GET /api/recommendations/latest
+00:38:37.182   connect
+00:38:37.186   SELECT ./data/smartreco.db
+00:38:37.186   SELECT ./data/smartreco.db
+00:38:37.186   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53373 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:38:38.550 GET /
+00:38:38.551   connect
+00:38:38.552   SELECT ./data/smartreco.db
+00:38:38.555   SELECT ./data/smartreco.db
+00:38:38.556   SELECT ./data/smartreco.db
+00:38:38.558   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53373 - "GET / HTTP/1.1" 200 OK
+00:38:38.576 GET /static/app.css ? v='20260811'
+INFO:     127.0.0.1:53373 - "GET /static/app.css?v=20260811 HTTP/1.1" 304 Not Modified
+00:38:39.256 GET / ? q='career'
+00:38:39.258   connect
+00:38:39.259   SELECT ./data/smartreco.db
+00:38:39.262   SELECT ./data/smartreco.db
+00:38:39.263   SELECT ./data/smartreco.db
+00:38:39.264   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53373 - "GET /?q=career HTTP/1.1" 200 OK
+00:38:40.176 connect
+00:38:40.176 SELECT ./data/smartreco.db
+00:38:40.201 GET /admin/products
+00:38:40.204   connect
+00:38:40.204   SELECT ./data/smartreco.db
+00:38:40.205   SELECT ./data/smartreco.db
+00:38:40.208   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53373 - "GET /admin/products HTTP/1.1" 200 OK
+00:38:41.453 GET / ? q='career'
+00:38:41.455   connect
+00:38:41.455   SELECT ./data/smartreco.db
+00:38:41.457   SELECT ./data/smartreco.db
+00:38:41.458   SELECT ./data/smartreco.db
+00:38:41.459   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53373 - "GET /?q=career HTTP/1.1" 200 OK
+00:38:46.193 GET /api/recommendations/latest
+00:38:46.194   connect
+00:38:46.194   SELECT ./data/smartreco.db
+00:38:46.194   SELECT ./data/smartreco.db
+00:38:46.194   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53373 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:38:47.192 POST /api/events
+00:38:47.193   connect
+00:38:47.194   SELECT ./data/smartreco.db
+00:38:47.194   SELECT ./data/smartreco.db
+00:38:47.195   INSERT ./data/smartreco.db
+00:38:47.200   behavior events ingested
+INFO:     127.0.0.1:53373 - "POST /api/events HTTP/1.1" 200 OK
+00:38:47.203 connect
+00:38:47.203 SELECT ./data/smartreco.db
+00:38:47.204 SELECT ./data/smartreco.db
+00:38:47.205 SELECT ./data/smartreco.db
+00:38:47.206 SELECT ./data/smartreco.db
+00:38:49.491 GET /api/recommendations/latest
+00:38:49.491   connect
+00:38:49.491   SELECT ./data/smartreco.db
+00:38:49.491   SELECT ./data/smartreco.db
+00:38:49.491   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53373 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:38:50.403 GET /
+00:38:50.404   connect
+00:38:50.405   SELECT ./data/smartreco.db
+00:38:50.406   SELECT ./data/smartreco.db
+00:38:50.408   SELECT ./data/smartreco.db
+00:38:50.410   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53373 - "GET / HTTP/1.1" 200 OK
+00:38:51.627 GET / ? q='career'
+00:38:51.629   connect
+00:38:51.630   SELECT ./data/smartreco.db
+00:38:51.632   SELECT ./data/smartreco.db
+00:38:51.634   SELECT ./data/smartreco.db
+00:38:51.635   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53373 - "GET /?q=career HTTP/1.1" 200 OK
+00:38:54.130 GET / ? q='career'
+00:38:54.132   connect
+00:38:54.133   SELECT ./data/smartreco.db
+00:38:54.134   SELECT ./data/smartreco.db
+00:38:54.135   SELECT ./data/smartreco.db
+00:38:54.136   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53373 - "GET /?q=career HTTP/1.1" 200 OK
+00:38:57.495 POST /api/events
+00:38:57.497   connect
+00:38:57.498   SELECT ./data/smartreco.db
+00:38:57.499   SELECT ./data/smartreco.db
+00:38:57.501   INSERT ./data/smartreco.db
+00:38:57.505   INSERT ./data/smartreco.db
+00:38:57.509   behavior events ingested
+INFO:     127.0.0.1:53373 - "POST /api/events HTTP/1.1" 200 OK
+00:38:57.512 connect
+00:38:57.512 SELECT ./data/smartreco.db
+00:38:57.513 GET / ? q='career'
+00:38:57.515 SELECT ./data/smartreco.db
+             GET / ? q='career'
+00:38:57.517   connect
+00:38:57.518   SELECT ./data/smartreco.db
+00:38:57.518 SELECT ./data/smartreco.db
+             GET / ? q='career'
+00:38:57.520   SELECT ./data/smartreco.db
+00:38:57.522 SELECT ./data/smartreco.db
+             GET / ? q='career'
+00:38:57.523   SELECT ./data/smartreco.db
+00:38:57.527   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53373 - "GET /?q=career HTTP/1.1" 200 OK
+00:39:01.561 GET /api/recommendations/latest
+00:39:01.561   connect
+00:39:01.561   SELECT ./data/smartreco.db
+00:39:01.567   SELECT ./data/smartreco.db
+00:39:01.567   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53373 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:39:02.555 POST /api/events
+00:39:02.560   connect
+00:39:02.560   SELECT ./data/smartreco.db
+00:39:02.562   SELECT ./data/smartreco.db
+00:39:02.564   INSERT ./data/smartreco.db
+00:39:02.570   behavior events ingested
+INFO:     127.0.0.1:53373 - "POST /api/events HTTP/1.1" 200 OK
+00:39:02.572 connect
+00:39:02.574 SELECT ./data/smartreco.db
+00:39:02.576 SELECT ./data/smartreco.db
+00:39:02.577 SELECT ./data/smartreco.db
+00:39:02.579 SELECT ./data/smartreco.db
+00:39:05.549 GET /api/recommendations/latest
+00:39:05.551   connect
+00:39:05.551   SELECT ./data/smartreco.db
+00:39:05.552   SELECT ./data/smartreco.db
+00:39:05.552   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53373 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:39:05.830 GET /admin/products
+00:39:05.831   connect
+00:39:05.832   SELECT ./data/smartreco.db
+00:39:05.833   SELECT ./data/smartreco.db
+00:39:05.835   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:53373 - "GET /admin/products HTTP/1.1" 200 OK
+00:39:21.734 GET /admin/products/42/edit
+00:39:21.736   connect
+00:39:21.737   SELECT ./data/smartreco.db
+00:39:21.738   SELECT ./data/smartreco.db
+00:39:21.739   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:63578 - "GET /admin/products/42/edit HTTP/1.1" 200 OK
+00:39:24.782 GET /admin/products
+00:39:24.783   connect
+00:39:24.784   SELECT ./data/smartreco.db
+00:39:24.785   SELECT ./data/smartreco.db
+00:39:24.787   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:63578 - "GET /admin/products HTTP/1.1" 200 OK
+00:39:40.183 connect
+00:39:40.183 SELECT ./data/smartreco.db
+00:40:02.962 GET /admin/products/10/edit
+00:40:02.964   connect
+00:40:02.965   SELECT ./data/smartreco.db
+00:40:02.966   SELECT ./data/smartreco.db
+00:40:02.967   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62068 - "GET /admin/products/10/edit HTTP/1.1" 200 OK
+00:40:02.980 GET /static/app.css ? v='20260811'
+INFO:     127.0.0.1:62068 - "GET /static/app.css?v=20260811 HTTP/1.1" 304 Not Modified
+00:40:14.587 POST /admin/products/10/edit
+00:40:14.587   connect
+00:40:14.587   SELECT ./data/smartreco.db
+00:40:14.587   SELECT ./data/smartreco.db
+00:40:14.587   UPDATE ./data/smartreco.db
+00:40:14.599   INSERT ./data/smartreco.db
+INFO:     127.0.0.1:65110 - "POST /admin/products/10/edit HTTP/1.1" 303 See Other
+00:40:14.610 GET /admin/products
+00:40:14.613   connect
+00:40:14.613   SELECT ./data/smartreco.db
+00:40:14.614   SELECT ./data/smartreco.db
+00:40:14.615   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:65110 - "GET /admin/products HTTP/1.1" 200 OK
+00:40:18.645 GET /admin/products
+00:40:18.659   connect
+00:40:18.659   SELECT ./data/smartreco.db
+00:40:18.659   SELECT ./data/smartreco.db
+00:40:18.659   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:65110 - "GET /admin/products HTTP/1.1" 200 OK
+00:40:22.693 GET /admin/products
+00:40:22.693   connect
+00:40:22.709   SELECT ./data/smartreco.db
+00:40:22.709   SELECT ./data/smartreco.db
+00:40:22.711   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:65110 - "GET /admin/products HTTP/1.1" 200 OK
+00:40:26.750 GET /admin/products
+00:40:26.750   connect
+00:40:26.750   SELECT ./data/smartreco.db
+00:40:26.750   SELECT ./data/smartreco.db
+00:40:26.750   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:65110 - "GET /admin/products HTTP/1.1" 200 OK
+00:40:30.805 GET /admin/products
+00:40:30.805   connect
+00:40:30.805   SELECT ./data/smartreco.db
+00:40:30.807   SELECT ./data/smartreco.db
+00:40:30.807   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:65110 - "GET /admin/products HTTP/1.1" 200 OK
+00:40:40.178 connect
+00:40:40.178 SELECT ./data/smartreco.db
+00:41:40.179 connect
+00:41:40.180 SELECT ./data/smartreco.db
+00:42:40.177 connect
+00:42:40.177 SELECT ./data/smartreco.db
+00:43:40.180 connect
+00:43:40.180 SELECT ./data/smartreco.db
+00:44:40.183 connect
+00:44:40.184 SELECT ./data/smartreco.db
+00:45:40.178 connect
+00:45:40.179 SELECT ./data/smartreco.db
+00:45:40.179 connect
+00:45:40.179 SELECT ./data/smartreco.db
+00:45:40.179 connect
+00:45:40.179 SELECT ./data/smartreco.db
+00:45:40.195 SELECT ./data/smartreco.db
+00:45:40.195 SELECT ./data/smartreco.db
+00:45:40.195 SELECT ./data/smartreco.db
+00:45:40.195 connect
+00:45:40.195 SELECT ./data/smartreco.db
+00:45:40.195 SELECT ./data/smartreco.db
+00:45:40.195 SELECT ./data/smartreco.db
+00:45:40.195 SELECT ./data/smartreco.db
+00:45:40.195 connect
+00:45:40.209 SELECT ./data/smartreco.db
+00:45:40.209 SELECT ./data/smartreco.db
+00:45:40.209 SELECT ./data/smartreco.db
+00:45:40.209 SELECT ./data/smartreco.db
+00:46:40.182 connect
+00:46:40.183 SELECT ./data/smartreco.db
+00:47:40.180 connect
+00:47:40.180 SELECT ./data/smartreco.db
+00:48:40.178 connect
+00:48:40.178 SELECT ./data/smartreco.db
+00:49:40.177 connect
+00:49:40.177 SELECT ./data/smartreco.db
+00:50:40.176 connect
+00:50:40.178 SELECT ./data/smartreco.db
+00:51:40.179 connect
+00:51:40.180 SELECT ./data/smartreco.db
+00:51:47.369 GET /
+00:51:47.371   connect
+00:51:47.372   SELECT ./data/smartreco.db
+00:51:47.373   SELECT ./data/smartreco.db
+00:51:47.375   SELECT ./data/smartreco.db
+00:51:47.378   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:49980 - "GET / HTTP/1.1" 200 OK
+00:51:47.391 GET /static/app.css ? v='20260811'
+INFO:     127.0.0.1:49980 - "GET /static/app.css?v=20260811 HTTP/1.1" 304 Not Modified
+00:51:51.420 GET /api/recommendations/latest
+00:51:51.422   connect
+00:51:51.422   SELECT ./data/smartreco.db
+00:51:51.423   SELECT ./data/smartreco.db
+00:51:51.424   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:49980 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:51:52.412 POST /api/events
+00:51:52.412   connect
+00:51:52.412   SELECT ./data/smartreco.db
+00:51:52.412   SELECT ./data/smartreco.db
+00:51:52.412   INSERT ./data/smartreco.db
+00:51:52.412   behavior events ingested
+INFO:     127.0.0.1:49980 - "POST /api/events HTTP/1.1" 200 OK
+00:51:52.426 connect
+00:51:52.427 SELECT ./data/smartreco.db
+00:51:52.429 SELECT ./data/smartreco.db
+00:51:52.430 SELECT ./data/smartreco.db
+00:51:52.430 SELECT ./data/smartreco.db
+00:51:52.430 SELECT ./data/smartreco.db
+00:51:52.430 SELECT ./data/smartreco.db
+00:51:52.430 SELECT ./data/smartreco.db
+00:51:52.430 INSERT ./data/smartreco.db
+00:51:52.445 connect
+00:51:52.445 SELECT ./data/smartreco.db
+00:51:52.445 SELECT ./data/smartreco.db
+00:51:52.445 SELECT ./data/smartreco.db
+00:51:52.460 UPDATE ./data/smartreco.db
+00:51:52.461 SELECT ./data/smartreco.db
+00:51:56.190 GET /api/recommendations/latest
+00:51:56.190   connect
+00:51:56.190   SELECT ./data/smartreco.db
+00:51:56.190   SELECT ./data/smartreco.db
+00:51:56.190   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:49980 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:51:59.829 UPDATE ./data/smartreco.db
+00:51:59.835 recommendation skipped
+00:52:00.185 GET /api/recommendations/latest
+00:52:00.187   connect
+00:52:00.187   SELECT ./data/smartreco.db
+00:52:00.188   SELECT ./data/smartreco.db
+00:52:00.189   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:49980 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:52:04.191 GET /api/recommendations/latest
+00:52:04.193   connect
+00:52:04.193   SELECT ./data/smartreco.db
+00:52:04.194   SELECT ./data/smartreco.db
+00:52:04.195   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:49980 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:52:07.417 GET /api/recommendations/latest
+00:52:07.419   connect
+00:52:07.419   SELECT ./data/smartreco.db
+00:52:07.420   SELECT ./data/smartreco.db
+00:52:07.421   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:49980 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:52:11.407 GET /api/recommendations/latest
+00:52:11.409   connect
+00:52:11.410   SELECT ./data/smartreco.db
+00:52:11.411   SELECT ./data/smartreco.db
+00:52:11.412   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:49980 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:52:15.407 GET /api/recommendations/latest
+00:52:15.408   connect
+00:52:15.409   SELECT ./data/smartreco.db
+00:52:15.410   SELECT ./data/smartreco.db
+00:52:15.411   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:49980 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:52:16.799 POST /logout
+INFO:     127.0.0.1:49980 - "POST /logout HTTP/1.1" 303 See Other
+00:52:16.807 GET /
+00:52:16.810   connect
+00:52:16.811   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:49980 - "GET / HTTP/1.1" 200 OK
+00:52:19.130 GET /
+00:52:19.130   connect
+00:52:19.130   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:49980 - "GET / HTTP/1.1" 200 OK
+00:52:19.932 GET /
+00:52:19.934   connect
+00:52:19.935   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:49980 - "GET / HTTP/1.1" 200 OK
+00:52:20.102 GET /
+00:52:20.104   connect
+00:52:20.104   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:49980 - "GET / HTTP/1.1" 200 OK
+00:52:20.438 GET /
+00:52:20.438   connect
+00:52:20.445   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:49980 - "GET / HTTP/1.1" 200 OK
+00:52:20.612 GET /
+00:52:20.612   connect
+00:52:20.612   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:49980 - "GET / HTTP/1.1" 200 OK
+00:52:20.794 GET /
+00:52:20.810   connect
+00:52:20.810   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:49980 - "GET / HTTP/1.1" 200 OK
+00:52:23.490 GET /login
+INFO:     127.0.0.1:49980 - "GET /login HTTP/1.1" 200 OK
+00:52:31.025 POST /login
+00:52:31.030   connect
+00:52:31.030   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:64129 - "POST /login HTTP/1.1" 303 See Other
+00:52:31.326 GET /
+00:52:31.327   connect
+00:52:31.328   SELECT ./data/smartreco.db
+00:52:31.329   SELECT ./data/smartreco.db
+00:52:31.330   SELECT ./data/smartreco.db
+00:52:31.331   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:64129 - "GET / HTTP/1.1" 200 OK
+00:52:35.356 GET /api/recommendations/latest
+00:52:35.356   connect
+00:52:35.356   SELECT ./data/smartreco.db
+00:52:35.356   SELECT ./data/smartreco.db
+00:52:35.356   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:64129 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:52:36.365 POST /api/events
+00:52:36.365   connect
+00:52:36.365   SELECT ./data/smartreco.db
+00:52:36.365   SELECT ./data/smartreco.db
+00:52:36.365   INSERT ./data/smartreco.db
+00:52:36.365   behavior events ingested
+INFO:     127.0.0.1:64129 - "POST /api/events HTTP/1.1" 200 OK
+00:52:36.365 connect
+00:52:36.365 SELECT ./data/smartreco.db
+00:52:36.381 SELECT ./data/smartreco.db
+00:52:36.381 SELECT ./data/smartreco.db
+00:52:36.381 SELECT ./data/smartreco.db
+00:52:39.357 GET /api/recommendations/latest
+00:52:39.358   connect
+00:52:39.360   SELECT ./data/smartreco.db
+00:52:39.361   SELECT ./data/smartreco.db
+00:52:39.361   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:64129 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:52:40.176 connect
+00:52:40.176 SELECT ./data/smartreco.db
+00:52:43.367 GET /api/recommendations/latest
+00:52:43.367   connect
+00:52:43.367   SELECT ./data/smartreco.db
+00:52:43.367   SELECT ./data/smartreco.db
+00:52:43.371   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:64129 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:52:44.522 POST /api/events
+00:52:44.524   connect
+00:52:44.526   SELECT ./data/smartreco.db
+00:52:44.526   SELECT ./data/smartreco.db
+00:52:44.528   INSERT ./data/smartreco.db
+00:52:44.534   behavior events ingested
+INFO:     127.0.0.1:64129 - "POST /api/events HTTP/1.1" 200 OK
+00:52:44.536 connect
+00:52:44.538 SELECT ./data/smartreco.db
+00:52:44.538 SELECT ./data/smartreco.db
+00:52:44.540 GET /products/2
+00:52:44.542 SELECT ./data/smartreco.db
+             GET /products/2
+00:52:44.542   connect
+00:52:44.542   SELECT ./data/smartreco.db
+00:52:44.544 SELECT ./data/smartreco.db
+             GET /products/2
+00:52:44.544   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:64129 - "GET /products/2 HTTP/1.1" 200 OK
+00:52:52.003 GET /
+00:52:52.004   connect
+00:52:52.005   SELECT ./data/smartreco.db
+00:52:52.006   SELECT ./data/smartreco.db
+00:52:52.007   SELECT ./data/smartreco.db
+00:52:52.010   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57198 - "GET / HTTP/1.1" 200 OK
+00:52:56.032 GET /api/recommendations/latest
+00:52:56.032   connect
+00:52:56.032   SELECT ./data/smartreco.db
+00:52:56.032   SELECT ./data/smartreco.db
+00:52:56.032   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57198 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:52:57.038 POST /api/events
+00:52:57.038   connect
+00:52:57.038   SELECT ./data/smartreco.db
+00:52:57.051   SELECT ./data/smartreco.db
+00:52:57.051   INSERT ./data/smartreco.db
+00:52:57.060   behavior events ingested
+INFO:     127.0.0.1:57198 - "POST /api/events HTTP/1.1" 200 OK
+00:52:57.067 connect
+00:52:57.067 SELECT ./data/smartreco.db
+00:52:57.073 SELECT ./data/smartreco.db
+00:52:57.073 SELECT ./data/smartreco.db
+00:52:57.073 SELECT ./data/smartreco.db
+00:53:00.194 GET /api/recommendations/latest
+00:53:00.196   connect
+00:53:00.197   SELECT ./data/smartreco.db
+00:53:00.198   SELECT ./data/smartreco.db
+00:53:00.199   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57198 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:53:04.189 GET /api/recommendations/latest
+00:53:04.189   connect
+00:53:04.189   SELECT ./data/smartreco.db
+00:53:04.189   SELECT ./data/smartreco.db
+00:53:04.189   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57198 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:53:08.193 GET /api/recommendations/latest
+00:53:08.196   connect
+00:53:08.197   SELECT ./data/smartreco.db
+00:53:08.198   SELECT ./data/smartreco.db
+00:53:08.199   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57198 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:53:12.193 GET /api/recommendations/latest
+00:53:12.197   connect
+00:53:12.197   SELECT ./data/smartreco.db
+00:53:12.197   SELECT ./data/smartreco.db
+00:53:12.197   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57198 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:53:16.192 GET /api/recommendations/latest
+00:53:16.192   connect
+00:53:16.192   SELECT ./data/smartreco.db
+00:53:16.192   SELECT ./data/smartreco.db
+00:53:16.192   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57198 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:53:20.190 GET /api/recommendations/latest
+00:53:20.190   connect
+00:53:20.190   SELECT ./data/smartreco.db
+00:53:20.190   SELECT ./data/smartreco.db
+00:53:20.190   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57198 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:53:24.187 GET /api/recommendations/latest
+00:53:24.189   connect
+00:53:24.189   SELECT ./data/smartreco.db
+00:53:24.190   SELECT ./data/smartreco.db
+00:53:24.191   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57198 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:53:28.186 GET /api/recommendations/latest
+00:53:28.188   connect
+00:53:28.189   SELECT ./data/smartreco.db
+00:53:28.191   SELECT ./data/smartreco.db
+00:53:28.193   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57198 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:53:32.194 GET /api/recommendations/latest
+00:53:32.194   connect
+00:53:32.194   SELECT ./data/smartreco.db
+00:53:32.194   SELECT ./data/smartreco.db
+00:53:32.194   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57198 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:53:36.180 GET /api/recommendations/latest
+00:53:36.182   connect
+00:53:36.182   SELECT ./data/smartreco.db
+00:53:36.183   SELECT ./data/smartreco.db
+00:53:36.184   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57198 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:53:40.176 connect
+00:53:40.176 SELECT ./data/smartreco.db
+00:53:40.190 GET /api/recommendations/latest
+00:53:40.190   connect
+00:53:40.190   SELECT ./data/smartreco.db
+00:53:40.190   SELECT ./data/smartreco.db
+00:53:40.190   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57198 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:53:44.191 GET /api/recommendations/latest
+00:53:44.196   connect
+00:53:44.199   SELECT ./data/smartreco.db
+00:53:44.199   SELECT ./data/smartreco.db
+00:53:44.199   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57198 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:53:48.187 GET /api/recommendations/latest
+00:53:48.187   connect
+00:53:48.187   SELECT ./data/smartreco.db
+00:53:48.187   SELECT ./data/smartreco.db
+00:53:48.187   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57198 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:53:52.190 GET /api/recommendations/latest
+00:53:52.190   connect
+00:53:52.190   SELECT ./data/smartreco.db
+00:53:52.190   SELECT ./data/smartreco.db
+00:53:52.190   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57198 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:53:56.187 GET /api/recommendations/latest
+00:53:56.187   connect
+00:53:56.187   SELECT ./data/smartreco.db
+00:53:56.187   SELECT ./data/smartreco.db
+00:53:56.187   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:57198 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:54:07.193 GET /api/recommendations/latest
+00:54:07.195   connect
+00:54:07.195   SELECT ./data/smartreco.db
+00:54:07.197   SELECT ./data/smartreco.db
+00:54:07.199   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:54480 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:54:40.177 connect
+00:54:40.177 SELECT ./data/smartreco.db
+00:55:07.197 GET /api/recommendations/latest
+00:55:07.197   connect
+00:55:07.197   SELECT ./data/smartreco.db
+00:55:07.197   SELECT ./data/smartreco.db
+00:55:07.203   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:58026 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:55:40.174 connect
+00:55:40.174 SELECT ./data/smartreco.db
+00:56:07.196 GET /api/recommendations/latest
+00:56:07.196   connect
+00:56:07.196   SELECT ./data/smartreco.db
+00:56:07.196   SELECT ./data/smartreco.db
+00:56:07.196   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:49742 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:56:40.181 connect
+00:56:40.183 SELECT ./data/smartreco.db
+00:57:07.183 GET /api/recommendations/latest
+00:57:07.186   connect
+00:57:07.186   SELECT ./data/smartreco.db
+00:57:07.186   SELECT ./data/smartreco.db
+00:57:07.186   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:63540 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:57:40.175 connect
+00:57:40.175 SELECT ./data/smartreco.db
+00:58:07.195 GET /api/recommendations/latest
+00:58:07.198   connect
+00:58:07.198   SELECT ./data/smartreco.db
+00:58:07.201   SELECT ./data/smartreco.db
+00:58:07.201   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:63003 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:58:31.844 GET /api/recommendations/latest
+00:58:31.847   connect
+00:58:31.848   SELECT ./data/smartreco.db
+00:58:31.849   SELECT ./data/smartreco.db
+00:58:31.850   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:58:36.041 GET /api/recommendations/latest
+00:58:36.042   connect
+00:58:36.043   SELECT ./data/smartreco.db
+00:58:36.044   SELECT ./data/smartreco.db
+00:58:36.045   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:58:40.044 GET /api/recommendations/latest
+00:58:40.045   connect
+00:58:40.046   SELECT ./data/smartreco.db
+00:58:40.047   SELECT ./data/smartreco.db
+00:58:40.048   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:58:40.176 connect
+00:58:40.177 SELECT ./data/smartreco.db
+00:58:44.034 GET /api/recommendations/latest
+00:58:44.036   connect
+00:58:44.037   SELECT ./data/smartreco.db
+00:58:44.038   SELECT ./data/smartreco.db
+00:58:44.039   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:58:48.040 GET /api/recommendations/latest
+00:58:48.044   connect
+00:58:48.044   SELECT ./data/smartreco.db
+00:58:48.044   SELECT ./data/smartreco.db
+00:58:48.044   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:58:52.045 GET /api/recommendations/latest
+00:58:52.045   connect
+00:58:52.045   SELECT ./data/smartreco.db
+00:58:52.045   SELECT ./data/smartreco.db
+00:58:52.045   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:58:56.196 GET /api/recommendations/latest
+00:58:56.200   connect
+00:58:56.200   SELECT ./data/smartreco.db
+00:58:56.203   SELECT ./data/smartreco.db
+00:58:56.207   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:59:00.187 GET /api/recommendations/latest
+00:59:00.189   connect
+00:59:00.189   SELECT ./data/smartreco.db
+00:59:00.190   SELECT ./data/smartreco.db
+00:59:00.191   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:59:03.050 GET /
+00:59:03.050   connect
+00:59:03.050   SELECT ./data/smartreco.db
+00:59:03.050   SELECT ./data/smartreco.db
+00:59:03.050   SELECT ./data/smartreco.db
+00:59:03.050   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET / HTTP/1.1" 200 OK
+00:59:03.090 GET /static/app.css ? v='20260811'
+INFO:     127.0.0.1:62166 - "GET /static/app.css?v=20260811 HTTP/1.1" 200 OK
+00:59:05.068 GET /cody-ai
+INFO:     127.0.0.1:62166 - "GET /cody-ai HTTP/1.1" 404 Not Found
+00:59:07.099 GET /api/recommendations/latest
+00:59:07.099   connect
+00:59:07.099   SELECT ./data/smartreco.db
+00:59:07.099   SELECT ./data/smartreco.db
+00:59:07.099   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:59:08.113 POST /api/events
+00:59:08.113   connect
+00:59:08.113   SELECT ./data/smartreco.db
+00:59:08.113   SELECT ./data/smartreco.db
+00:59:08.113   INSERT ./data/smartreco.db
+00:59:08.113   behavior events ingested
+INFO:     127.0.0.1:62166 - "POST /api/events HTTP/1.1" 200 OK
+00:59:08.113 connect
+00:59:08.113 SELECT ./data/smartreco.db
+00:59:08.113 SELECT ./data/smartreco.db
+00:59:08.113 SELECT ./data/smartreco.db
+00:59:08.113 SELECT ./data/smartreco.db
+00:59:11.115 GET /api/recommendations/latest
+00:59:11.123   connect
+00:59:11.125   SELECT ./data/smartreco.db
+00:59:11.128   SELECT ./data/smartreco.db
+00:59:11.132   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:59:15.104 GET /api/recommendations/latest
+00:59:15.104   connect
+00:59:15.104   SELECT ./data/smartreco.db
+00:59:15.104   SELECT ./data/smartreco.db
+00:59:15.104   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:59:19.110 GET /api/recommendations/latest
+00:59:19.112   connect
+00:59:19.112   SELECT ./data/smartreco.db
+00:59:19.113   SELECT ./data/smartreco.db
+00:59:19.114   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:59:23.102 GET /api/recommendations/latest
+00:59:23.102   connect
+00:59:23.102   SELECT ./data/smartreco.db
+00:59:23.102   SELECT ./data/smartreco.db
+00:59:23.102   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:59:27.108 GET /api/recommendations/latest
+00:59:27.110   connect
+00:59:27.111   SELECT ./data/smartreco.db
+00:59:27.112   SELECT ./data/smartreco.db
+00:59:27.113   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:59:31.102 GET /api/recommendations/latest
+00:59:31.104   connect
+00:59:31.104   SELECT ./data/smartreco.db
+00:59:31.106   SELECT ./data/smartreco.db
+00:59:31.106   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:59:35.109 GET /api/recommendations/latest
+00:59:35.109   connect
+00:59:35.109   SELECT ./data/smartreco.db
+00:59:35.115   SELECT ./data/smartreco.db
+00:59:35.115   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:59:39.109 GET /api/recommendations/latest
+00:59:39.109   connect
+00:59:39.109   SELECT ./data/smartreco.db
+00:59:39.109   SELECT ./data/smartreco.db
+00:59:39.109   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:59:40.182 connect
+00:59:40.182 SELECT ./data/smartreco.db
+00:59:43.103 GET /api/recommendations/latest
+00:59:43.103   connect
+00:59:43.103   SELECT ./data/smartreco.db
+00:59:43.103   SELECT ./data/smartreco.db
+00:59:43.103   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:59:47.110 GET /api/recommendations/latest
+00:59:47.110   connect
+00:59:47.110   SELECT ./data/smartreco.db
+00:59:47.110   SELECT ./data/smartreco.db
+00:59:47.110   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:59:51.102 GET /api/recommendations/latest
+00:59:51.102   connect
+00:59:51.102   SELECT ./data/smartreco.db
+00:59:51.102   SELECT ./data/smartreco.db
+00:59:51.102   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+00:59:53.225 GET / ? q='career'
+00:59:53.228   connect
+00:59:53.229   SELECT ./data/smartreco.db
+00:59:53.232   SELECT ./data/smartreco.db
+00:59:53.234   SELECT ./data/smartreco.db
+00:59:53.235   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /?q=career HTTP/1.1" 200 OK
+00:59:53.258 GET /static/app.css ? v='20260811-2'
+INFO:     127.0.0.1:62166 - "GET /static/app.css?v=20260811-2 HTTP/1.1" 200 OK
+00:59:56.000 GET / ? q='career'
+00:59:56.002   connect
+00:59:56.003   SELECT ./data/smartreco.db
+00:59:56.005   SELECT ./data/smartreco.db
+00:59:56.007   SELECT ./data/smartreco.db
+00:59:56.008   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /?q=career HTTP/1.1" 200 OK
+00:59:56.027 GET /static/app.css ? v='20260811-2'
+INFO:     127.0.0.1:62166 - "GET /static/app.css?v=20260811-2 HTTP/1.1" 304 Not Modified
+01:00:00.185 GET /api/recommendations/latest
+01:00:00.186   connect
+01:00:00.187   SELECT ./data/smartreco.db
+01:00:00.188   SELECT ./data/smartreco.db
+01:00:00.189   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+01:00:01.190 POST /api/events
+01:00:01.190   connect
+01:00:01.190   SELECT ./data/smartreco.db
+01:00:01.190   SELECT ./data/smartreco.db
+01:00:01.190   INSERT ./data/smartreco.db
+01:00:01.190   behavior events ingested
+INFO:     127.0.0.1:62166 - "POST /api/events HTTP/1.1" 200 OK
+01:00:01.190 connect
+01:00:01.190 SELECT ./data/smartreco.db
+01:00:01.206 SELECT ./data/smartreco.db
+01:00:01.206 SELECT ./data/smartreco.db
+01:00:01.206 SELECT ./data/smartreco.db
+01:00:04.187 GET /api/recommendations/latest
+01:00:04.187   connect
+01:00:04.187   SELECT ./data/smartreco.db
+01:00:04.187   SELECT ./data/smartreco.db
+01:00:04.187   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+01:00:08.051 GET /api/recommendations/latest
+01:00:08.055   connect
+01:00:08.056   SELECT ./data/smartreco.db
+01:00:08.057   SELECT ./data/smartreco.db
+01:00:08.058   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+01:00:09.683 GET /cody-ai
+INFO:     127.0.0.1:62166 - "GET /cody-ai HTTP/1.1" 404 Not Found
+01:00:12.053 GET /api/recommendations/latest
+01:00:12.056   connect
+01:00:12.058   SELECT ./data/smartreco.db
+01:00:12.060   SELECT ./data/smartreco.db
+01:00:12.063   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+01:00:12.142 GET / ? q='career'
+01:00:12.144   connect
+01:00:12.146   SELECT ./data/smartreco.db
+01:00:12.146   SELECT ./data/smartreco.db
+01:00:12.148   SELECT ./data/smartreco.db
+01:00:12.148   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /?q=career HTTP/1.1" 200 OK
+01:00:12.164 GET /static/app.css ? v='20260811-2'
+INFO:     127.0.0.1:62166 - "GET /static/app.css?v=20260811-2 HTTP/1.1" 304 Not Modified
+01:00:16.196 GET /api/recommendations/latest
+01:00:16.198   connect
+01:00:16.200   SELECT ./data/smartreco.db
+01:00:16.202   SELECT ./data/smartreco.db
+01:00:16.204   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+01:00:17.205 POST /api/events
+01:00:17.208   connect
+01:00:17.209   SELECT ./data/smartreco.db
+01:00:17.211   SELECT ./data/smartreco.db
+01:00:17.213   INSERT ./data/smartreco.db
+01:00:17.220   behavior events ingested
+INFO:     127.0.0.1:62166 - "POST /api/events HTTP/1.1" 200 OK
+01:00:17.224 connect
+01:00:17.225 SELECT ./data/smartreco.db
+01:00:17.226 SELECT ./data/smartreco.db
+01:00:17.228 SELECT ./data/smartreco.db
+01:00:17.230 SELECT ./data/smartreco.db
+01:00:20.182 GET /api/recommendations/latest
+01:00:20.185   connect
+01:00:20.185   SELECT ./data/smartreco.db
+01:00:20.186   SELECT ./data/smartreco.db
+01:00:20.187   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+01:00:20.314 GET / ? q='career'
+01:00:20.314   connect
+01:00:20.314   SELECT ./data/smartreco.db
+01:00:20.322   SELECT ./data/smartreco.db
+01:00:20.324   SELECT ./data/smartreco.db
+01:00:20.326   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /?q=career HTTP/1.1" 200 OK
+01:00:20.346 GET /static/app.css ? v='20260811-2'
+INFO:     127.0.0.1:62166 - "GET /static/app.css?v=20260811-2 HTTP/1.1" 304 Not Modified
+01:00:20.835 GET / ? q='career'
+01:00:20.835   connect
+01:00:20.835   SELECT ./data/smartreco.db
+01:00:20.835   SELECT ./data/smartreco.db
+01:00:20.835   SELECT ./data/smartreco.db
+01:00:20.835   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /?q=career HTTP/1.1" 200 OK
+01:00:21.021 GET / ? q='career'
+01:00:21.023   connect
+01:00:21.023   SELECT ./data/smartreco.db
+01:00:21.025   SELECT ./data/smartreco.db
+01:00:21.027   SELECT ./data/smartreco.db
+01:00:21.029   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /?q=career HTTP/1.1" 200 OK
+01:00:21.173 GET / ? q='career'
+01:00:21.177   connect
+01:00:21.177   SELECT ./data/smartreco.db
+01:00:21.179   SELECT ./data/smartreco.db
+01:00:21.181   SELECT ./data/smartreco.db
+01:00:21.185   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /?q=career HTTP/1.1" 200 OK
+01:00:21.298 GET / ? q='career'
+01:00:21.300   connect
+01:00:21.300   SELECT ./data/smartreco.db
+01:00:21.301   SELECT ./data/smartreco.db
+01:00:21.302   SELECT ./data/smartreco.db
+01:00:21.303   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /?q=career HTTP/1.1" 200 OK
+01:00:21.481 GET / ? q='career'
+01:00:21.481   connect
+01:00:21.481   SELECT ./data/smartreco.db
+01:00:21.481   SELECT ./data/smartreco.db
+01:00:21.481   SELECT ./data/smartreco.db
+01:00:21.481   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /?q=career HTTP/1.1" 200 OK
+01:00:25.506 GET /api/recommendations/latest
+01:00:25.508   connect
+01:00:25.509   SELECT ./data/smartreco.db
+01:00:25.510   SELECT ./data/smartreco.db
+01:00:25.513   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK
+01:00:26.513 POST /api/events
+01:00:26.515   connect
+01:00:26.516   SELECT ./data/smartreco.db
+01:00:26.517   SELECT ./data/smartreco.db
+01:00:26.518   INSERT ./data/smartreco.db
+01:00:26.518   behavior events ingested
+INFO:     127.0.0.1:62166 - "POST /api/events HTTP/1.1" 200 OK
+01:00:26.518 connect
+01:00:26.518 SELECT ./data/smartreco.db
+01:00:26.518 SELECT ./data/smartreco.db
+01:00:26.530 SELECT ./data/smartreco.db
+01:00:26.534 SELECT ./data/smartreco.db
+01:00:29.508 GET /api/recommendations/latest
+01:00:29.508   connect
+01:00:29.508   SELECT ./data/smartreco.db
+01:00:29.508   SELECT ./data/smartreco.db
+01:00:29.513   SELECT ./data/smartreco.db
+INFO:     127.0.0.1:62166 - "GET /api/recommendations/latest HTTP/1.1" 200 OK

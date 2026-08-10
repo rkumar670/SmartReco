@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% from "course_icon.html" import course_icon %}
+{% block title %}My learning · SmartReco{% endblock %}
+{% block content %}
+<section class="section shell learning-page">
+  <div class="learning-head"><div><span class="eyebrow">YOUR LEARNING SPACE</span><h1>Keep making progress</h1><p>Courses you start are saved here and used to make your recommendations more relevant.</p></div><a class="button button-ghost" href="/">Explore more courses</a></div>
+  {% if enrollments %}<div class="learning-list">
+    {% for enrollment in enrollments %}{% set product = enrollment.product %}{% set visual_track = product.track or product.category|lower|replace(' ', '-') %}
+    <article class="learning-row track-{{ visual_track }}"><div class="learning-icon">{{ course_icon(visual_track) }}</div><div class="learning-copy"><span>{{ product.provider or product.category }}</span><h2><a href="/products/{{ product.id }}">{{ product.title }}</a></h2><p>{{ product.description }}</p></div><div class="learning-progress"><span>{{ enrollment.progress }}% complete</span><div><i style="width: {{ enrollment.progress }}%"></i></div><a class="button button-small" href="/products/{{ product.id }}">Continue</a></div></article>
+    {% endfor %}
+  </div>{% else %}<div class="empty-state"><span>✦</span><h2>Your learning list is ready</h2><p>Start a course and it will appear here.</p><a class="button" href="/">Find a course</a></div>{% endif %}
+</section>
+{% include "recommendation_shelf.html" %}
+{% endblock %}

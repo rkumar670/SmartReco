@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% from "course_icon.html" import course_icon %}
+{% block title %}{{ product.title }} · SmartReco{% endblock %}
+{% block content %}
+{% set visual_track = product.track or product.category|lower|replace(' ', '-') %}
+<section class="detail-hero track-{{ visual_track }}" data-product-id="{{ product.id }}" data-category="{{ product.category }}">
+  <div class="shell"><a class="back-link" href="/">← Back to catalogue</a><div class="detail-hero-grid"><div><div class="course-meta light"><span>{{ product.level or 'All levels' }}</span><span>{{ product.track or product.category }}</span></div><h1>{{ product.title }}</h1><p>{{ product.description }}</p><div class="detail-provider">By <strong>{{ product.provider or 'SmartReco Partner' }}</strong>{% if product.rating %}<span>★ {{ '%.1f'|format(product.rating) }}</span>{% endif %}</div></div><div class="detail-icon">{{ course_icon(visual_track) }}</div></div></div>
+</section>
+<section class="section shell detail-layout">
+  <div class="detail-content">
+    <div class="content-block"><span class="eyebrow">COURSE OVERVIEW</span><h2>What you’ll learn</h2><p class="lead">{{ product.syllabus or product.description }}</p></div>
+    {% if product.tags %}<div class="content-block"><h2>Skills you’ll gain</h2><div class="skill-list">{% for tag in product.tags %}<span>✓ {{ tag }}</span>{% endfor %}</div></div>{% endif %}
+    <div class="content-block"><h2>Built for practical progress</h2><div class="feature-grid"><div><strong>Self-paced</strong><span>Learn on your own schedule.</span></div><div><strong>Focused curriculum</strong><span>Clear skills and useful outcomes.</span></div><div><strong>SmartReco signals</strong><span>Your engagement improves future picks.</span></div></div></div>
+  </div>
+  <aside class="enroll-card"><span class="eyebrow">START LEARNING</span><div class="detail-price">{% if product.price == 0 %}Free{% else %}{{ '$' if product.currency == 'USD' else '₹' }}{{ '%.0f'|format(product.price) }}{% endif %}</div>{% if enrollment %}<a class="button button-full" href="/my-learning">Continue learning</a>{% elif user %}<form action="/products/{{ product.id }}/start" method="post"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="button button-full" data-track="product_click" data-product-id="{{ product.id }}">Start this course</button></form>{% else %}<a class="button button-full" href="/login">Sign in to start</a>{% endif %}<p>No commitment. Explore at your own pace.</p><ul><li>✓ Full course access</li><li>✓ Personalized recommendations</li><li>✓ Progress-aware learning path</li></ul></aside>
+</section>
+{% endblock %}

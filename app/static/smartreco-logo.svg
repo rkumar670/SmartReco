@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">SmartReco</title>
+  <desc id="desc">An open book connected to a learning network with an AI spark.</desc>
+  <path d="M16 14 32 8l16 6 8 15-3 18-16 9H27L11 47 8 29Z" fill="none" stroke="#17182a" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M32 8v11M16 14l9 9M48 14l-9 9M8 29l12 2M56 29l-12 2M11 47l13-7M53 47l-13-7M27 56l2-12M37 56l-2-12" fill="none" stroke="#17182a" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="32" cy="8" r="5" fill="#5548e8"/>
+  <circle cx="16" cy="14" r="4" fill="#147d6f"/>
+  <circle cx="48" cy="14" r="4" fill="#147d6f"/>
+  <circle cx="8" cy="29" r="4" fill="#17182a"/>
+  <circle cx="56" cy="29" r="4" fill="#17182a"/>
+  <circle cx="11" cy="47" r="4" fill="#17182a"/>
+  <circle cx="53" cy="47" r="4" fill="#17182a"/>
+  <circle cx="27" cy="56" r="4" fill="#17182a"/>
+  <circle cx="37" cy="56" r="4" fill="#17182a"/>
+  <path d="M20 27c5 0 9 1 12 4v15c-3-3-7-4-12-4Zm24 0c-5 0-9 1-12 4v15c3-3 7-4 12-4Z" fill="#5548e8" stroke="#fff" stroke-width="2" stroke-linejoin="round"/>
+  <path d="m32 0 1.8 4.2L38 6l-4.2 1.8L32 12l-1.8-4.2L26 6l4.2-1.8Z" fill="#5548e8"/>
+</svg>

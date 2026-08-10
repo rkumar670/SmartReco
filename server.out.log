@@ -1,0 +1,1565 @@
+23:52:11.422 connect
+23:52:11.437 PRAGMA ./smartreco.db
+23:52:11.440 PRAGMA ./smartreco.db
+23:52:11.440 PRAGMA ./smartreco.db
+23:52:11.440 PRAGMA ./smartreco.db
+23:52:11.440 PRAGMA ./smartreco.db
+23:52:14.906 GET /health
+INFO:     127.0.0.1:49922 - "GET /health HTTP/1.1" 200 OK
+23:52:15.004 GET /
+23:52:15.004   connect
+23:52:15.004   SELECT ./smartreco.db
+INFO:     127.0.0.1:49922 - "GET / HTTP/1.1" 200 OK
+23:53:38.168 GET /
+23:53:38.174   connect
+23:53:38.176   SELECT ./smartreco.db
+23:53:38.194   SELECT ./smartreco.db
+23:53:38.202   SELECT ./smartreco.db
+23:53:38.219   SELECT ./smartreco.db
+INFO:     127.0.0.1:52442 - "GET / HTTP/1.1" 200 OK
+23:53:43.317 POST /api/events
+23:53:43.317   connect
+23:53:43.317   SELECT ./smartreco.db
+23:53:43.317   INSERT ./smartreco.db
+23:53:43.364   behavior events ingested
+INFO:     127.0.0.1:50547 - "POST /api/events HTTP/1.1" 200 OK
+23:53:43.368 connect
+23:53:43.368 SELECT ./smartreco.db
+23:53:43.370 SELECT ./smartreco.db
+23:53:49.349 GET /
+23:53:49.351   connect
+23:53:49.351   SELECT ./smartreco.db
+23:53:49.351   SELECT ./smartreco.db
+23:53:49.351   SELECT ./smartreco.db
+23:53:49.351   SELECT ./smartreco.db
+INFO:     127.0.0.1:62299 - "GET / HTTP/1.1" 200 OK
+23:53:58.565 GET /
+23:53:58.568   connect
+23:53:58.570   SELECT ./smartreco.db
+23:53:58.571   SELECT ./smartreco.db
+23:53:58.571   SELECT ./smartreco.db
+23:53:58.579   SELECT ./smartreco.db
+INFO:     127.0.0.1:51534 - "GET / HTTP/1.1" 200 OK
+23:54:03.624 POST /api/events
+23:54:03.624   connect
+23:54:03.624   SELECT ./smartreco.db
+23:54:03.624   INSERT ./smartreco.db
+23:54:03.640   behavior events ingested
+INFO:     127.0.0.1:49392 - "POST /api/events HTTP/1.1" 200 OK
+23:54:03.640 connect
+23:54:03.640 SELECT ./smartreco.db
+23:54:03.640 SELECT ./smartreco.db
+23:54:03.640 SELECT ./smartreco.db
+23:54:03.640 SELECT ./smartreco.db
+23:54:15.584 POST /api/events
+23:54:15.587   connect
+23:54:15.587   SELECT ./smartreco.db
+23:54:15.588   INSERT ./smartreco.db
+23:54:15.595   behavior events ingested
+INFO:     127.0.0.1:63745 - "POST /api/events HTTP/1.1" 200 OK
+23:54:15.599 connect
+23:54:15.600 SELECT ./smartreco.db
+23:54:15.601 SELECT ./smartreco.db
+23:54:15.601 GET /products/1
+23:54:15.602 SELECT ./smartreco.db
+             GET /products/1
+23:54:15.602   connect
+23:54:15.609   SELECT ./smartreco.db
+23:54:15.609 SELECT ./smartreco.db
+             GET /products/1
+23:54:15.609   SELECT ./smartreco.db
+INFO:     127.0.0.1:63745 - "GET /products/1 HTTP/1.1" 200 OK
+23:54:17.892 GET /
+23:54:17.894   connect
+23:54:17.895   SELECT ./smartreco.db
+23:54:17.897   SELECT ./smartreco.db
+23:54:17.899   SELECT ./smartreco.db
+23:54:17.901   SELECT ./smartreco.db
+INFO:     127.0.0.1:63745 - "GET / HTTP/1.1" 200 OK
+23:54:17.919 POST /api/events
+23:54:17.922   connect
+23:54:17.923   SELECT ./smartreco.db
+23:54:17.925   INSERT ./smartreco.db
+23:54:17.928   INSERT ./smartreco.db
+23:54:17.933   behavior events ingested
+INFO:     127.0.0.1:63745 - "POST /api/events HTTP/1.1" 200 OK
+23:54:17.935 connect
+23:54:17.935 SELECT ./smartreco.db
+23:54:17.935 SELECT ./smartreco.db
+23:54:17.935 SELECT ./smartreco.db
+23:54:17.935 SELECT ./smartreco.db
+23:54:22.931 POST /api/events
+23:54:22.931   connect
+23:54:22.931   SELECT ./smartreco.db
+23:54:22.931   INSERT ./smartreco.db
+23:54:22.960   behavior events ingested
+INFO:     127.0.0.1:63745 - "POST /api/events HTTP/1.1" 200 OK
+23:54:22.962 connect
+23:54:22.966 SELECT ./smartreco.db
+23:54:22.967 SELECT ./smartreco.db
+23:54:22.968 SELECT ./smartreco.db
+23:54:22.969 SELECT ./smartreco.db
+23:57:24.822 GET /
+23:57:24.825   connect
+23:57:24.826   SELECT ./smartreco.db
+23:57:24.829   SELECT ./smartreco.db
+23:57:24.830   SELECT ./smartreco.db
+23:57:24.832   SELECT ./smartreco.db
+INFO:     127.0.0.1:51335 - "GET / HTTP/1.1" 200 OK
+23:57:26.125 GET /
+23:57:26.127   connect
+23:57:26.128   SELECT ./smartreco.db
+23:57:26.129   SELECT ./smartreco.db
+23:57:26.130   SELECT ./smartreco.db
+23:57:26.131   SELECT ./smartreco.db
+INFO:     127.0.0.1:51335 - "GET / HTTP/1.1" 200 OK
+23:57:27.414 POST /logout
+INFO:     127.0.0.1:51335 - "POST /logout HTTP/1.1" 303 See Other
+23:57:27.420 GET /
+23:57:27.421   connect
+23:57:27.421   SELECT ./smartreco.db
+INFO:     127.0.0.1:51335 - "GET / HTTP/1.1" 200 OK
+23:58:02.788 GET /admin/products
+INFO:     127.0.0.1:50726 - "GET /admin/products HTTP/1.1" 401 Unauthorized
+23:58:14.118 GET /login
+INFO:     127.0.0.1:51682 - "GET /login HTTP/1.1" 200 OK
+23:58:19.951 POST /login
+23:58:19.954   connect
+23:58:19.956   SELECT ./smartreco.db
+INFO:     127.0.0.1:64506 - "POST /login HTTP/1.1" 303 See Other
+23:58:20.167 GET /
+23:58:20.167   connect
+23:58:20.167   SELECT ./smartreco.db
+23:58:20.167   SELECT ./smartreco.db
+23:58:20.167   SELECT ./smartreco.db
+INFO:     127.0.0.1:64506 - "GET / HTTP/1.1" 200 OK
+23:58:24.603 GET /admin/products
+23:58:24.611   connect
+23:58:24.613   SELECT ./smartreco.db
+23:58:24.617   SELECT ./smartreco.db
+23:58:24.632   SELECT ./smartreco.db
+INFO:     127.0.0.1:64506 - "GET /admin/products HTTP/1.1" 200 OK
+23:58:33.159 GET /admin/products
+23:58:33.162   connect
+23:58:33.163   SELECT ./smartreco.db
+INFO:     127.0.0.1:62862 - "GET /admin/products HTTP/1.1" 403 Forbidden
+23:58:37.864 GET /
+23:58:37.864   connect
+23:58:37.864   SELECT ./smartreco.db
+23:58:37.864   SELECT ./smartreco.db
+23:58:37.877   SELECT ./smartreco.db
+23:58:37.880   SELECT ./smartreco.db
+INFO:     127.0.0.1:62862 - "GET / HTTP/1.1" 200 OK
+23:58:42.943 POST /api/events
+23:58:42.943   connect
+23:58:42.943   SELECT ./smartreco.db
+23:58:42.943   INSERT ./smartreco.db
+23:58:42.959   behavior events ingested
+INFO:     127.0.0.1:55463 - "POST /api/events HTTP/1.1" 200 OK
+23:58:42.959 connect
+23:58:42.959 SELECT ./smartreco.db
+23:58:42.959 SELECT ./smartreco.db
+23:58:42.959 SELECT ./smartreco.db
+23:58:42.959 SELECT ./smartreco.db
+23:58:43.864 GET /admin/products
+23:58:43.864   connect
+23:58:43.864   SELECT ./smartreco.db
+INFO:     127.0.0.1:55463 - "GET /admin/products HTTP/1.1" 403 Forbidden
+23:58:46.993 POST /logout
+INFO:     127.0.0.1:55463 - "POST /logout HTTP/1.1" 303 See Other
+23:58:47.000 GET /
+23:58:47.003   connect
+23:58:47.003   SELECT ./smartreco.db
+INFO:     127.0.0.1:55463 - "GET / HTTP/1.1" 200 OK
+23:58:48.492 GET /login
+INFO:     127.0.0.1:55463 - "GET /login HTTP/1.1" 200 OK
+23:59:04.331 POST /login
+23:59:04.334   connect
+23:59:04.334   SELECT ./smartreco.db
+INFO:     127.0.0.1:53515 - "POST /login HTTP/1.1" 303 See Other
+23:59:04.535 GET /
+23:59:04.535   connect
+23:59:04.535   SELECT ./smartreco.db
+23:59:04.543   SELECT ./smartreco.db
+23:59:04.544   SELECT ./smartreco.db
+INFO:     127.0.0.1:53515 - "GET / HTTP/1.1" 200 OK
+23:59:07.452 GET /admin/products
+23:59:07.455   connect
+23:59:07.455   SELECT ./smartreco.db
+23:59:07.458   SELECT ./smartreco.db
+23:59:07.460   SELECT ./smartreco.db
+INFO:     127.0.0.1:53515 - "GET /admin/products HTTP/1.1" 200 OK
+00:07:11.448 connect
+00:07:11.449 SELECT ./smartreco.db
+00:07:11.451 connect
+00:07:11.452 SELECT ./smartreco.db
+00:07:11.453 SELECT ./smartreco.db
+00:07:11.454 SELECT ./smartreco.db
+00:07:11.454 SELECT ./smartreco.db
+00:07:11.454 connect
+00:07:11.454 SELECT ./smartreco.db
+00:07:11.454 SELECT ./smartreco.db
+00:08:42.453 POST /api/events
+00:08:42.455   connect
+00:08:42.456   SELECT ./smartreco.db
+00:08:42.457   INSERT ./smartreco.db
+00:08:42.464   behavior events ingested
+INFO:     127.0.0.1:52874 - "POST /api/events HTTP/1.1" 200 OK
+00:08:42.467 connect
+00:08:42.468 SELECT ./smartreco.db
+00:08:42.469 SELECT ./smartreco.db
+00:08:42.470 GET /products/19
+00:08:42.472   connect
+00:08:42.472   SELECT ./smartreco.db
+00:08:42.472   SELECT ./smartreco.db
+INFO:     127.0.0.1:52874 - "GET /products/19 HTTP/1.1" 200 OK
+00:08:42.488 GET /static/app.css
+00:08:42.489 GET /static/tracker.js
+INFO:     127.0.0.1:53104 - "GET /static/tracker.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52874 - "GET /static/app.css HTTP/1.1" 304 Not Modified
+00:08:47.370 GET /
+00:08:47.373   connect
+00:08:47.373   SELECT ./smartreco.db
+00:08:47.375   SELECT ./smartreco.db
+00:08:47.376   SELECT ./smartreco.db
+INFO:     127.0.0.1:52874 - "GET / HTTP/1.1" 200 OK
+00:08:47.391 POST /api/events
+00:08:47.394   connect
+00:08:47.395   SELECT ./smartreco.db
+00:08:47.397   INSERT ./smartreco.db
+00:08:47.399   INSERT ./smartreco.db
+00:08:47.403   behavior events ingested
+INFO:     127.0.0.1:52874 - "POST /api/events HTTP/1.1" 200 OK
+00:08:47.406 connect
+00:08:47.407 SELECT ./smartreco.db
+00:08:47.408 SELECT ./smartreco.db
+00:08:51.356 POST /api/events
+00:08:51.358   connect
+00:08:51.359   SELECT ./smartreco.db
+00:08:51.360   INSERT ./smartreco.db
+00:08:51.365   behavior events ingested
+INFO:     127.0.0.1:52874 - "POST /api/events HTTP/1.1" 200 OK
+00:08:51.368 connect
+00:08:51.369 SELECT ./smartreco.db
+00:08:51.371 SELECT ./smartreco.db
+00:08:51.372 SELECT ./smartreco.db
+00:08:51.374 GET /products/14
+00:08:51.379   connect
+00:08:51.380   SELECT ./smartreco.db
+00:08:51.382   SELECT ./smartreco.db
+INFO:     127.0.0.1:52874 - "GET /products/14 HTTP/1.1" 200 OK
+00:08:51.646 SELECT ./smartreco.db
+00:08:51.713 SELECT ./smartreco.db
+00:08:52.458 SELECT ./smartreco.db
+00:08:53.558 GET /
+00:08:53.560   connect
+00:08:53.561   SELECT ./smartreco.db
+00:08:53.562   SELECT ./smartreco.db
+00:08:53.563   SELECT ./smartreco.db
+INFO:     127.0.0.1:52874 - "GET / HTTP/1.1" 200 OK
+00:08:53.577 POST /api/events
+00:08:53.578   connect
+00:08:53.579   SELECT ./smartreco.db
+00:08:53.581   INSERT ./smartreco.db
+00:08:53.584   INSERT ./smartreco.db
+00:08:53.589   behavior events ingested
+INFO:     127.0.0.1:52874 - "POST /api/events HTTP/1.1" 200 OK
+00:08:53.594 connect
+00:08:53.595 SELECT ./smartreco.db
+00:08:53.597 SELECT ./smartreco.db
+00:08:53.599 SELECT ./smartreco.db
+00:08:53.601 SELECT ./smartreco.db
+00:08:53.613 SELECT ./smartreco.db
+00:08:54.061 SELECT ./smartreco.db
+00:08:56.450 INSERT ./smartreco.db
+00:08:56.474 UPDATE ./smartreco.db
+00:08:56.474 INSERT ./smartreco.db
+00:08:56.476 INSERT ./smartreco.db
+00:08:56.476 INSERT ./smartreco.db
+00:08:56.476 INSERT ./smartreco.db
+00:08:56.476 INSERT ./smartreco.db
+00:08:56.478 connect
+00:08:56.478 SELECT ./smartreco.db
+00:08:56.483 SELECT ./smartreco.db
+00:08:56.483 recommendation generated
+00:08:57.889 INSERT ./smartreco.db
+00:08:57.915 UPDATE ./smartreco.db
+00:08:57.916 INSERT ./smartreco.db
+00:08:57.916 INSERT ./smartreco.db
+00:08:57.916 INSERT ./smartreco.db
+00:08:57.919 connect
+00:08:57.920 SELECT ./smartreco.db
+00:08:57.920 SELECT ./smartreco.db
+00:08:57.921 recommendation generated
+00:09:01.134 POST /api/events
+00:09:01.136   connect
+00:09:01.137   SELECT ./smartreco.db
+00:09:01.139   INSERT ./smartreco.db
+00:09:01.146   behavior events ingested
+INFO:     127.0.0.1:62753 - "POST /api/events HTTP/1.1" 200 OK
+00:09:01.150 connect
+00:09:01.151 SELECT ./smartreco.db
+00:09:01.152 SELECT ./smartreco.db
+00:09:01.155 GET /products/17
+00:09:01.157   connect
+00:09:01.158   SELECT ./smartreco.db
+00:09:01.159   SELECT ./smartreco.db
+INFO:     127.0.0.1:62753 - "GET /products/17 HTTP/1.1" 200 OK
+00:09:03.124 GET /
+00:09:03.125   connect
+00:09:03.126   SELECT ./smartreco.db
+00:09:03.127   SELECT ./smartreco.db
+00:09:03.128   SELECT ./smartreco.db
+00:09:03.132   SELECT ./smartreco.db
+INFO:     127.0.0.1:62753 - "GET / HTTP/1.1" 200 OK
+00:09:03.143 POST /api/events
+00:09:03.146   connect
+00:09:03.147   SELECT ./smartreco.db
+00:09:03.149   INSERT ./smartreco.db
+00:09:03.151   INSERT ./smartreco.db
+00:09:03.156   behavior events ingested
+INFO:     127.0.0.1:62753 - "POST /api/events HTTP/1.1" 200 OK
+00:09:03.159 connect
+00:09:03.159 SELECT ./smartreco.db
+00:09:03.161 SELECT ./smartreco.db
+00:09:08.164 POST /api/events
+00:09:08.170   connect
+00:09:08.171   SELECT ./smartreco.db
+00:09:08.174   INSERT ./smartreco.db
+00:09:08.177   behavior events ingested
+INFO:     127.0.0.1:52832 - "POST /api/events HTTP/1.1" 200 OK
+00:09:08.177 connect
+00:09:08.177 SELECT ./smartreco.db
+00:09:08.177 SELECT ./smartreco.db
+00:09:08.237 POST /api/events
+00:09:08.239   connect
+00:09:08.240   SELECT ./smartreco.db
+00:09:08.241   INSERT ./smartreco.db
+00:09:08.248   behavior events ingested
+INFO:     127.0.0.1:52832 - "POST /api/events HTTP/1.1" 200 OK
+00:09:08.252 connect
+00:09:08.253 SELECT ./smartreco.db
+00:09:08.255 SELECT ./smartreco.db
+00:09:08.257 SELECT ./smartreco.db
+00:09:08.258 SELECT ./smartreco.db
+00:09:08.260 GET /products/26
+00:09:08.260   connect
+00:09:08.260   SELECT ./smartreco.db
+00:09:08.260   SELECT ./smartreco.db
+INFO:     127.0.0.1:52832 - "GET /products/26 HTTP/1.1" 200 OK
+00:09:10.048 GET /
+00:09:10.050   connect
+00:09:10.050   SELECT ./smartreco.db
+00:09:10.052   SELECT ./smartreco.db
+00:09:10.053   SELECT ./smartreco.db
+00:09:10.054   SELECT ./smartreco.db
+INFO:     127.0.0.1:52832 - "GET / HTTP/1.1" 200 OK
+00:09:10.066 POST /api/events
+00:09:10.069   connect
+00:09:10.070   SELECT ./smartreco.db
+00:09:10.072   INSERT ./smartreco.db
+00:09:10.074   INSERT ./smartreco.db
+00:09:10.079   behavior events ingested
+INFO:     127.0.0.1:52832 - "POST /api/events HTTP/1.1" 200 OK
+00:09:10.081 connect
+00:09:10.082 SELECT ./smartreco.db
+00:09:10.083 SELECT ./smartreco.db
+00:09:10.085 SELECT ./smartreco.db
+00:09:10.086 SELECT ./smartreco.db
+00:09:15.076 POST /api/events
+00:09:15.076   connect
+00:09:15.076   SELECT ./smartreco.db
+00:09:15.076   INSERT ./smartreco.db
+00:09:15.092   behavior events ingested
+INFO:     127.0.0.1:51144 - "POST /api/events HTTP/1.1" 200 OK
+00:09:15.095 connect
+00:09:15.096 SELECT ./smartreco.db
+00:09:15.098 SELECT ./smartreco.db
+00:09:15.098 SELECT ./smartreco.db
+00:09:15.098 SELECT ./smartreco.db
+00:18:36.432 GET /admin/products
+00:18:36.434   connect
+00:18:36.434   SELECT ./smartreco.db
+00:18:36.436   SELECT ./smartreco.db
+00:18:36.438   SELECT ./smartreco.db
+INFO:     127.0.0.1:50967 - "GET /admin/products HTTP/1.1" 200 OK
+00:18:36.448 GET /static/app.css
+00:18:36.450 GET /static/tracker.js
+INFO:     127.0.0.1:50967 - "GET /static/app.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:51366 - "GET /static/tracker.js HTTP/1.1" 304 Not Modified
+00:18:38.636 GET /
+00:18:38.638   connect
+00:18:38.638   SELECT ./smartreco.db
+00:18:38.640   SELECT ./smartreco.db
+00:18:38.641   SELECT ./smartreco.db
+00:18:38.642   SELECT ./smartreco.db
+INFO:     127.0.0.1:51366 - "GET / HTTP/1.1" 200 OK
+00:18:43.676 POST /api/events
+00:18:43.676   connect
+00:18:43.676   SELECT ./smartreco.db
+00:18:43.676   INSERT ./smartreco.db
+00:18:43.692   behavior events ingested
+INFO:     127.0.0.1:64269 - "POST /api/events HTTP/1.1" 200 OK
+00:18:43.692 connect
+00:18:43.692 SELECT ./smartreco.db
+00:18:43.692 SELECT ./smartreco.db
+00:18:43.692 SELECT ./smartreco.db
+00:18:43.692 SELECT ./smartreco.db
+00:19:18.420 GET /
+00:19:18.425   connect
+00:19:18.426   SELECT ./smartreco.db
+00:19:18.429   SELECT ./smartreco.db
+00:19:18.431   SELECT ./smartreco.db
+00:19:18.433   SELECT ./smartreco.db
+INFO:     127.0.0.1:63811 - "GET / HTTP/1.1" 200 OK
+00:19:18.488 GET /static/catalog.css
+INFO:     127.0.0.1:63811 - "GET /static/catalog.css HTTP/1.1" 200 OK
+00:19:20.577 GET /
+00:19:20.577   connect
+00:19:20.577   SELECT ./smartreco.db
+00:19:20.577   SELECT ./smartreco.db
+00:19:20.577   SELECT ./smartreco.db
+00:19:20.577   SELECT ./smartreco.db
+INFO:     127.0.0.1:63811 - "GET / HTTP/1.1" 200 OK
+00:19:21.242 GET /
+00:19:21.244   connect
+00:19:21.244   SELECT ./smartreco.db
+00:19:21.244   SELECT ./smartreco.db
+00:19:21.244   SELECT ./smartreco.db
+00:19:21.244   SELECT ./smartreco.db
+INFO:     127.0.0.1:63811 - "GET / HTTP/1.1" 200 OK
+00:19:21.425 GET /
+00:19:21.425   connect
+00:19:21.425   SELECT ./smartreco.db
+00:19:21.425   SELECT ./smartreco.db
+00:19:21.425   SELECT ./smartreco.db
+00:19:21.425   SELECT ./smartreco.db
+INFO:     127.0.0.1:63811 - "GET / HTTP/1.1" 200 OK
+00:19:21.624 GET /
+00:19:21.627   connect
+00:19:21.627   SELECT ./smartreco.db
+00:19:21.629   SELECT ./smartreco.db
+00:19:21.629   SELECT ./smartreco.db
+00:19:21.634   SELECT ./smartreco.db
+INFO:     127.0.0.1:63811 - "GET / HTTP/1.1" 200 OK
+00:19:26.672 POST /api/events
+00:19:26.676   connect
+00:19:26.676   SELECT ./smartreco.db
+00:19:26.678   INSERT ./smartreco.db
+00:19:26.696   behavior events ingested
+INFO:     127.0.0.1:61441 - "POST /api/events HTTP/1.1" 200 OK
+00:19:26.699 connect
+00:19:26.700 SELECT ./smartreco.db
+00:19:26.701 SELECT ./smartreco.db
+00:19:26.702 SELECT ./smartreco.db
+00:19:26.703 SELECT ./smartreco.db
+00:19:27.722 GET /
+00:19:27.722   connect
+00:19:27.722   SELECT ./smartreco.db
+00:19:27.722   SELECT ./smartreco.db
+00:19:27.722   SELECT ./smartreco.db
+00:19:27.722   SELECT ./smartreco.db
+INFO:     127.0.0.1:49325 - "GET / HTTP/1.1" 200 OK
+00:19:27.789 GET /static/catalog.css
+INFO:     127.0.0.1:49325 - "GET /static/catalog.css HTTP/1.1" 200 OK
+00:19:32.890 POST /api/events
+00:19:32.897   connect
+00:19:32.897   SELECT ./smartreco.db
+00:19:32.900   INSERT ./smartreco.db
+00:19:32.920   behavior events ingested
+INFO:     127.0.0.1:51859 - "POST /api/events HTTP/1.1" 200 OK
+00:19:32.921 connect
+00:19:32.921 SELECT ./smartreco.db
+00:19:32.921 SELECT ./smartreco.db
+00:19:32.921 SELECT ./smartreco.db
+00:19:32.921 SELECT ./smartreco.db
+00:19:35.905 GET /
+00:19:35.909   connect
+00:19:35.911   SELECT ./smartreco.db
+00:19:35.913   SELECT ./smartreco.db
+00:19:35.913   SELECT ./smartreco.db
+00:19:35.918   SELECT ./smartreco.db
+INFO:     127.0.0.1:51859 - "GET / HTTP/1.1" 200 OK
+00:19:35.950 GET /static/catalog.css
+INFO:     127.0.0.1:51859 - "GET /static/catalog.css HTTP/1.1" 304 Not Modified
+00:19:40.967 POST /api/events
+00:19:40.967   connect
+00:19:40.967   SELECT ./smartreco.db
+00:19:40.967   INSERT ./smartreco.db
+00:19:40.984   behavior events ingested
+INFO:     127.0.0.1:51036 - "POST /api/events HTTP/1.1" 200 OK
+00:19:40.984 connect
+00:19:40.984 SELECT ./smartreco.db
+00:19:40.984 SELECT ./smartreco.db
+00:19:40.984 SELECT ./smartreco.db
+00:19:40.984 SELECT ./smartreco.db
+00:21:20.418 GET / ? q='ai-ml'
+00:21:20.421   connect
+00:21:20.424   SELECT ./smartreco.db
+00:21:20.428   SELECT ./smartreco.db
+00:21:20.431   SELECT ./smartreco.db
+00:21:20.433   SELECT ./smartreco.db
+INFO:     127.0.0.1:54158 - "GET /?q=ai-ml HTTP/1.1" 200 OK
+00:21:20.450 GET /static/catalog.css
+INFO:     127.0.0.1:54158 - "GET /static/catalog.css HTTP/1.1" 304 Not Modified
+00:21:22.500 GET / ? q='web-dev'
+00:21:22.502   connect
+00:21:22.502   SELECT ./smartreco.db
+00:21:22.504   SELECT ./smartreco.db
+00:21:22.505   SELECT ./smartreco.db
+00:21:22.508   SELECT ./smartreco.db
+INFO:     127.0.0.1:54158 - "GET /?q=web-dev HTTP/1.1" 200 OK
+00:21:27.543 POST /api/events
+00:21:27.543   connect
+00:21:27.543   SELECT ./smartreco.db
+00:21:27.543   INSERT ./smartreco.db
+00:21:27.543   behavior events ingested
+INFO:     127.0.0.1:57247 - "POST /api/events HTTP/1.1" 200 OK
+00:21:27.555 connect
+00:21:27.558 SELECT ./smartreco.db
+00:21:27.558 SELECT ./smartreco.db
+00:21:27.560 SELECT ./smartreco.db
+00:21:27.560 SELECT ./smartreco.db
+00:22:11.446 connect
+00:22:11.447 SELECT ./smartreco.db
+00:22:11.448 connect
+00:22:11.449 SELECT ./smartreco.db
+00:22:11.450 SELECT ./smartreco.db
+00:22:11.451 SELECT ./smartreco.db
+00:22:11.452 SELECT ./smartreco.db
+00:22:11.455 SELECT ./smartreco.db
+00:22:11.472 SELECT ./smartreco.db
+00:22:11.866 SELECT ./smartreco.db
+00:22:14.384 INSERT ./smartreco.db
+00:22:14.384 UPDATE ./smartreco.db
+00:22:14.398 INSERT ./smartreco.db
+00:22:14.399 INSERT ./smartreco.db
+00:22:14.400 INSERT ./smartreco.db
+00:22:14.401 connect
+00:22:14.401 SELECT ./smartreco.db
+00:22:14.401 SELECT ./smartreco.db
+00:22:14.401 recommendation generated
+00:22:14.401 connect
+00:22:14.401 SELECT ./smartreco.db
+00:22:14.401 SELECT ./smartreco.db
+00:22:23.065 GET / ? q='web-dev'
+00:22:23.065   connect
+00:22:23.076   SELECT ./smartreco.db
+00:22:23.076   SELECT ./smartreco.db
+00:22:23.076   SELECT ./smartreco.db
+00:22:23.076   SELECT ./smartreco.db
+INFO:     127.0.0.1:57111 - "GET /?q=web-dev HTTP/1.1" 200 OK
+00:22:23.100 GET /static/catalog.css
+INFO:     127.0.0.1:57111 - "GET /static/catalog.css HTTP/1.1" 304 Not Modified
+00:22:28.024 GET / ? q='ai-ml'
+00:22:28.027   connect
+00:22:28.028   SELECT ./smartreco.db
+00:22:28.030   SELECT ./smartreco.db
+00:22:28.031   SELECT ./smartreco.db
+00:22:28.033   SELECT ./smartreco.db
+INFO:     127.0.0.1:57111 - "GET /?q=ai-ml HTTP/1.1" 200 OK
+00:22:30.328 GET / ? q='design'
+00:22:30.330   connect
+00:22:30.331   SELECT ./smartreco.db
+00:22:30.333   SELECT ./smartreco.db
+00:22:30.335   SELECT ./smartreco.db
+00:22:30.336   SELECT ./smartreco.db
+INFO:     127.0.0.1:57111 - "GET /?q=design HTTP/1.1" 200 OK
+00:22:35.395 POST /api/events
+00:22:35.399   connect
+00:22:35.401   SELECT ./smartreco.db
+00:22:35.401   INSERT ./smartreco.db
+00:22:35.411   behavior events ingested
+INFO:     127.0.0.1:53124 - "POST /api/events HTTP/1.1" 200 OK
+00:22:35.415 connect
+00:22:35.415 SELECT ./smartreco.db
+00:22:35.417 SELECT ./smartreco.db
+00:22:35.419 SELECT ./smartreco.db
+00:22:35.421 GET /
+00:22:35.423 SELECT ./smartreco.db
+             GET /
+00:22:35.427   connect
+00:22:35.429   SELECT ./smartreco.db
+00:22:35.431   SELECT ./smartreco.db
+00:22:35.431   SELECT ./smartreco.db
+00:22:35.431   SELECT ./smartreco.db
+INFO:     127.0.0.1:53124 - "GET /?q= HTTP/1.1" 200 OK
+00:22:40.475 POST /api/events
+00:22:40.475   connect
+00:22:40.475   SELECT ./smartreco.db
+00:22:40.481   INSERT ./smartreco.db
+00:22:40.483   behavior events ingested
+INFO:     127.0.0.1:49461 - "POST /api/events HTTP/1.1" 200 OK
+00:22:40.488 connect
+00:22:40.490 SELECT ./smartreco.db
+00:22:40.491 SELECT ./smartreco.db
+00:22:40.493 SELECT ./smartreco.db
+00:22:40.495 SELECT ./smartreco.db
+00:22:43.315 GET /
+00:22:43.315   connect
+00:22:43.315   SELECT ./smartreco.db
+INFO:     127.0.0.1:49464 - "GET / HTTP/1.1" 200 OK
+00:23:34.045 GET /
+00:23:34.045   connect
+00:23:34.045   SELECT ./smartreco.db
+00:23:34.045   SELECT ./smartreco.db
+00:23:34.045   SELECT ./smartreco.db
+00:23:34.045   SELECT ./smartreco.db
+INFO:     127.0.0.1:64276 - "GET /?q= HTTP/1.1" 200 OK
+00:23:34.077 GET /static/catalog.css
+INFO:     127.0.0.1:64276 - "GET /static/catalog.css HTTP/1.1" 200 OK
+00:23:35.179 GET /
+00:23:35.179   connect
+00:23:35.179   SELECT ./smartreco.db
+00:23:35.194   SELECT ./smartreco.db
+00:23:35.194   SELECT ./smartreco.db
+00:23:35.198   SELECT ./smartreco.db
+INFO:     127.0.0.1:64276 - "GET /?q= HTTP/1.1" 200 OK
+00:23:35.629 GET /
+00:23:35.629   connect
+00:23:35.629   SELECT ./smartreco.db
+00:23:35.629   SELECT ./smartreco.db
+00:23:35.629   SELECT ./smartreco.db
+00:23:35.644   SELECT ./smartreco.db
+INFO:     127.0.0.1:64276 - "GET /?q= HTTP/1.1" 200 OK
+00:23:40.679 POST /api/events
+00:23:40.682   connect
+00:23:40.682   SELECT ./smartreco.db
+00:23:40.683   INSERT ./smartreco.db
+00:23:40.699   behavior events ingested
+INFO:     127.0.0.1:60987 - "POST /api/events HTTP/1.1" 200 OK
+00:23:40.699 connect
+00:23:40.699 SELECT ./smartreco.db
+00:23:40.699 SELECT ./smartreco.db
+00:23:40.699 SELECT ./smartreco.db
+00:23:40.699 SELECT ./smartreco.db
+00:24:51.563 GET /
+00:24:51.563   connect
+00:24:51.563   SELECT ./smartreco.db
+00:24:51.563   SELECT ./smartreco.db
+00:24:51.563   SELECT ./smartreco.db
+00:24:51.579   SELECT ./smartreco.db
+INFO:     127.0.0.1:59876 - "GET /?q= HTTP/1.1" 200 OK
+00:24:51.601 GET /static/catalog.css
+INFO:     127.0.0.1:59876 - "GET /static/catalog.css HTTP/1.1" 304 Not Modified
+00:24:52.327 GET /
+00:24:52.327   connect
+00:24:52.327   SELECT ./smartreco.db
+00:24:52.332   SELECT ./smartreco.db
+00:24:52.332   SELECT ./smartreco.db
+00:24:52.332   SELECT ./smartreco.db
+INFO:     127.0.0.1:59876 - "GET /?q= HTTP/1.1" 200 OK
+00:24:52.521 GET /
+00:24:52.523   connect
+00:24:52.525   SELECT ./smartreco.db
+00:24:52.527   SELECT ./smartreco.db
+00:24:52.527   SELECT ./smartreco.db
+00:24:52.531   SELECT ./smartreco.db
+INFO:     127.0.0.1:59876 - "GET /?q= HTTP/1.1" 200 OK
+00:24:52.678 GET /
+00:24:52.691   connect
+00:24:52.691   SELECT ./smartreco.db
+00:24:52.693   SELECT ./smartreco.db
+00:24:52.695   SELECT ./smartreco.db
+00:24:52.695   SELECT ./smartreco.db
+INFO:     127.0.0.1:59876 - "GET /?q= HTTP/1.1" 200 OK
+00:24:52.879 GET /
+00:24:52.879   connect
+00:24:52.879   SELECT ./smartreco.db
+00:24:52.879   SELECT ./smartreco.db
+00:24:52.879   SELECT ./smartreco.db
+00:24:52.892   SELECT ./smartreco.db
+INFO:     127.0.0.1:59876 - "GET /?q= HTTP/1.1" 200 OK
+00:24:57.913 POST /api/events
+00:24:57.913   connect
+00:24:57.913   SELECT ./smartreco.db
+00:24:57.913   INSERT ./smartreco.db
+00:24:57.963   behavior events ingested
+INFO:     127.0.0.1:56757 - "POST /api/events HTTP/1.1" 200 OK
+00:24:57.963 connect
+00:24:57.963 SELECT ./smartreco.db
+00:24:57.963 SELECT ./smartreco.db
+00:24:57.963 SELECT ./smartreco.db
+00:24:57.963 SELECT ./smartreco.db
+00:25:21.517 GET /
+00:25:21.517   connect
+00:25:21.517   SELECT ./smartreco.db
+00:25:21.517   SELECT ./smartreco.db
+00:25:21.517   SELECT ./smartreco.db
+00:25:21.533   SELECT ./smartreco.db
+INFO:     127.0.0.1:62316 - "GET / HTTP/1.1" 200 OK
+00:25:21.547 GET /static/app.css
+00:25:21.551 GET /static/catalog.css
+INFO:     127.0.0.1:62316 - "GET /static/app.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53457 - "GET /static/catalog.css HTTP/1.1" 200 OK
+00:25:21.588 GET /static/tracker.js
+INFO:     127.0.0.1:53457 - "GET /static/tracker.js HTTP/1.1" 304 Not Modified
+00:25:26.646 POST /api/events
+00:25:26.648   connect
+00:25:26.648   SELECT ./smartreco.db
+00:25:26.648   INSERT ./smartreco.db
+00:25:26.678   behavior events ingested
+INFO:     127.0.0.1:62065 - "POST /api/events HTTP/1.1" 200 OK
+00:25:26.678 connect
+00:25:26.678 SELECT ./smartreco.db
+00:25:26.678 SELECT ./smartreco.db
+00:25:26.678 SELECT ./smartreco.db
+00:25:26.678 SELECT ./smartreco.db
+00:25:30.198 GET /
+00:25:30.214   connect
+00:25:30.215   SELECT ./smartreco.db
+00:25:30.217   SELECT ./smartreco.db
+00:25:30.218   SELECT ./smartreco.db
+00:25:30.220   SELECT ./smartreco.db
+INFO:     127.0.0.1:52115 - "GET /?q= HTTP/1.1" 200 OK
+00:25:30.239 GET /static/catalog.css
+INFO:     127.0.0.1:52115 - "GET /static/catalog.css HTTP/1.1" 200 OK
+00:25:35.262 POST /api/events
+00:25:35.262   connect
+00:25:35.262   SELECT ./smartreco.db
+00:25:35.262   INSERT ./smartreco.db
+00:25:35.290   behavior events ingested
+INFO:     127.0.0.1:63831 - "POST /api/events HTTP/1.1" 200 OK
+00:25:35.290 connect
+00:25:35.290 SELECT ./smartreco.db
+00:25:35.290 SELECT ./smartreco.db
+00:25:35.290 SELECT ./smartreco.db
+00:25:35.290 SELECT ./smartreco.db
+00:27:14.249 GET /
+00:27:14.265   connect
+00:27:14.265   SELECT ./smartreco.db
+00:27:14.268   SELECT ./smartreco.db
+00:27:14.268   SELECT ./smartreco.db
+00:27:14.268   SELECT ./smartreco.db
+INFO:     127.0.0.1:57937 - "GET /?q= HTTP/1.1" 200 OK
+00:27:14.291 GET /static/app.css
+00:27:14.292 GET /static/catalog.css
+00:27:14.296 GET /static/tracker.js
+INFO:     127.0.0.1:57937 - "GET /static/app.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:62582 - "GET /static/catalog.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:57802 - "GET /static/tracker.js HTTP/1.1" 304 Not Modified
+00:27:19.903 POST /api/events
+00:27:19.906   connect
+00:27:19.906   SELECT ./smartreco.db
+00:27:19.907   INSERT ./smartreco.db
+00:27:19.920   behavior events ingested
+INFO:     127.0.0.1:58758 - "POST /api/events HTTP/1.1" 200 OK
+00:27:19.920 connect
+00:27:19.920 SELECT ./smartreco.db
+00:27:19.928 SELECT ./smartreco.db
+00:27:19.928 SELECT ./smartreco.db
+00:27:19.930 SELECT ./smartreco.db
+00:27:57.834 GET /
+00:27:57.834   connect
+00:27:57.834   SELECT ./smartreco.db
+INFO:     127.0.0.1:60835 - "GET / HTTP/1.1" 200 OK
+00:27:57.934 GET / ? q='ai-ml'
+00:27:57.934   connect
+00:27:57.934   SELECT ./smartreco.db
+INFO:     127.0.0.1:60835 - "GET /?q=ai-ml HTTP/1.1" 200 OK
+00:27:57.964 GET / ? q='beginner'
+00:27:57.966   connect
+00:27:57.966   SELECT ./smartreco.db
+INFO:     127.0.0.1:60835 - "GET /?q=beginner HTTP/1.1" 200 OK
+00:29:12.157 GET /admin/products
+00:29:12.159   connect
+00:29:12.161   SELECT ./smartreco.db
+00:29:12.162   SELECT ./smartreco.db
+00:29:12.162   SELECT ./smartreco.db
+INFO:     127.0.0.1:52729 - "GET /admin/products HTTP/1.1" 200 OK
+00:29:12.182 GET /static/filter-addition.css
+00:29:12.183 GET /static/catalog.css
+INFO:     127.0.0.1:52729 - "GET /static/filter-addition.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57256 - "GET /static/catalog.css HTTP/1.1" 304 Not Modified
+00:29:37.054 POST /admin/products
+00:29:37.057   connect
+00:29:37.058   SELECT ./smartreco.db
+00:29:37.059   INSERT ./smartreco.db
+00:29:37.519   connect
+00:29:37.520   UPDATE ./smartreco.db
+INFO:     127.0.0.1:62872 - "POST /admin/products HTTP/1.1" 303 See Other
+00:29:37.522 GET /admin/products
+00:29:37.522   connect
+00:29:37.522   SELECT ./smartreco.db
+00:29:37.522   SELECT ./smartreco.db
+00:29:37.537   SELECT ./smartreco.db
+INFO:     127.0.0.1:62872 - "GET /admin/products HTTP/1.1" 200 OK
+00:29:37.550 GET /static/catalog.css
+00:29:37.550 GET /static/filter-addition.css
+INFO:     127.0.0.1:62872 - "GET /static/catalog.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:58777 - "GET /static/filter-addition.css HTTP/1.1" 304 Not Modified
+00:29:40.893 GET /
+00:29:40.895   connect
+00:29:40.896   SELECT ./smartreco.db
+00:29:40.898   SELECT ./smartreco.db
+00:29:40.899   SELECT ./smartreco.db
+00:29:40.902   SELECT ./smartreco.db
+INFO:     127.0.0.1:58777 - "GET / HTTP/1.1" 200 OK
+00:29:45.926 POST /api/events
+00:29:45.926   connect
+00:29:45.926   SELECT ./smartreco.db
+00:29:45.933   INSERT ./smartreco.db
+00:29:45.942   behavior events ingested
+INFO:     127.0.0.1:53471 - "POST /api/events HTTP/1.1" 200 OK
+00:29:45.942 connect
+00:29:45.942 SELECT ./smartreco.db
+00:29:45.942 SELECT ./smartreco.db
+00:29:45.954 SELECT ./smartreco.db
+00:29:45.954 SELECT ./smartreco.db
+00:30:01.815 GET /admin/products
+00:30:01.818   connect
+00:30:01.819   SELECT ./smartreco.db
+00:30:01.820   SELECT ./smartreco.db
+00:30:01.821   SELECT ./smartreco.db
+INFO:     127.0.0.1:52903 - "GET /admin/products HTTP/1.1" 200 OK
+00:30:01.840 GET /static/filter-addition.css
+INFO:     127.0.0.1:52903 - "GET /static/filter-addition.css HTTP/1.1" 304 Not Modified
+00:30:10.488 GET /
+00:30:10.490   connect
+00:30:10.490   SELECT ./smartreco.db
+00:30:10.492   SELECT ./smartreco.db
+00:30:10.493   SELECT ./smartreco.db
+00:30:10.495   SELECT ./smartreco.db
+INFO:     127.0.0.1:55988 - "GET / HTTP/1.1" 200 OK
+00:30:10.512 GET /static/catalog.css
+INFO:     127.0.0.1:55988 - "GET /static/catalog.css HTTP/1.1" 304 Not Modified
+00:30:15.537 POST /api/events
+00:30:15.537   connect
+00:30:15.537   SELECT ./smartreco.db
+00:30:15.537   INSERT ./smartreco.db
+00:30:15.553   behavior events ingested
+INFO:     127.0.0.1:62642 - "POST /api/events HTTP/1.1" 200 OK
+00:30:15.553 connect
+00:30:15.553 SELECT ./smartreco.db
+00:30:15.563 SELECT ./smartreco.db
+00:30:15.563 SELECT ./smartreco.db
+00:30:15.563 SELECT ./smartreco.db
+00:30:44.464 GET / ? q='ai-ml'
+00:30:44.466   connect
+00:30:44.467   SELECT ./smartreco.db
+00:30:44.468   SELECT ./smartreco.db
+00:30:44.469   SELECT ./smartreco.db
+00:30:44.470   SELECT ./smartreco.db
+INFO:     127.0.0.1:63531 - "GET /?q=ai-ml HTTP/1.1" 200 OK
+00:30:44.484 GET /static/catalog.css
+00:30:44.485 GET /static/filter-addition.css
+INFO:     127.0.0.1:63531 - "GET /static/catalog.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:64819 - "GET /static/filter-addition.css HTTP/1.1" 304 Not Modified
+00:30:46.647 GET / ? q='web-dev'
+00:30:46.650   connect
+00:30:46.651   SELECT ./smartreco.db
+00:30:46.652   SELECT ./smartreco.db
+00:30:46.653   SELECT ./smartreco.db
+00:30:46.654   SELECT ./smartreco.db
+INFO:     127.0.0.1:64819 - "GET /?q=web-dev HTTP/1.1" 200 OK
+00:30:51.676 POST /api/events
+00:30:51.682   connect
+00:30:51.684   SELECT ./smartreco.db
+00:30:51.687   INSERT ./smartreco.db
+00:30:51.711   behavior events ingested
+INFO:     127.0.0.1:53479 - "POST /api/events HTTP/1.1" 200 OK
+00:30:51.718 connect
+00:30:51.719 SELECT ./smartreco.db
+00:30:51.721 SELECT ./smartreco.db
+00:30:51.723 SELECT ./smartreco.db
+00:30:51.725 SELECT ./smartreco.db
+00:30:51.836 GET / ? q='data'
+00:30:51.838   connect
+00:30:51.838   SELECT ./smartreco.db
+00:30:51.838   SELECT ./smartreco.db
+00:30:51.838   SELECT ./smartreco.db
+00:30:51.838   SELECT ./smartreco.db
+INFO:     127.0.0.1:53479 - "GET /?q=data HTTP/1.1" 200 OK
+00:30:56.904 POST /api/events
+00:30:56.906   connect
+00:30:56.906   SELECT ./smartreco.db
+00:30:56.907   INSERT ./smartreco.db
+00:30:56.916   behavior events ingested
+INFO:     127.0.0.1:55033 - "POST /api/events HTTP/1.1" 200 OK
+00:30:56.919 connect
+00:30:56.919 SELECT ./smartreco.db
+00:30:56.919 SELECT ./smartreco.db
+00:30:56.919 SELECT ./smartreco.db
+00:30:56.919 SELECT ./smartreco.db
+00:31:25.650 GET /
+00:31:25.651   connect
+00:31:25.652   SELECT ./smartreco.db
+00:31:25.653   SELECT ./smartreco.db
+00:31:25.654   SELECT ./smartreco.db
+00:31:25.658   SELECT ./smartreco.db
+INFO:     127.0.0.1:49497 - "GET / HTTP/1.1" 200 OK
+00:31:25.675 GET /static/app.css
+00:31:25.678 GET /static/catalog.css
+00:31:25.681 GET /static/filter-addition.css
+00:31:25.683 GET /static/tracker.js
+INFO:     127.0.0.1:49497 - "GET /static/app.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50705 - "GET /static/catalog.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:58033 - "GET /static/filter-addition.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50282 - "GET /static/tracker.js HTTP/1.1" 304 Not Modified
+00:31:26.957 GET / ? q='ai-ml'
+00:31:26.960   connect
+00:31:26.961   SELECT ./smartreco.db
+00:31:26.962   SELECT ./smartreco.db
+00:31:26.964   SELECT ./smartreco.db
+00:31:26.965   SELECT ./smartreco.db
+INFO:     127.0.0.1:50282 - "GET /?q=ai-ml HTTP/1.1" 200 OK
+00:31:30.210 GET / ? q='web-dev'
+00:31:30.212   connect
+00:31:30.213   SELECT ./smartreco.db
+00:31:30.213   SELECT ./smartreco.db
+00:31:30.214   SELECT ./smartreco.db
+00:31:30.216   SELECT ./smartreco.db
+INFO:     127.0.0.1:50282 - "GET /?q=web-dev HTTP/1.1" 200 OK
+00:31:35.909 POST /api/events
+00:31:35.909   connect
+00:31:35.909   SELECT ./smartreco.db
+00:31:35.909   INSERT ./smartreco.db
+00:31:35.936   behavior events ingested
+INFO:     127.0.0.1:52389 - "POST /api/events HTTP/1.1" 200 OK
+00:31:35.939 connect
+00:31:35.940 SELECT ./smartreco.db
+00:31:35.942 SELECT ./smartreco.db
+00:31:35.942 SELECT ./smartreco.db
+00:31:35.942 SELECT ./smartreco.db
+00:33:15.151 GET / ? q='web-dev'
+00:33:15.154   connect
+00:33:15.155   SELECT ./smartreco.db
+00:33:15.158   SELECT ./smartreco.db
+00:33:15.159   SELECT ./smartreco.db
+00:33:15.161   SELECT ./smartreco.db
+INFO:     127.0.0.1:61298 - "GET /?q=web-dev HTTP/1.1" 200 OK
+00:33:15.180 GET /static/catalog.css
+00:33:15.181 GET /static/filter-addition.css
+INFO:     127.0.0.1:61298 - "GET /static/catalog.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:57249 - "GET /static/filter-addition.css HTTP/1.1" 304 Not Modified
+00:33:20.898 POST /api/events
+00:33:20.900   connect
+00:33:20.900   SELECT ./smartreco.db
+00:33:20.901   INSERT ./smartreco.db
+00:33:20.932   behavior events ingested
+INFO:     127.0.0.1:58123 - "POST /api/events HTTP/1.1" 200 OK
+00:33:20.935 connect
+00:33:20.936 SELECT ./smartreco.db
+00:33:20.937 SELECT ./smartreco.db
+00:33:20.938 SELECT ./smartreco.db
+00:33:20.939 SELECT ./smartreco.db
+00:33:25.311 GET / ? q='web-dev'
+00:33:25.314   connect
+00:33:25.315   SELECT ./smartreco.db
+00:33:25.317   SELECT ./smartreco.db
+00:33:25.318   SELECT ./smartreco.db
+00:33:25.322   SELECT ./smartreco.db
+INFO:     127.0.0.1:58123 - "GET /?q=web-dev HTTP/1.1" 200 OK
+00:33:30.933 POST /api/events
+00:33:30.937   connect
+00:33:30.939   SELECT ./smartreco.db
+00:33:30.939   INSERT ./smartreco.db
+00:33:30.947   behavior events ingested
+INFO:     127.0.0.1:59625 - "POST /api/events HTTP/1.1" 200 OK
+00:33:30.967 connect
+00:33:30.967 SELECT ./smartreco.db
+00:33:30.969 SELECT ./smartreco.db
+00:33:30.973 SELECT ./smartreco.db
+00:33:30.973 SELECT ./smartreco.db
+00:33:38.964 GET /
+00:33:38.972   connect
+00:33:38.972   SELECT ./smartreco.db
+INFO:     127.0.0.1:59645 - "GET / HTTP/1.1" 200 OK
+00:34:05.164 GET / ? q='web-dev'
+00:34:05.167   connect
+00:34:05.168   SELECT ./smartreco.db
+00:34:05.169   SELECT ./smartreco.db
+00:34:05.171   SELECT ./smartreco.db
+00:34:05.172   SELECT ./smartreco.db
+INFO:     127.0.0.1:61104 - "GET /?q=web-dev HTTP/1.1" 200 OK
+00:34:05.193 GET /static/catalog.css
+00:34:05.194 GET /static/filter-addition.css
+INFO:     127.0.0.1:61104 - "GET /static/catalog.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56141 - "GET /static/filter-addition.css HTTP/1.1" 304 Not Modified
+00:34:10.220 POST /api/events
+00:34:10.220   connect
+00:34:10.220   SELECT ./smartreco.db
+00:34:10.220   INSERT ./smartreco.db
+00:34:10.220   behavior events ingested
+INFO:     127.0.0.1:56028 - "POST /api/events HTTP/1.1" 200 OK
+00:34:10.220 connect
+00:34:10.220 SELECT ./smartreco.db
+00:34:10.236 SELECT ./smartreco.db
+00:34:10.236 SELECT ./smartreco.db
+00:34:10.236 SELECT ./smartreco.db
+00:35:06.325 GET /
+00:35:06.327   connect
+00:35:06.328   SELECT ./smartreco.db
+00:35:06.329   SELECT ./smartreco.db
+00:35:06.330   SELECT ./smartreco.db
+00:35:06.333   SELECT ./smartreco.db
+INFO:     127.0.0.1:55109 - "GET / HTTP/1.1" 200 OK
+00:35:06.349 GET /static/catalog.css
+00:35:06.350 GET /static/filter-addition.css
+INFO:     127.0.0.1:55109 - "GET /static/catalog.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:64222 - "GET /static/filter-addition.css HTTP/1.1" 304 Not Modified
+00:35:08.634 GET / ? q='advanced'
+00:35:08.635   connect
+00:35:08.636   SELECT ./smartreco.db
+00:35:08.637   SELECT ./smartreco.db
+00:35:08.638   SELECT ./smartreco.db
+00:35:08.638   SELECT ./smartreco.db
+INFO:     127.0.0.1:64222 - "GET /?q=advanced HTTP/1.1" 200 OK
+00:35:11.190 GET / ? q='intermediate'
+00:35:11.192   connect
+00:35:11.193   SELECT ./smartreco.db
+00:35:11.195   SELECT ./smartreco.db
+00:35:11.196   SELECT ./smartreco.db
+00:35:11.197   SELECT ./smartreco.db
+INFO:     127.0.0.1:64222 - "GET /?q=intermediate HTTP/1.1" 200 OK
+00:35:12.792 GET / ? q='beginner'
+00:35:12.794   connect
+00:35:12.794   SELECT ./smartreco.db
+00:35:12.795   SELECT ./smartreco.db
+00:35:12.796   SELECT ./smartreco.db
+00:35:12.797   SELECT ./smartreco.db
+INFO:     127.0.0.1:64222 - "GET /?q=beginner HTTP/1.1" 200 OK
+00:35:17.515 GET / ? q='career'
+00:35:17.517   connect
+00:35:17.518   SELECT ./smartreco.db
+00:35:17.519   SELECT ./smartreco.db
+00:35:17.519   SELECT ./smartreco.db
+00:35:17.521   SELECT ./smartreco.db
+INFO:     127.0.0.1:64222 - "GET /?q=career HTTP/1.1" 200 OK
+00:35:17.539 GET /static/catalog.css
+INFO:     127.0.0.1:64222 - "GET /static/catalog.css HTTP/1.1" 304 Not Modified
+00:35:19.711 GET /
+00:35:19.712   connect
+00:35:19.712   SELECT ./smartreco.db
+00:35:19.714   SELECT ./smartreco.db
+00:35:19.715   SELECT ./smartreco.db
+00:35:19.716   SELECT ./smartreco.db
+INFO:     127.0.0.1:64222 - "GET / HTTP/1.1" 200 OK
+00:35:24.742 POST /api/events
+00:35:24.745   connect
+00:35:24.746   SELECT ./smartreco.db
+00:35:24.747   INSERT ./smartreco.db
+00:35:24.751   behavior events ingested
+INFO:     127.0.0.1:58082 - "POST /api/events HTTP/1.1" 200 OK
+00:35:24.754 connect
+00:35:24.755 SELECT ./smartreco.db
+00:35:24.756 SELECT ./smartreco.db
+00:35:24.757 SELECT ./smartreco.db
+00:35:24.758 SELECT ./smartreco.db
+00:36:28.634 GET / ? q='design'
+00:36:28.637   connect
+00:36:28.638   SELECT ./smartreco.db
+00:36:28.639   SELECT ./smartreco.db
+00:36:28.639   SELECT ./smartreco.db
+00:36:28.642   SELECT ./smartreco.db
+INFO:     127.0.0.1:60208 - "GET /?q=design HTTP/1.1" 200 OK
+00:36:28.658 GET /static/catalog.css
+00:36:28.662 GET /static/filter-addition.css
+INFO:     127.0.0.1:60208 - "GET /static/catalog.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:51912 - "GET /static/filter-addition.css HTTP/1.1" 304 Not Modified
+00:36:33.919 POST /api/events
+00:36:33.922   connect
+00:36:33.922   SELECT ./smartreco.db
+00:36:33.924   INSERT ./smartreco.db
+00:36:33.930   behavior events ingested
+INFO:     127.0.0.1:53642 - "POST /api/events HTTP/1.1" 200 OK
+00:36:33.932 connect
+00:36:33.932 SELECT ./smartreco.db
+00:36:33.936 SELECT ./smartreco.db
+00:36:33.938 SELECT ./smartreco.db
+00:36:33.940 SELECT ./smartreco.db
+00:36:56.759 GET / ? q='design'
+00:36:56.773   connect
+00:36:56.775   SELECT ./smartreco.db
+00:36:56.777   SELECT ./smartreco.db
+00:36:56.777   SELECT ./smartreco.db
+00:36:56.779   SELECT ./smartreco.db
+INFO:     127.0.0.1:60518 - "GET /?q=design HTTP/1.1" 200 OK
+00:36:56.794 GET /static/catalog.css
+INFO:     127.0.0.1:60518 - "GET /static/catalog.css HTTP/1.1" 304 Not Modified
+00:36:57.585 GET / ? q='design'
+00:36:57.587   connect
+00:36:57.588   SELECT ./smartreco.db
+00:36:57.590   SELECT ./smartreco.db
+00:36:57.592   SELECT ./smartreco.db
+00:36:57.594   SELECT ./smartreco.db
+INFO:     127.0.0.1:60518 - "GET /?q=design HTTP/1.1" 200 OK
+00:36:57.761 GET / ? q='design'
+00:36:57.765   connect
+00:36:57.765   SELECT ./smartreco.db
+00:36:57.769   SELECT ./smartreco.db
+00:36:57.769   SELECT ./smartreco.db
+00:36:57.771   SELECT ./smartreco.db
+INFO:     127.0.0.1:60518 - "GET /?q=design HTTP/1.1" 200 OK
+00:36:57.955 GET / ? q='design'
+00:36:57.955   connect
+00:36:57.955   SELECT ./smartreco.db
+00:36:57.961   SELECT ./smartreco.db
+00:36:57.961   SELECT ./smartreco.db
+00:36:57.961   SELECT ./smartreco.db
+INFO:     127.0.0.1:60518 - "GET /?q=design HTTP/1.1" 200 OK
+00:36:58.134 GET / ? q='design'
+00:36:58.134   connect
+00:36:58.134   SELECT ./smartreco.db
+00:36:58.134   SELECT ./smartreco.db
+00:36:58.141   SELECT ./smartreco.db
+00:36:58.146   SELECT ./smartreco.db
+INFO:     127.0.0.1:60518 - "GET /?q=design HTTP/1.1" 200 OK
+00:36:58.311 GET / ? q='design'
+00:36:58.311   connect
+00:36:58.311   SELECT ./smartreco.db
+00:36:58.311   SELECT ./smartreco.db
+00:36:58.317   SELECT ./smartreco.db
+00:36:58.319   SELECT ./smartreco.db
+INFO:     127.0.0.1:60518 - "GET /?q=design HTTP/1.1" 200 OK
+00:36:58.485 GET / ? q='design'
+00:36:58.490   connect
+00:36:58.490   SELECT ./smartreco.db
+00:36:58.495   SELECT ./smartreco.db
+00:36:58.497   SELECT ./smartreco.db
+00:36:58.497   SELECT ./smartreco.db
+INFO:     127.0.0.1:60518 - "GET /?q=design HTTP/1.1" 200 OK
+00:36:58.661 GET / ? q='design'
+00:36:58.665   connect
+00:36:58.665   SELECT ./smartreco.db
+00:36:58.669   SELECT ./smartreco.db
+00:36:58.671   SELECT ./smartreco.db
+00:36:58.683   SELECT ./smartreco.db
+INFO:     127.0.0.1:60518 - "GET /?q=design HTTP/1.1" 200 OK
+00:36:58.842 GET / ? q='design'
+00:36:58.845   connect
+00:36:58.847   SELECT ./smartreco.db
+00:36:58.850   SELECT ./smartreco.db
+00:36:58.852   SELECT ./smartreco.db
+00:36:58.852   SELECT ./smartreco.db
+INFO:     127.0.0.1:60518 - "GET /?q=design HTTP/1.1" 200 OK
+00:36:59.016 GET / ? q='design'
+00:36:59.029   connect
+00:36:59.029   SELECT ./smartreco.db
+00:36:59.029   SELECT ./smartreco.db
+00:36:59.029   SELECT ./smartreco.db
+00:36:59.029   SELECT ./smartreco.db
+INFO:     127.0.0.1:60518 - "GET /?q=design HTTP/1.1" 200 OK
+00:37:04.901 POST /api/events
+00:37:04.902   connect
+00:37:04.903   SELECT ./smartreco.db
+00:37:04.904   INSERT ./smartreco.db
+00:37:04.915   behavior events ingested
+INFO:     127.0.0.1:53419 - "POST /api/events HTTP/1.1" 200 OK
+00:37:04.916 connect
+00:37:04.916 SELECT ./smartreco.db
+00:37:04.916 SELECT ./smartreco.db
+00:37:04.916 SELECT ./smartreco.db
+00:37:04.916 SELECT ./smartreco.db
+00:37:11.454 connect
+00:37:11.455 SELECT ./smartreco.db
+00:37:11.457 connect
+00:37:11.457 SELECT ./smartreco.db
+00:37:11.458 SELECT ./smartreco.db
+00:37:11.459 connect
+00:37:11.459 SELECT ./smartreco.db
+00:37:11.460 SELECT ./smartreco.db
+00:37:52.229 GET /
+00:37:52.231   connect
+00:37:52.231   SELECT ./smartreco.db
+00:37:52.233   SELECT ./smartreco.db
+00:37:52.233   SELECT ./smartreco.db
+00:37:52.235   SELECT ./smartreco.db
+INFO:     127.0.0.1:56855 - "GET / HTTP/1.1" 200 OK
+00:37:52.343 GET /static/filter-addition.css
+00:37:52.345 GET /static/catalog.css
+INFO:     127.0.0.1:56855 - "GET /static/filter-addition.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60420 - "GET /static/catalog.css HTTP/1.1" 200 OK
+00:37:53.520 GET /
+00:37:53.520   connect
+00:37:53.520   SELECT ./smartreco.db
+00:37:53.520   SELECT ./smartreco.db
+00:37:53.520   SELECT ./smartreco.db
+00:37:53.520   SELECT ./smartreco.db
+INFO:     127.0.0.1:60420 - "GET / HTTP/1.1" 200 OK
+00:37:53.702 GET /
+00:37:53.704   connect
+00:37:53.704   SELECT ./smartreco.db
+00:37:53.707   SELECT ./smartreco.db
+00:37:53.709   SELECT ./smartreco.db
+00:37:53.711   SELECT ./smartreco.db
+INFO:     127.0.0.1:60420 - "GET / HTTP/1.1" 200 OK
+00:37:53.885 GET /
+00:37:53.897   connect
+00:37:53.897   SELECT ./smartreco.db
+00:37:53.897   SELECT ./smartreco.db
+00:37:53.901   SELECT ./smartreco.db
+00:37:53.903   SELECT ./smartreco.db
+INFO:     127.0.0.1:60420 - "GET / HTTP/1.1" 200 OK
+00:37:53.912 GET /static/catalog.css
+INFO:     127.0.0.1:60420 - "GET /static/catalog.css HTTP/1.1" 304 Not Modified
+00:37:54.106 GET /
+00:37:54.106   connect
+00:37:54.106   SELECT ./smartreco.db
+00:37:54.106   SELECT ./smartreco.db
+00:37:54.121   SELECT ./smartreco.db
+00:37:54.123   SELECT ./smartreco.db
+INFO:     127.0.0.1:60420 - "GET / HTTP/1.1" 200 OK
+00:37:59.155 POST /api/events
+00:37:59.159   connect
+00:37:59.159   SELECT ./smartreco.db
+00:37:59.159   INSERT ./smartreco.db
+00:37:59.159   behavior events ingested
+INFO:     127.0.0.1:56948 - "POST /api/events HTTP/1.1" 200 OK
+00:37:59.159 connect
+00:37:59.159 SELECT ./smartreco.db
+00:37:59.159 SELECT ./smartreco.db
+00:37:59.159 SELECT ./smartreco.db
+00:37:59.171 SELECT ./smartreco.db
+00:38:03.270 GET /
+00:38:03.271   connect
+00:38:03.272   SELECT ./smartreco.db
+00:38:03.274   SELECT ./smartreco.db
+00:38:03.274   SELECT ./smartreco.db
+00:38:03.275   SELECT ./smartreco.db
+INFO:     127.0.0.1:56948 - "GET / HTTP/1.1" 200 OK
+00:38:03.287 GET /static/catalog.css
+INFO:     127.0.0.1:56948 - "GET /static/catalog.css HTTP/1.1" 304 Not Modified
+00:38:04.014 GET /
+00:38:04.015   connect
+00:38:04.016   SELECT ./smartreco.db
+00:38:04.018   SELECT ./smartreco.db
+00:38:04.019   SELECT ./smartreco.db
+00:38:04.020   SELECT ./smartreco.db
+INFO:     127.0.0.1:56948 - "GET / HTTP/1.1" 200 OK
+00:38:04.206 GET /
+00:38:04.208   connect
+00:38:04.209   SELECT ./smartreco.db
+00:38:04.212   SELECT ./smartreco.db
+00:38:04.213   SELECT ./smartreco.db
+00:38:04.216   SELECT ./smartreco.db
+INFO:     127.0.0.1:56948 - "GET / HTTP/1.1" 200 OK
+00:38:09.252 POST /api/events
+00:38:09.254   connect
+00:38:09.254   SELECT ./smartreco.db
+00:38:09.254   INSERT ./smartreco.db
+00:38:09.263   behavior events ingested
+INFO:     127.0.0.1:58445 - "POST /api/events HTTP/1.1" 200 OK
+00:38:09.265 connect
+00:38:09.267 SELECT ./smartreco.db
+00:38:09.267 SELECT ./smartreco.db
+00:38:09.271 SELECT ./smartreco.db
+00:38:09.271 SELECT ./smartreco.db
+00:46:49.802 GET /
+00:46:49.805   connect
+00:46:49.805   SELECT ./smartreco.db
+00:46:49.810   SELECT ./smartreco.db
+00:46:49.810   SELECT ./smartreco.db
+00:46:49.812   SELECT ./smartreco.db
+INFO:     127.0.0.1:60636 - "GET / HTTP/1.1" 200 OK
+00:46:49.833 GET /static/app.css
+00:46:49.838 GET /static/catalog.css
+INFO:     127.0.0.1:60636 - "GET /static/app.css HTTP/1.1" 304 Not Modified
+00:46:49.846 GET /static/filter-addition.css
+INFO:     127.0.0.1:65153 - "GET /static/catalog.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60423 - "GET /static/filter-addition.css HTTP/1.1" 304 Not Modified
+00:46:49.884 GET /static/tracker.js
+INFO:     127.0.0.1:65153 - "GET /static/tracker.js HTTP/1.1" 304 Not Modified
+00:51:35.253 GET /
+00:51:35.255   connect
+00:51:35.256   SELECT ./smartreco.db
+00:51:35.259   SELECT ./smartreco.db
+00:51:35.261   SELECT ./smartreco.db
+00:51:35.263   SELECT ./smartreco.db
+INFO:     127.0.0.1:52367 - "GET / HTTP/1.1" 200 OK
+00:51:35.280 GET /static/app.css
+00:51:35.282 GET /static/catalog.css
+00:51:35.282 GET /static/filter-addition.css
+INFO:     127.0.0.1:52367 - "GET /static/app.css HTTP/1.1" 304 Not Modified
+00:51:35.289 GET /static/tracker.js
+INFO:     127.0.0.1:55141 - "GET /static/catalog.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61432 - "GET /static/filter-addition.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53362 - "GET /static/tracker.js HTTP/1.1" 304 Not Modified
+00:51:38.699 GET / ? q='ai-ml'
+00:51:38.701   connect
+00:51:38.703   SELECT ./smartreco.db
+00:51:38.704   SELECT ./smartreco.db
+00:51:38.706   SELECT ./smartreco.db
+00:51:38.708   SELECT ./smartreco.db
+INFO:     127.0.0.1:53362 - "GET /?q=ai-ml HTTP/1.1" 200 OK
+00:51:43.731 POST /api/events
+00:51:43.731   connect
+00:51:43.731   SELECT ./smartreco.db
+00:51:43.747   INSERT ./smartreco.db
+00:51:43.763   behavior events ingested
+INFO:     127.0.0.1:51853 - "POST /api/events HTTP/1.1" 200 OK
+00:51:43.763 connect
+00:51:43.763 SELECT ./smartreco.db
+00:51:43.763 SELECT ./smartreco.db
+00:51:43.779 SELECT ./smartreco.db
+00:51:43.779 SELECT ./smartreco.db
+00:51:43.779 SELECT ./smartreco.db
+00:51:43.795 SELECT ./smartreco.db
+00:51:44.402 SELECT ./smartreco.db
+00:51:48.638 INSERT ./smartreco.db
+00:51:48.644 UPDATE ./smartreco.db
+00:51:48.644 INSERT ./smartreco.db
+00:51:48.644 INSERT ./smartreco.db
+00:51:48.644 INSERT ./smartreco.db
+00:51:48.660 connect
+00:51:48.660 SELECT ./smartreco.db
+00:51:48.660 SELECT ./smartreco.db
+00:51:48.660 recommendation generated
+00:51:51.569 GET /
+00:51:51.572   connect
+00:51:51.573   SELECT ./smartreco.db
+00:51:51.574   SELECT ./smartreco.db
+00:51:51.575   SELECT ./smartreco.db
+00:51:51.576   SELECT ./smartreco.db
+INFO:     127.0.0.1:65158 - "GET / HTTP/1.1" 200 OK
+00:51:56.899 POST /api/events
+00:51:56.899   connect
+00:51:56.899   SELECT ./smartreco.db
+00:51:56.899   INSERT ./smartreco.db
+00:51:56.916   behavior events ingested
+INFO:     127.0.0.1:50798 - "POST /api/events HTTP/1.1" 200 OK
+00:51:56.916 connect
+00:51:56.916 SELECT ./smartreco.db
+00:51:56.916 SELECT ./smartreco.db
+00:51:59.358 GET /
+00:51:59.358   connect
+00:51:59.364   SELECT ./smartreco.db
+00:51:59.365   SELECT ./smartreco.db
+00:51:59.366   SELECT ./smartreco.db
+00:51:59.368   SELECT ./smartreco.db
+INFO:     127.0.0.1:50798 - "GET / HTTP/1.1" 200 OK
+00:52:00.293 GET /
+00:52:00.295   connect
+00:52:00.296   SELECT ./smartreco.db
+00:52:00.297   SELECT ./smartreco.db
+00:52:00.297   SELECT ./smartreco.db
+00:52:00.297   SELECT ./smartreco.db
+INFO:     127.0.0.1:50798 - "GET / HTTP/1.1" 200 OK
+00:52:00.509 GET /
+00:52:00.512   connect
+00:52:00.513   SELECT ./smartreco.db
+00:52:00.514   SELECT ./smartreco.db
+00:52:00.514   SELECT ./smartreco.db
+00:52:00.514   SELECT ./smartreco.db
+INFO:     127.0.0.1:50798 - "GET / HTTP/1.1" 200 OK
+00:52:00.763 GET /
+00:52:00.764   connect
+00:52:00.766   SELECT ./smartreco.db
+00:52:00.768   SELECT ./smartreco.db
+00:52:00.769   SELECT ./smartreco.db
+00:52:00.770   SELECT ./smartreco.db
+INFO:     127.0.0.1:50798 - "GET / HTTP/1.1" 200 OK
+00:52:00.972 GET /
+00:52:00.975   connect
+00:52:00.976   SELECT ./smartreco.db
+00:52:00.978   SELECT ./smartreco.db
+00:52:00.980   SELECT ./smartreco.db
+00:52:00.982   SELECT ./smartreco.db
+INFO:     127.0.0.1:50798 - "GET / HTTP/1.1" 200 OK
+00:52:01.230 GET /
+00:52:01.230   connect
+00:52:01.230   SELECT ./smartreco.db
+00:52:01.246   SELECT ./smartreco.db
+00:52:01.248   SELECT ./smartreco.db
+00:52:01.250   SELECT ./smartreco.db
+INFO:     127.0.0.1:50798 - "GET / HTTP/1.1" 200 OK
+00:52:01.512 GET /
+00:52:01.516   connect
+00:52:01.516   SELECT ./smartreco.db
+00:52:01.526   SELECT ./smartreco.db
+00:52:01.528   SELECT ./smartreco.db
+00:52:01.531   SELECT ./smartreco.db
+INFO:     127.0.0.1:50798 - "GET / HTTP/1.1" 200 OK
+00:52:06.556 POST /api/events
+00:52:06.556   connect
+00:52:06.556   SELECT ./smartreco.db
+00:52:06.556   INSERT ./smartreco.db
+00:52:06.572   behavior events ingested
+INFO:     127.0.0.1:64371 - "POST /api/events HTTP/1.1" 200 OK
+00:52:06.572 connect
+00:52:06.572 SELECT ./smartreco.db
+00:52:06.572 SELECT ./smartreco.db
+00:52:09.898 GET /
+00:52:09.898   connect
+00:52:09.898   SELECT ./smartreco.db
+INFO:     127.0.0.1:63125 - "GET / HTTP/1.1" 200 OK
+00:52:11.442 connect
+00:52:11.443 SELECT ./smartreco.db
+00:52:11.444 connect
+00:52:11.445 SELECT ./smartreco.db
+00:52:11.446 SELECT ./smartreco.db
+00:52:11.448 connect
+00:52:11.448 SELECT ./smartreco.db
+00:52:11.449 SELECT ./smartreco.db
+00:58:30.838 GET /
+00:58:30.840   connect
+00:58:30.841   SELECT ./smartreco.db
+00:58:30.845   SELECT ./smartreco.db
+00:58:30.845   SELECT ./smartreco.db
+00:58:30.845   SELECT ./smartreco.db
+INFO:     127.0.0.1:61227 - "GET / HTTP/1.1" 200 OK
+00:58:30.868 GET /static/catalog.css
+00:58:30.870 GET /static/filter-addition.css
+INFO:     127.0.0.1:61227 - "GET /static/catalog.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:51165 - "GET /static/filter-addition.css HTTP/1.1" 304 Not Modified
+00:58:35.888 POST /api/events
+00:58:35.888   connect
+00:58:35.888   SELECT ./smartreco.db
+00:58:35.888   INSERT ./smartreco.db
+00:58:35.901   behavior events ingested
+INFO:     127.0.0.1:57858 - "POST /api/events HTTP/1.1" 200 OK
+00:58:35.901 connect
+00:58:35.901 SELECT ./smartreco.db
+00:58:35.901 SELECT ./smartreco.db
+00:58:37.062 GET / ? q='ai-ml'
+00:58:37.064   connect
+00:58:37.065   SELECT ./smartreco.db
+00:58:37.066   SELECT ./smartreco.db
+00:58:37.066   SELECT ./smartreco.db
+00:58:37.067   SELECT ./smartreco.db
+INFO:     127.0.0.1:57858 - "GET /?q=ai-ml HTTP/1.1" 200 OK
+00:58:40.509 GET / ? q='web-dev'
+00:58:40.511   connect
+00:58:40.512   SELECT ./smartreco.db
+00:58:40.513   SELECT ./smartreco.db
+00:58:40.514   SELECT ./smartreco.db
+00:58:40.516   SELECT ./smartreco.db
+INFO:     127.0.0.1:57858 - "GET /?q=web-dev HTTP/1.1" 200 OK
+00:58:45.903 POST /api/events
+00:58:45.909   connect
+00:58:45.911   SELECT ./smartreco.db
+00:58:45.914   INSERT ./smartreco.db
+00:58:45.933   behavior events ingested
+INFO:     127.0.0.1:64346 - "POST /api/events HTTP/1.1" 200 OK
+00:58:45.937 connect
+00:58:45.938 SELECT ./smartreco.db
+00:58:45.940 SELECT ./smartreco.db
+01:02:43.479 GET / ? q='design'
+01:02:43.479   connect
+01:02:43.479   SELECT ./smartreco.db
+01:02:43.495   SELECT ./smartreco.db
+01:02:43.499   SELECT ./smartreco.db
+01:02:43.500   SELECT ./smartreco.db
+INFO:     127.0.0.1:49413 - "GET /?q=design HTTP/1.1" 200 OK
+01:02:43.520 GET /static/app.css
+01:02:43.521 GET /static/catalog.css
+01:02:43.524 GET /static/filter-addition.css
+INFO:     127.0.0.1:49413 - "GET /static/app.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61616 - "GET /static/catalog.css HTTP/1.1" 200 OK
+01:02:43.529 GET /static/tracker.js
+INFO:     127.0.0.1:62575 - "GET /static/filter-addition.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50665 - "GET /static/tracker.js HTTP/1.1" 304 Not Modified
+01:02:48.563 POST /api/events
+01:02:48.563   connect
+01:02:48.563   SELECT ./smartreco.db
+01:02:48.563   INSERT ./smartreco.db
+01:02:48.563   behavior events ingested
+INFO:     127.0.0.1:54066 - "POST /api/events HTTP/1.1" 200 OK
+01:02:48.563 connect
+01:02:48.563 SELECT ./smartreco.db
+01:02:48.563 SELECT ./smartreco.db
+01:02:53.900 GET /
+01:02:53.903   connect
+01:02:53.903   SELECT ./smartreco.db
+01:02:53.905   SELECT ./smartreco.db
+01:02:53.906   SELECT ./smartreco.db
+01:02:53.908   SELECT ./smartreco.db
+INFO:     127.0.0.1:55524 - "GET / HTTP/1.1" 200 OK
+01:02:57.849 POST /api/events
+01:02:57.851   connect
+01:02:57.851   SELECT ./smartreco.db
+01:02:57.852   INSERT ./smartreco.db
+01:02:57.854   INSERT ./smartreco.db
+01:02:57.858   behavior events ingested
+INFO:     127.0.0.1:55524 - "POST /api/events HTTP/1.1" 200 OK
+01:02:57.861 connect
+01:02:57.862 SELECT ./smartreco.db
+01:02:57.862 SELECT ./smartreco.db
+01:02:57.864 GET /products/42
+01:02:57.866   connect
+01:02:57.866   SELECT ./smartreco.db
+01:02:57.867   SELECT ./smartreco.db
+INFO:     127.0.0.1:55524 - "GET /products/42 HTTP/1.1" 200 OK
+01:02:59.594 POST /api/events
+01:02:59.596   connect
+01:02:59.597   SELECT ./smartreco.db
+01:02:59.598   INSERT ./smartreco.db
+01:02:59.600   INSERT ./smartreco.db
+01:02:59.603   behavior events ingested
+INFO:     127.0.0.1:55524 - "POST /api/events HTTP/1.1" 200 OK
+01:02:59.605 connect
+01:02:59.606 SELECT ./smartreco.db
+01:02:59.607 SELECT ./smartreco.db
+01:02:59.608 SELECT ./smartreco.db
+01:02:59.609 SELECT ./smartreco.db
+01:03:00.851 POST /api/events
+01:03:00.853   connect
+01:03:00.854   SELECT ./smartreco.db
+01:03:00.855   INSERT ./smartreco.db
+01:03:00.872   behavior events ingested
+INFO:     127.0.0.1:55524 - "POST /api/events HTTP/1.1" 200 OK
+01:03:00.873 connect
+01:03:00.873 SELECT ./smartreco.db
+01:03:00.873 SELECT ./smartreco.db
+01:03:00.873 SELECT ./smartreco.db
+01:03:00.873 SELECT ./smartreco.db
+01:03:01.017 POST /api/events
+01:03:01.019   connect
+01:03:01.020   SELECT ./smartreco.db
+01:03:01.021   INSERT ./smartreco.db
+01:03:01.028   behavior events ingested
+INFO:     127.0.0.1:55524 - "POST /api/events HTTP/1.1" 200 OK
+01:03:01.029 connect
+01:03:01.030 SELECT ./smartreco.db
+01:03:01.031 SELECT ./smartreco.db
+01:03:01.032 SELECT ./smartreco.db
+01:03:01.033 SELECT ./smartreco.db
+01:03:01.160 POST /api/events
+01:03:01.163   connect
+01:03:01.163   SELECT ./smartreco.db
+01:03:01.164   INSERT ./smartreco.db
+01:03:01.169   behavior events ingested
+INFO:     127.0.0.1:55524 - "POST /api/events HTTP/1.1" 200 OK
+01:03:01.171 connect
+01:03:01.172 SELECT ./smartreco.db
+01:03:01.172 SELECT ./smartreco.db
+01:03:01.173 SELECT ./smartreco.db
+01:03:01.174 SELECT ./smartreco.db
+01:03:04.155 GET /
+01:03:04.155   connect
+01:03:04.155   SELECT ./smartreco.db
+01:03:04.155   SELECT ./smartreco.db
+01:03:04.155   SELECT ./smartreco.db
+01:03:04.155   SELECT ./smartreco.db
+INFO:     127.0.0.1:55524 - "GET / HTTP/1.1" 200 OK
+01:03:04.177 POST /api/events
+01:03:04.179   connect
+01:03:04.180   SELECT ./smartreco.db
+01:03:04.182   INSERT ./smartreco.db
+01:03:04.188   behavior events ingested
+INFO:     127.0.0.1:55524 - "POST /api/events HTTP/1.1" 200 OK
+01:03:04.191 connect
+01:03:04.193 SELECT ./smartreco.db
+01:03:04.195 SELECT ./smartreco.db
+01:03:04.196 SELECT ./smartreco.db
+01:03:04.198 SELECT ./smartreco.db
+01:03:07.804 GET /
+01:03:07.804   connect
+01:03:07.804   SELECT ./smartreco.db
+01:03:07.809   SELECT ./smartreco.db
+01:03:07.811   SELECT ./smartreco.db
+01:03:07.813   SELECT ./smartreco.db
+INFO:     127.0.0.1:55524 - "GET / HTTP/1.1" 200 OK
+01:03:12.900 POST /api/events
+01:03:12.904   connect
+01:03:12.905   SELECT ./smartreco.db
+01:03:12.907   INSERT ./smartreco.db
+01:03:12.912   behavior events ingested
+INFO:     127.0.0.1:62012 - "POST /api/events HTTP/1.1" 200 OK
+01:03:12.914 connect
+01:03:12.915 SELECT ./smartreco.db
+01:03:12.916 SELECT ./smartreco.db
+01:03:12.917 SELECT ./smartreco.db
+01:03:12.918 SELECT ./smartreco.db
+01:07:08.213 GET /api/recommendations/latest
+INFO:     127.0.0.1:51805 - "GET /api/recommendations/latest HTTP/1.1" 404 Not Found

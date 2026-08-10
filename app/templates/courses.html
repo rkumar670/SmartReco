@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% from "course_icon.html" import course_icon %}
+{% block title %}Explore courses · SmartReco{% endblock %}
+{% block content %}
+<section class="section shell explore-page">
+  <div class="explore-title"><div><span class="eyebrow">SMARTRECO CATALOGUE</span><h1>Explore courses</h1><p>{{ products|length }} course{% if products|length != 1 %}s{% endif %} match your current view</p></div></div>
+  <div class="explore-toolbar" aria-label="Sort courses"><span>Sort by</span>
+    {% for value, label in [('popular','Most learned'),('rating','Highest rated'),('newest','Newest'),('price','Lowest price')] %}<a class="sort-pill{% if selected_sort == value %} active{% endif %}" href="/courses?q={{ search_query|urlencode }}&category={{ selected_category|urlencode }}&level={{ selected_level|urlencode }}&sort={{ value }}">{{ label }}</a>{% endfor %}
+  </div>
+  <div class="explore-layout">
+    <aside class="facet-panel">
+      <div class="facet-group"><h2>Category</h2><a class="facet-option{% if not selected_category %} active{% endif %}" href="/courses?q={{ search_query|urlencode }}&level={{ selected_level|urlencode }}&sort={{ selected_sort }}"><span>All categories</span><b>{{ total_products }}</b></a>{% for name, count in categories %}<a class="facet-option{% if selected_category == name %} active{% endif %}" href="/courses?q={{ search_query|urlencode }}&category={{ name|urlencode }}&level={{ selected_level|urlencode }}&sort={{ selected_sort }}"><span>{{ name }}</span><b>{{ count }}</b></a>{% endfor %}</div>
+      {% if levels %}<div class="facet-group"><h2>Level</h2><a class="facet-option{% if not selected_level %} active{% endif %}" href="/courses?q={{ search_query|urlencode }}&category={{ selected_category|urlencode }}&sort={{ selected_sort }}"><span>All levels</span></a>{% for name, count in levels %}<a class="facet-option{% if selected_level == name %} active{% endif %}" href="/courses?q={{ search_query|urlencode }}&category={{ selected_category|urlencode }}&level={{ name|urlencode }}&sort={{ selected_sort }}"><span>{{ name }}</span><b>{{ count }}</b></a>{% endfor %}</div>{% endif %}
+    </aside>
+    <div class="explore-results">
+      {% if products %}<div class="course-grid explore-grid">{% for product in products %}{% set visual_track = product.track or product.category|lower|replace(' ', '-') %}<article class="course-card track-{{ visual_track }}"><a class="course-art" href="/products/{{ product.id }}" data-track="product_click" data-product-id="{{ product.id }}"><span class="course-icon">{{ course_icon(visual_track) }}</span><span class="provider">{{ product.provider or product.category }}</span></a><div class="course-body"><div class="course-meta"><span>{{ product.level or 'All levels' }}</span><span>{{ product.track or product.category }}</span></div><h3><a href="/products/{{ product.id }}">{{ product.title }}</a></h3><p class="course-description">{{ product.description }}</p><div class="course-footer"><strong>{% if product.price == 0 %}Free{% else %}{{ '$' if product.currency == 'USD' else '₹' }}{{ '%.0f'|format(product.price) }}{% endif %}</strong><span class="rating">★ {{ '%.1f'|format(product.rating) }} · {{ enrollment_counts.get(product.id, 0) }} learners</span></div></div></article>{% endfor %}</div>{% else %}<div class="empty-state"><span>⌕</span><h2>No matching courses</h2><p>Clear a filter or try another search.</p><a class="button" href="/courses">View all courses</a></div>{% endif %}
+    </div>
+  </div>
+</section>
+{% endblock %}

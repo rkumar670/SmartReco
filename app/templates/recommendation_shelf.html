@@ -1,0 +1,13 @@
+{% if recommendation or fallback_recommendation_items %}
+{% set shelf_items = recommendation.items if recommendation else fallback_recommendation_items %}
+<section class="section shell recommendation-section" data-recommendation-id="{{ recommendation.id if recommendation else '' }}">
+  <div class="section-head"><div><span class="eyebrow">JUST FOR YOU</span><h2>{{ recommendation.title if recommendation else 'Courses picked for your next step' }}</h2><p>{{ recommendation.narrative if recommendation else 'Popular, highly rated courses from the catalogue that complement your current learning.' }}</p></div><span class="ai-label">✦ {{ 'AI curated' if recommendation else 'Smart picks' }}</span></div>
+  <div class="recommendation-track">
+    {% for item in shelf_items %}
+    <a class="recommendation-card" href="/products/{{ item.product.id }}" data-track="recommendation_click" data-product-id="{{ item.product.id }}">
+      <span class="recommendation-rank">{{ '%02d'|format(loop.index) }}</span><div class="recommendation-copy"><span>{{ item.product.level or 'All levels' }} · {{ item.product.track or item.product.category }}</span><strong>{{ item.product.title }}</strong><small>View course →</small></div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
