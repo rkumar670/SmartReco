@@ -1,7 +1,9 @@
 import re
 
+from app.auth import hash_password
 from app.database import SessionLocal
 from app.models import (
+    AgentRun,
     BehaviorEvent,
     CareerPlan,
     CareerProfile,
@@ -96,6 +98,26 @@ def test_event_batch_rejects_missing_csrf_token(client):
 def test_admin_route_rejects_regular_user(client):
     register(client)
     assert client.get("/admin/products").status_code == 403
+    assert client.get("/admin/agent-runs").status_code == 403
+
+
+def test_admin_can_inspect_agent_runs(client):
+    with SessionLocal() as db:
+        admin = User(email="agent-admin@example.com", password_hash=hash_password("strong-password"), role="admin")
+        learner = User(email="agent-learner@example.com", password_hash="unused")
+        db.add_all([admin, learner])
+        db.flush()
+        db.add(AgentRun(user_id=learner.id, behavior_signature="behavior-123", path="personalized", status="failed", error="Mesh response validation failed"))
+        db.commit()
+
+    token = csrf_token(client, "/login")
+    client.post("/login", data={"email": "agent-admin@example.com", "password": "strong-password", "csrf_token": token})
+    page = client.get("/admin/agent-runs")
+
+    assert page.status_code == 200
+    assert 'data-slot="sidebar-inset"' in page.text
+    assert "agent-learner@example.com" in page.text
+    assert "Mesh response validation failed" in page.text
 
 
 def test_catalog_page_lists_active_products(client):

@@ -288,6 +288,59 @@ textarea { resize: vertical; }
 .modal-form-grid { display: grid; gap: 16px; grid-template-columns: repeat(2,minmax(0,1fr)); }
 .modal-actions { border-top: 1px solid var(--line); display: flex; gap: 10px; justify-content: flex-end; margin-top: 24px; padding-top: 18px; }
 
+.ops-layout { background: #eceef5; display: grid; grid-template-columns: 230px minmax(0,1fr); min-height: calc(100vh - 74px); }
+.ops-sidebar { display: flex; flex-direction: column; padding: 22px 14px; }
+.ops-sidebar-head { align-items: center; display: flex; gap: 10px; padding: 0 8px 22px; }
+.ops-sidebar-head > span { align-items: center; background: var(--primary); border-radius: 9px; color: #fff; display: flex; font-size: .72rem; font-weight: 800; height: 34px; justify-content: center; width: 34px; }
+.ops-sidebar-head strong, .ops-sidebar-head small { display: block; }
+.ops-sidebar-head strong { font-size: .82rem; }
+.ops-sidebar-head small { color: var(--muted); font-size: .68rem; }
+.ops-sidebar nav { display: grid; gap: 4px; }
+.ops-nav-label { color: #8b8fa1; font-size: .62rem; font-weight: 800; letter-spacing: .1em; margin: 18px 10px 5px; text-transform: uppercase; }
+.ops-sidebar nav a { align-items: center; border-radius: 9px; color: var(--muted); display: flex; font-size: .8rem; font-weight: 650; gap: 10px; min-height: 40px; padding: 8px 10px; }
+.ops-sidebar nav a > span { color: #8b8fa1; font-size: 1rem; width: 18px; }
+.ops-sidebar nav a:hover { background: rgba(255,255,255,.55); color: var(--ink); }
+.ops-sidebar nav a.active { background: var(--surface); box-shadow: var(--shadow-sm); color: var(--ink); }
+.ops-sidebar nav a.active > span { color: var(--primary); }
+.ops-sidebar-note { border-top: 1px solid #d9dce7; display: grid; margin-top: auto; padding: 18px 8px 0; }
+.ops-sidebar-note strong { font-size: .72rem; }
+.ops-sidebar-note span { color: var(--muted); font-size: .65rem; }
+.ops-inset { background: var(--bg); border: 1px solid var(--line); border-radius: 18px 0 0 18px; box-shadow: var(--shadow-sm); margin: 10px 0 10px 0; min-width: 0; padding: 34px; }
+.ops-page-head { align-items: center; display: flex; gap: 24px; justify-content: space-between; margin-bottom: 28px; }
+.ops-page-head h1 { font-size: clamp(2rem,3vw,3rem); margin-bottom: 7px; }
+.ops-page-head p { color: var(--muted); margin: 0; }
+.run-metrics { border-block: 1px solid var(--line); display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); margin-bottom: 30px; }
+.run-metrics article { border-right: 1px solid var(--line); padding: 18px 20px; }
+.run-metrics article:last-child { border-right: 0; }
+.run-metrics span, .run-metrics small { color: var(--muted); display: block; }
+.run-metrics span { font-size: .66rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.run-metrics strong { display: block; font-size: 1.45rem; margin: 3px 0; }
+.run-metrics small { font-size: .68rem; }
+.run-toolbar { align-items: end; display: flex; gap: 20px; justify-content: space-between; margin-bottom: 14px; }
+.run-toolbar h2 { font-size: 1.15rem; margin-bottom: 3px; }
+.run-toolbar p { color: var(--muted); font-size: .75rem; margin: 0; }
+.run-filters { background: var(--surface-soft); border: 1px solid var(--line); border-radius: 10px; display: flex; padding: 3px; }
+.run-filters a { border-radius: 7px; color: var(--muted); font-size: .72rem; font-weight: 700; padding: 6px 10px; }
+.run-filters a.active { background: var(--surface); box-shadow: var(--shadow-sm); color: var(--ink); }
+.run-table-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-sm); overflow-x: auto; }
+.run-table { border-collapse: collapse; min-width: 900px; width: 100%; }
+.run-table th { background: #f5f5fb; color: var(--muted); font-size: .64rem; letter-spacing: .08em; padding: 11px 13px; text-align: left; text-transform: uppercase; white-space: nowrap; }
+.run-table td { border-top: 1px solid var(--line); color: var(--muted); font-size: .74rem; padding: 12px 13px; vertical-align: top; }
+.run-table tbody tr:hover { background: #fafaff; }
+.run-table td:first-child strong, .run-table td:first-child code { display: block; }
+.run-table td:first-child strong { color: var(--ink); }
+.run-table code { color: var(--muted); font-size: .65rem; margin-top: 2px; }
+.run-table a { color: var(--primary); font-weight: 700; }
+.run-path { background: var(--primary-soft); border-radius: 999px; color: var(--primary-dark); display: inline-block; padding: 4px 8px; text-transform: capitalize; white-space: nowrap; }
+.run-status { align-items: center; border-radius: 999px; display: inline-flex; font-size: .67rem; font-weight: 750; gap: 6px; padding: 4px 8px; text-transform: capitalize; }
+.run-status i { background: currentColor; border-radius: 50%; height: 6px; width: 6px; }
+.run-status-completed { background: var(--teal-soft); color: var(--teal); }
+.run-status-failed { background: var(--danger-soft); color: var(--danger); }
+.run-status-running { background: #fff5df; color: var(--warning); }
+.run-table details { margin-top: 5px; }
+.run-table summary { color: var(--danger); cursor: pointer; font-size: .66rem; font-weight: 700; }
+.run-table pre { background: var(--danger-soft); border-radius: 8px; color: var(--danger); font: .68rem/1.5 ui-monospace, monospace; margin: 7px 0 0; max-width: 480px; overflow: auto; padding: 9px; white-space: pre-wrap; }
+
 @media (max-width: 900px) {
   .recommendation-track { grid-template-columns: repeat(2,minmax(0,1fr)); }
   .admin-table, .admin-table tbody { display: block; }
@@ -306,6 +359,15 @@ textarea { resize: vertical; }
   .admin-table td:nth-child(6)::before { content: "Published"; }
   .admin-table td:nth-child(7)::before { content: "Vector status"; }
   .table-actions { justify-content: flex-start; }
+  .ops-layout { grid-template-columns: 1fr; }
+  .ops-sidebar { padding: 12px 14px; }
+  .ops-sidebar-head, .ops-sidebar-note, .ops-nav-label { display: none; }
+  .ops-sidebar nav { display: flex; overflow-x: auto; }
+  .ops-sidebar nav a { flex: 0 0 auto; }
+  .ops-inset { border-radius: 18px 18px 0 0; margin: 0; padding: 24px 18px 36px; }
+  .run-metrics { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .run-metrics article:nth-child(2) { border-right: 0; }
+  .run-metrics article:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
 }
 
 .sr-only { height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; clip: rect(0,0,0,0); white-space: nowrap; }
