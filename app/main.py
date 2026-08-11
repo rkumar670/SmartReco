@@ -1,4 +1,5 @@
 import secrets
+from collections import Counter, defaultdict
 from contextlib import asynccontextmanager
 from datetime import UTC, datetime
 from pathlib import Path
@@ -18,18 +19,66 @@ from app.auth import current_user, hash_password, require_admin, require_user, v
 from app.config import get_settings
 from app.database import Base, SessionLocal, engine, get_db
 from app.mesh import MeshClient
-from app.models import BehaviorEvent, CareerPlan, CareerProfile, Enrollment, Product, Recommendation, User
+from app.models import (
+    AgentRun,
+    BehaviorEvent,
+    CareerPlan,
+    CareerProfile,
+    Enrollment,
+    Product,
+    Recommendation,
+    User,
+)
 from app.recommendations import generate_recommendation, lexical_rank, should_generate
-from app.schemas import EventBatchIn
 from app.schema_migrations import ensure_event_id_column
+from app.schemas import EventBatchIn
+from app.vector_outbox import (
+    enqueue_career_vector,
+    enqueue_learning_vector,
+    enqueue_vector_operation,
+    process_vector_outbox,
+)
 from app.vectors import ProductVectors
-from app.vector_outbox import enqueue_career_vector, enqueue_learning_vector, enqueue_vector_operation, process_vector_outbox
 
 settings = get_settings()
 templates = Jinja2Templates(directory=str(Path(__file__).parent / "templates"))
 mesh = MeshClient(settings)
 vectors: ProductVectors | None = None
 scheduler = BackgroundScheduler(timezone="UTC")
+
+
+def learning_activity(events: list[BehaviorEvent], products: dict[int, Product]) -> list[dict[str, str]]:
+    views: Counter[int] = Counter()
+    reading_seconds: Counter[int] = Counter()
+    category_products: defaultdict[str, set[int]] = defaultdict(set)
+    sessions = set()
+    for event in events:
+        if event.event_type != "recommendation_impression":
+            sessions.add(event.session_id)
+        product = products.get(event.product_id)
+        if event.event_type == "product_view" and product:
+            views[product.id] += 1
+            category_products[product.category].add(product.id)
+        if event.event_type == "time_spent" and product:
+            reading_seconds[product.id] += max(0, int(event.event_metadata.get("seconds", 0)))
+
+    activity = []
+    for product_id, seconds in reading_seconds.most_common():
+        if seconds < 5:
+            continue
+        minutes, remaining = divmod(seconds, 60)
+        duration = f"{minutes}m {remaining}s" if minutes else f"{remaining}s"
+        activity.append({"kind": "time", "text": f"You spent {duration} reading ‘{products[product_id].title}’"})
+    for product_id, count in views.most_common():
+        if count >= 2:
+            activity.append({"kind": "views", "text": f"You looked at {products[product_id].title} {count} times"})
+    if len(sessions) > 1:
+        activity.append({"kind": "return", "text": f"You keep coming back to SmartReco — {len(sessions)} learning sessions so far"})
+    for category, product_ids in sorted(category_products.items(), key=lambda item: len(item[1]), reverse=True):
+        if len(product_ids) >= 2:
+            label = category.lower().replace("-", " ")
+            activity.append({"kind": "category", "text": f"You opened {len(product_ids)} {label} courses"})
+    return activity[:10]
 
 
 def configure_observability(app: FastAPI) -> None:
@@ -352,6 +401,19 @@ def my_learning(request: Request, db: Session = Depends(get_db)):
         }
         for product in suggested_products
     ]
+    events = list(
+        db.scalars(
+            select(BehaviorEvent)
+            .where(BehaviorEvent.user_id == user.id)
+            .order_by(BehaviorEvent.occurred_at.desc())
+            .limit(1000)
+        )
+    )
+    activity_product_ids = {event.product_id for event in events if event.product_id}
+    activity_products = {
+        product.id: product
+        for product in db.scalars(select(Product).where(Product.id.in_(activity_product_ids)))
+    }
     return templates.TemplateResponse(
         request,
         "my_learning.html",
@@ -361,6 +423,7 @@ def my_learning(request: Request, db: Session = Depends(get_db)):
             enrollments=enrollments,
             recommendation=recommendation,
             fallback_recommendation_items=fallback_recommendation_items,
+            activity=learning_activity(events, activity_products),
         ),
     )
 
@@ -508,6 +571,42 @@ def admin_products(request: Request, db: Session = Depends(get_db)):
         request,
         "admin.html",
         page_context(request, db, products=products, error=None),
+    )
+
+
+@app.get("/admin/agent-runs", response_class=HTMLResponse)
+def admin_agent_runs(request: Request, db: Session = Depends(get_db)):
+    require_admin(request, db)
+    selected_status = request.query_params.get("status", "all")
+    if selected_status not in {"all", "running", "completed", "failed"}:
+        selected_status = "all"
+    query = select(AgentRun).order_by(AgentRun.started_at.desc()).limit(200)
+    if selected_status != "all":
+        query = query.where(AgentRun.status == selected_status)
+    runs = list(db.scalars(query))
+    users = {user.id: user for user in db.scalars(select(User).where(User.id.in_({run.user_id for run in runs})))}
+    rows = []
+    for run in runs:
+        duration = "—"
+        if run.completed_at:
+            seconds = max(0, (run.completed_at - run.started_at).total_seconds())
+            duration = f"{seconds:.1f}s" if seconds < 60 else f"{seconds / 60:.1f}m"
+        user = users.get(run.user_id)
+        rows.append({"run": run, "email": user.email if user else f"User #{run.user_id}", "duration": duration})
+
+    all_runs = list(db.scalars(select(AgentRun)))
+    completed = sum(run.status == "completed" for run in all_runs)
+    durations = [(run.completed_at - run.started_at).total_seconds() for run in all_runs if run.completed_at]
+    metrics = {
+        "total": len(all_runs),
+        "success_rate": round(completed / len(all_runs) * 100, 1) if all_runs else 0,
+        "failed": sum(run.status == "failed" for run in all_runs),
+        "average_duration": f"{sum(durations) / len(durations):.1f}s" if durations else "—",
+    }
+    return templates.TemplateResponse(
+        request,
+        "agent_runs.html",
+        page_context(request, db, rows=rows, metrics=metrics, selected_status=selected_status),
     )
 
 

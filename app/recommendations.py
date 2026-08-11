@@ -47,7 +47,7 @@ def should_generate(db: Session, user_id: int, settings: Settings) -> bool:
     latest = db.scalar(select(Recommendation).where(Recommendation.user_id == user_id).order_by(Recommendation.created_at.desc()))
     if latest:
         created_at = latest.created_at
-        cutoff = utcnow() - timedelta(minutes=settings.recommendation_cooldown_minutes)
+        cutoff = utcnow() - timedelta(seconds=settings.recommendation_cooldown_seconds)
         if created_at.tzinfo is None:
             created_at = created_at.replace(tzinfo=cutoff.tzinfo)
         if created_at > cutoff:

@@ -75,17 +75,21 @@ Create the database and sample catalog:
 python -m app.seed
 ```
 
-The development admin account is `admin@smartreco.dev` with password `admin1234`. Change or remove it before deploying publicly.
+The development accounts details are 
+admin account is `admin@test.com` with password `admin1234`
+user account is `learn@test.com` with password `admin1234`
+
+Change or remove it before deploying publicly.
 
 After configuring `MESH_API_KEY`, open `/admin/products` and select **Retry sync** for each seeded product.
 
 Run the application:
 
-```bash
-uvicorn app.main:app --reload
+```powershell
+.\.venv\Scripts\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8010 --reload
 ```
 
-Open `http://127.0.0.1:8000`.
+Open `http://127.0.0.1:8010`.
 
 ## Recommendation flow
 
@@ -122,4 +126,3 @@ Add `MESH_API_KEY` and `SUBMISSION_TOKEN` as repository secrets. The organizer-p
 - SQLite and local Chroma make the demo reproducible. For multi-instance deployment, use PostgreSQL and a shared vector service.
 - Background tasks and APScheduler suit this single-process demo. Multiple workers should use a durable task queue.
 - Products remain valid SQL records when Mesh is unavailable, but vector status becomes `failed` and can be retried by an admin.
-

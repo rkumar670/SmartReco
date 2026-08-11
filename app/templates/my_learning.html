@@ -10,5 +10,17 @@
     {% endfor %}
   </div>{% else %}<div class="empty-state"><span>✦</span><h2>Your learning list is ready</h2><p>Start a course and it will appear here.</p><a class="button" href="/">Find a course</a></div>{% endif %}
 </section>
+<section class="section learning-activity-section" aria-labelledby="learning-activity-title">
+  <div class="shell learning-activity-layout">
+    <div class="learning-activity-intro"><span class="eyebrow">YOUR LEARNING SIGNALS</span><h2 id="learning-activity-title">What SmartReco has noticed</h2><p>These insights come from your course activity and help shape more relevant recommendations.</p></div>
+    {% if activity %}
+    <ol class="activity-list">
+      {% for item in activity %}<li class="activity-item activity-{{ item.kind }}"><span class="activity-rank">{{ '%02d'|format(loop.index) }}</span><p>{{ item.text }}</p></li>{% endfor %}
+    </ol>
+    {% else %}
+    <div class="activity-empty"><span aria-hidden="true">✦</span><div><h3>Your activity story starts here</h3><p>Open a few course pages and spend some time exploring. Your learning signals will appear here automatically.</p></div></div>
+    {% endif %}
+  </div>
+</section>
 {% include "recommendation_shelf.html" %}
 {% endblock %}

@@ -71,10 +71,10 @@ def seed() -> None:
     ensure_product_columns()
     Base.metadata.create_all(engine)
     with SessionLocal() as db:
-        if not db.scalar(select(User).where(User.email == "admin@smartreco.dev")):
+        if not db.scalar(select(User).where(User.email == "admin@test.com")):
             db.add(
                 User(
-                    email="admin@smartreco.dev",
+                    email="admin@test.com",
                     password_hash=hash_password("admin1234"),
                     role="admin",
                 )

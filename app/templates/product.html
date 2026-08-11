@@ -3,7 +3,7 @@
 {% block title %}{{ product.title }} · SmartReco{% endblock %}
 {% block content %}
 {% set visual_track = product.track or product.category|lower|replace(' ', '-') %}
-<section class="detail-hero track-{{ visual_track }}" data-product-id="{{ product.id }}" data-category="{{ product.category }}">
+<section class="detail-hero product-detail track-{{ visual_track }}" data-product-id="{{ product.id }}" data-category="{{ product.category }}">
   <div class="shell"><a class="back-link" href="/">← Back to catalogue</a><div class="detail-hero-grid"><div><div class="course-meta light"><span>{{ product.level or 'All levels' }}</span><span>{{ product.track or product.category }}</span></div><h1>{{ product.title }}</h1><p>{{ product.description }}</p><div class="detail-provider">By <strong>{{ product.provider or 'SmartReco Partner' }}</strong>{% if product.rating %}<span>★ {{ '%.1f'|format(product.rating) }}</span>{% endif %}</div></div><div class="detail-icon">{{ course_icon(visual_track) }}</div></div></div>
 </section>
 <section class="section shell detail-layout">

@@ -2,9 +2,41 @@ import json
 
 from langsmith.wrappers import wrap_openai
 from openai import OpenAI, OpenAIError
+from pydantic import ValidationError
 
 from app.config import Settings
 from app.schemas import CareerPathPayload, RecommendationPayload
+
+
+def parse_recommendation(content: str, products: list[dict]) -> RecommendationPayload:
+    try:
+        return RecommendationPayload.model_validate_json(content)
+    except ValidationError:
+        data = json.loads(content)
+        candidates = data.get("candidates")
+        if not isinstance(candidates, list):
+            raise
+
+        products_by_id = {product["id"]: product for product in products}
+        products_by_title = {product["title"].strip().lower(): product for product in products}
+        items = []
+        for candidate in candidates[:5]:
+            if not isinstance(candidate, dict):
+                continue
+            product = products_by_id.get(candidate.get("product_id") or candidate.get("id"))
+            if not product and isinstance(candidate.get("title"), str):
+                product = products_by_title.get(candidate["title"].strip().lower())
+            if not product:
+                continue
+            reason = candidate.get("reason") or candidate.get("rationale") or candidate.get("description")
+            items.append({"product_id": product["id"], "reason": reason or "Selected for your interests"})
+        if not items:
+            raise
+        return RecommendationPayload(
+            title=str(data.get("title") or "Courses selected for you"),
+            narrative=str(data.get("narrative") or data.get("summary") or "These courses align with your recent learning interests."),
+            items=items,
+        )
 
 
 class MeshClient:
@@ -32,7 +64,7 @@ class MeshClient:
                 temperature=0.4,
                 response_format={"type": "json_object"},
                 messages=[
-                    {"role": "system", "content": "Grade and rerank the provided catalog candidates for the behavioral profile. Return concise grounded JSON with title, narrative, and up to five items. Each item must contain product_id and reason. Never invent an ID or product claim."},
+                    {"role": "system", "content": "Grade and rerank the provided catalog candidates for the behavioral profile. Return exactly one JSON object with the top-level keys title, narrative, and items. Do not return a candidates key. Items must contain product_id and reason and may contain at most five entries. Never invent an ID or product claim."},
                     {"role": "user", "content": f"Behavioral profile:\n{profile}\n\nCatalog candidates:\n{json.dumps(products, ensure_ascii=False)}"},
                 ],
             )
@@ -41,7 +73,7 @@ class MeshClient:
         content = response.choices[0].message.content
         if not content:
             raise ValueError("Mesh returned an empty recommendation")
-        return RecommendationPayload.model_validate_json(content)
+        return parse_recommendation(content, products)
 
     def career_plan(self, profile: dict, products: list[dict]) -> CareerPathPayload:
         self.require_key()

@@ -1,7 +1,16 @@
 import re
 
 from app.database import SessionLocal
-from app.models import BehaviorEvent, CareerPlan, CareerProfile, CareerVectorOutbox, Enrollment, LearningVectorOutbox, Product, User
+from app.models import (
+    BehaviorEvent,
+    CareerPlan,
+    CareerProfile,
+    CareerVectorOutbox,
+    Enrollment,
+    LearningVectorOutbox,
+    Product,
+    User,
+)
 from app.schemas import CareerPathPayload
 
 
@@ -140,6 +149,53 @@ def test_start_course_creates_one_enrollment_and_vector_job(client):
     page = client.get("/my-learning")
     assert page.status_code == 200
     assert "Agent Systems" in page.text
+
+
+def test_product_page_exposes_behavior_tracking_marker(client):
+    with SessionLocal() as db:
+        course = Product(title="Tracked Course", description="A tracked course.", category="Data", price=0)
+        db.add(course)
+        db.commit()
+        product_id = course.id
+    register(client)
+
+    page = client.get(f"/products/{product_id}")
+
+    assert page.status_code == 200
+    assert 'class="detail-hero product-detail track-data"' in page.text
+    assert f'data-product-id="{product_id}"' in page.text
+
+
+def test_my_learning_summarizes_stored_behavior_events(client):
+    register(client)
+    with SessionLocal() as db:
+        user = db.query(User).filter_by(email="learner@example.com").one()
+        course = Product(title="Web Developer Bootcamp", description="Build web apps.", category="Software", price=0)
+        db.add(course)
+        db.flush()
+        db.add_all([
+            BehaviorEvent(user_id=user.id, event_type="product_view", product_id=course.id, session_id="s1"),
+            BehaviorEvent(user_id=user.id, event_type="product_view", product_id=course.id, session_id="s2"),
+            BehaviorEvent(user_id=user.id, event_type="time_spent", product_id=course.id, event_metadata={"seconds": 68}, session_id="s2"),
+        ])
+        db.commit()
+
+    page = client.get("/my-learning")
+
+    assert page.status_code == 200
+    assert "You spent 1m 8s reading" in page.text
+    assert "You looked at Web Developer Bootcamp 2 times" in page.text
+    assert "2 learning sessions so far" in page.text
+
+
+def test_my_learning_shows_activity_empty_state(client):
+    register(client)
+
+    page = client.get("/my-learning")
+
+    assert page.status_code == 200
+    assert "What SmartReco has noticed" in page.text
+    assert "Your activity story starts here" in page.text
 
 
 def test_cody_builds_and_saves_grounded_career_path(client, monkeypatch):

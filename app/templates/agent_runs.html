@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Agent runs · SmartReco{% endblock %}
+{% block content %}
+<div class="ops-layout">
+  <aside class="ops-sidebar" aria-label="Administration">
+    <div class="ops-sidebar-head"><span>SR</span><div><strong>SmartReco Admin</strong><small>AI operations</small></div></div>
+    <nav>
+      <span class="ops-nav-label">Catalogue</span>
+      <a href="/admin/products"><span aria-hidden="true">▦</span> All courses</a>
+      <span class="ops-nav-label">AI operations</span>
+      <a class="active" href="/admin/agent-runs"><span aria-hidden="true">⌁</span> Agent runs</a>
+    </nav>
+    <div class="ops-sidebar-note"><strong>Recommendation agent</strong><span>LangGraph · Mesh API</span></div>
+  </aside>
+  <section class="ops-inset" data-slot="sidebar-inset">
+    <header class="ops-page-head"><div><span class="eyebrow">AI OPERATIONS</span><h1>Agent runs</h1><p>Inspect recommendation executions, outcomes, timings, and validation errors.</p></div><a class="button button-ghost button-small" href="/admin/agent-runs">Refresh</a></header>
+    <div class="run-metrics" aria-label="Agent run summary">
+      <article><span>Total runs</span><strong>{{ metrics.total }}</strong><small>All recorded attempts</small></article>
+      <article><span>Success rate</span><strong>{{ metrics.success_rate }}%</strong><small>Completed runs</small></article>
+      <article><span>Failed</span><strong>{{ metrics.failed }}</strong><small>Needs attention</small></article>
+      <article><span>Average duration</span><strong>{{ metrics.average_duration }}</strong><small>Finished attempts</small></article>
+    </div>
+    <div class="run-toolbar"><div><h2>Execution history</h2><p>Showing the latest 200 runs.</p></div><nav class="run-filters" aria-label="Filter runs">{% for value, label in [('all','All'),('completed','Completed'),('failed','Failed'),('running','Running')] %}<a class="{{ 'active' if selected_status == value else '' }}" href="/admin/agent-runs?status={{ value }}">{{ label }}</a>{% endfor %}</nav></div>
+    <div class="run-table-card">
+      <table class="run-table"><thead><tr><th>Run</th><th>User</th><th>Path</th><th>Status</th><th>Duration</th><th>Recommendation</th><th>Started</th></tr></thead><tbody>
+      {% for row in rows %}{% set run = row.run %}<tr><td><strong>#{{ run.id }}</strong><code>{{ run.behavior_signature }}</code>{% if run.error %}<details><summary>View error</summary><pre>{{ run.error }}</pre></details>{% endif %}</td><td>{{ row.email }}</td><td><span class="run-path">{{ run.path|replace('_',' ') }}</span></td><td><span class="run-status run-status-{{ run.status }}"><i></i>{{ run.status }}</span></td><td>{{ row.duration }}</td><td>{% if run.recommendation_id %}<a href="/?recommendation={{ run.recommendation_id }}">#{{ run.recommendation_id }}</a>{% else %}—{% endif %}</td><td><time datetime="{{ run.started_at.isoformat() }}">{{ run.started_at.strftime('%d %b %Y, %H:%M') }}</time></td></tr>
+      {% else %}<tr><td colspan="7"><div class="table-empty">No agent runs match this filter.</div></td></tr>{% endfor %}
+      </tbody></table>
+    </div>
+  </section>
+</div>
+{% endblock %}

@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     mesh_embedding_model: str = "openai/text-embedding-3-small"
     chroma_path: str = "./data/chroma_data"
     recommendation_event_threshold: int = 5
-    recommendation_cooldown_minutes: int = 30
+    recommendation_cooldown_seconds: int = 30
 
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 

@@ -23,7 +23,7 @@ def test_trigger_uses_weighted_events():
 
 
 def test_trigger_respects_cooldown():
-    settings = Settings(recommendation_event_threshold=1, recommendation_cooldown_minutes=30)
+    settings = Settings(recommendation_event_threshold=1, recommendation_cooldown_seconds=30)
     with SessionLocal() as db:
         user = User(email="cooldown@example.com", password_hash="unused")
         db.add(user)
@@ -36,8 +36,29 @@ def test_trigger_respects_cooldown():
                 narrative="Recent recommendation",
                 profile_summary="AI",
                 behavior_version="v1",
-                created_at=utcnow() - timedelta(minutes=5),
+                created_at=utcnow() - timedelta(seconds=5),
             )
         )
         db.commit()
         assert not should_generate(db, user.id, settings)
+
+
+def test_trigger_runs_after_thirty_second_cooldown():
+    settings = Settings(recommendation_event_threshold=1, recommendation_cooldown_seconds=30)
+    with SessionLocal() as db:
+        user = User(email="expired-cooldown@example.com", password_hash="unused")
+        db.add(user)
+        db.flush()
+        db.add(BehaviorEvent(user_id=user.id, event_type="search", session_id="s1"))
+        db.add(
+            Recommendation(
+                user_id=user.id,
+                title="Previous",
+                narrative="Previous recommendation",
+                profile_summary="AI",
+                behavior_version="v1",
+                created_at=utcnow() - timedelta(seconds=31),
+            )
+        )
+        db.commit()
+        assert should_generate(db, user.id, settings)
