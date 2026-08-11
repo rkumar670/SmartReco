@@ -43,6 +43,23 @@ def test_cody_ai_page(client):
     assert 'name="q"' in response.text
 
 
+def test_cody_ask_falls_back_when_vector_search_fails(client, monkeypatch):
+    class BrokenVectors:
+        def search(self, _query, limit):
+            raise ValueError("Chroma collection is unavailable")
+
+    with SessionLocal() as db:
+        db.add(Product(title="Data Engineering", description="Build reliable data pipelines.", category="Data", price=0))
+        db.commit()
+    monkeypatch.setattr("app.main.vector_store", lambda: BrokenVectors())
+    token = csrf_token(client, "/cody-ai")
+
+    response = client.post("/cody-ai/ask", data={"question": "data engineering", "csrf_token": token})
+
+    assert response.status_code == 200
+    assert "Data Engineering" in response.text
+
+
 def test_registration_creates_user_and_session(client):
     response = register(client)
     assert response.status_code == 303
@@ -113,11 +130,16 @@ def test_admin_can_inspect_agent_runs(client):
     token = csrf_token(client, "/login")
     client.post("/login", data={"email": "agent-admin@example.com", "password": "strong-password", "csrf_token": token})
     page = client.get("/admin/agent-runs")
+    courses_page = client.get("/admin/products")
 
     assert page.status_code == 200
     assert 'data-slot="sidebar-inset"' in page.text
     assert "agent-learner@example.com" in page.text
     assert "Mesh response validation failed" in page.text
+    assert courses_page.status_code == 200
+    assert 'data-slot="sidebar-inset"' in courses_page.text
+    assert "Total courses" in courses_page.text
+    assert 'class="active" href="/admin/products"' in courses_page.text
 
 
 def test_catalog_page_lists_active_products(client):

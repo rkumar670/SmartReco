@@ -292,3 +292,685 @@
 15:19:21.951 PRAGMA ./data/smartreco.db
 15:19:21.953 connect
 15:19:21.953 CREATE ./data/smartreco.db
+ 15:19:27.026 connect
+15:19:27.034 PRAGMA ./data/smartreco.db
+15:19:27.036 PRAGMA ./data/smartreco.db
+15:19:27.036 PRAGMA ./data/smartreco.db
+15:19:27.036 PRAGMA ./data/smartreco.db
+15:19:27.036 PRAGMA ./data/smartreco.db
+15:19:27.036 PRAGMA ./data/smartreco.db
+15:19:27.036 PRAGMA ./data/smartreco.db
+15:19:27.036 PRAGMA ./data/smartreco.db
+15:19:27.036 PRAGMA ./data/smartreco.db
+15:19:27.036 PRAGMA ./data/smartreco.db
+15:19:27.036 PRAGMA ./data/smartreco.db
+15:19:27.036 PRAGMA ./data/smartreco.db
+15:19:27.036 PRAGMA ./data/smartreco.db
+15:19:27.036 connect
+15:19:27.036 connect
+15:19:27.048 PRAGMA ./data/smartreco.db
+15:19:27.049 connect
+15:19:27.050 connect
+15:19:27.051 PRAGMA ./data/smartreco.db
+15:19:27.052 connect
+15:19:27.052 CREATE ./data/smartreco.db
+15:20:27.302 connect
+15:20:27.315 SELECT ./data/smartreco.db
+15:20:27.318 SELECT ./data/smartreco.db
+15:20:27.320 SELECT ./data/smartreco.db
+15:21:27.065 connect
+15:21:27.068 SELECT ./data/smartreco.db
+15:21:27.068 SELECT ./data/smartreco.db
+15:21:27.070 SELECT ./data/smartreco.db
+15:22:27.058 connect
+15:22:27.058 SELECT ./data/smartreco.db
+15:22:27.058 SELECT ./data/smartreco.db
+15:22:27.058 SELECT ./data/smartreco.db
+15:23:27.067 connect
+15:23:27.070 SELECT ./data/smartreco.db
+15:23:27.070 SELECT ./data/smartreco.db
+15:23:27.070 SELECT ./data/smartreco.db
+15:24:27.071 connect
+15:24:27.071 SELECT ./data/smartreco.db
+15:24:27.071 SELECT ./data/smartreco.db
+15:24:27.071 SELECT ./data/smartreco.db
+15:25:27.060 connect
+15:25:27.060 SELECT ./data/smartreco.db
+15:25:27.060 SELECT ./data/smartreco.db
+15:25:27.060 SELECT ./data/smartreco.db
+15:26:27.070 connect
+15:26:27.070 SELECT ./data/smartreco.db
+15:26:27.070 SELECT ./data/smartreco.db
+15:26:27.070 SELECT ./data/smartreco.db
+15:27:27.059 connect
+15:27:27.061 SELECT ./data/smartreco.db
+15:27:27.061 SELECT ./data/smartreco.db
+15:27:27.063 SELECT ./data/smartreco.db
+15:28:27.072 connect
+15:28:27.074 SELECT ./data/smartreco.db
+15:28:27.076 SELECT ./data/smartreco.db
+15:28:27.076 SELECT ./data/smartreco.db
+15:29:27.059 connect
+15:29:27.059 SELECT ./data/smartreco.db
+15:29:27.060 SELECT ./data/smartreco.db
+15:29:27.060 SELECT ./data/smartreco.db
+15:30:27.065 connect
+15:30:27.065 SELECT ./data/smartreco.db
+15:30:27.065 SELECT ./data/smartreco.db
+15:30:27.065 SELECT ./data/smartreco.db
+15:31:27.070 connect
+15:31:27.070 SELECT ./data/smartreco.db
+15:31:27.070 SELECT ./data/smartreco.db
+15:31:27.070 SELECT ./data/smartreco.db
+15:32:27.066 connect
+15:32:27.068 SELECT ./data/smartreco.db
+15:32:27.072 SELECT ./data/smartreco.db
+15:32:27.075 SELECT ./data/smartreco.db
+15:33:27.065 connect
+15:33:27.065 SELECT ./data/smartreco.db
+15:33:27.065 SELECT ./data/smartreco.db
+15:33:27.065 SELECT ./data/smartreco.db
+15:34:27.058 connect
+15:34:27.060 SELECT ./data/smartreco.db
+15:34:27.061 connect
+15:34:27.063 connect
+15:34:27.067 SELECT ./data/smartreco.db
+15:34:27.068 SELECT ./data/smartreco.db
+15:34:27.072 SELECT ./data/smartreco.db
+15:34:27.074 SELECT ./data/smartreco.db
+15:34:27.075 SELECT ./data/smartreco.db
+15:34:27.078 SELECT ./data/smartreco.db
+15:34:27.087 SELECT ./data/smartreco.db
+15:34:27.090 connect
+15:34:27.090 SELECT ./data/smartreco.db
+15:34:27.091 SELECT ./data/smartreco.db
+15:34:27.093 SELECT ./data/smartreco.db
+15:34:27.094 SELECT ./data/smartreco.db
+15:34:27.096 connect
+15:34:27.097 SELECT ./data/smartreco.db
+15:34:27.098 SELECT ./data/smartreco.db
+15:34:27.099 SELECT ./data/smartreco.db
+15:34:27.100 SELECT ./data/smartreco.db
+15:34:27.101 connect
+15:34:27.101 SELECT ./data/smartreco.db
+15:34:27.102 SELECT ./data/smartreco.db
+15:34:27.103 SELECT ./data/smartreco.db
+15:34:27.104 SELECT ./data/smartreco.db
+15:35:27.063 connect
+15:35:27.063 SELECT ./data/smartreco.db
+15:35:27.065 SELECT ./data/smartreco.db
+15:35:27.065 SELECT ./data/smartreco.db
+15:36:27.067 connect
+15:36:27.071 SELECT ./data/smartreco.db
+15:36:27.075 SELECT ./data/smartreco.db
+15:36:27.078 SELECT ./data/smartreco.db
+15:37:27.069 connect
+15:37:27.069 SELECT ./data/smartreco.db
+15:37:27.069 SELECT ./data/smartreco.db
+15:37:27.069 SELECT ./data/smartreco.db
+15:38:27.068 connect
+15:38:27.068 SELECT ./data/smartreco.db
+15:38:27.068 SELECT ./data/smartreco.db
+15:38:27.068 SELECT ./data/smartreco.db
+ 15:38:47.901 connect
+15:38:47.904 PRAGMA ./data/smartreco.db
+15:38:47.904 PRAGMA ./data/smartreco.db
+15:38:47.904 PRAGMA ./data/smartreco.db
+15:38:47.904 PRAGMA ./data/smartreco.db
+15:38:47.904 PRAGMA ./data/smartreco.db
+15:38:47.904 PRAGMA ./data/smartreco.db
+15:38:47.904 PRAGMA ./data/smartreco.db
+15:38:47.904 PRAGMA ./data/smartreco.db
+15:38:47.904 PRAGMA ./data/smartreco.db
+15:38:47.904 PRAGMA ./data/smartreco.db
+15:38:47.904 PRAGMA ./data/smartreco.db
+15:38:47.904 PRAGMA ./data/smartreco.db
+15:38:47.904 PRAGMA ./data/smartreco.db
+15:38:47.904 connect
+15:38:47.904 connect
+15:38:47.904 PRAGMA ./data/smartreco.db
+15:38:47.904 connect
+15:38:47.904 connect
+15:38:47.904 PRAGMA ./data/smartreco.db
+15:38:47.904 connect
+15:38:47.904 CREATE ./data/smartreco.db
+ 15:38:56.856 connect
+15:38:56.862 PRAGMA ./data/smartreco.db
+15:38:56.862 PRAGMA ./data/smartreco.db
+15:38:56.862 PRAGMA ./data/smartreco.db
+15:38:56.866 PRAGMA ./data/smartreco.db
+15:38:56.867 PRAGMA ./data/smartreco.db
+15:38:56.867 PRAGMA ./data/smartreco.db
+15:38:56.867 PRAGMA ./data/smartreco.db
+15:38:56.867 PRAGMA ./data/smartreco.db
+15:38:56.867 PRAGMA ./data/smartreco.db
+15:38:56.867 PRAGMA ./data/smartreco.db
+15:38:56.867 PRAGMA ./data/smartreco.db
+15:38:56.867 PRAGMA ./data/smartreco.db
+15:38:56.867 PRAGMA ./data/smartreco.db
+15:38:56.867 connect
+15:38:56.867 connect
+15:38:56.867 PRAGMA ./data/smartreco.db
+15:38:56.867 connect
+15:38:56.867 connect
+15:38:56.867 PRAGMA ./data/smartreco.db
+15:38:56.867 connect
+15:38:56.867 CREATE ./data/smartreco.db
+15:39:57.074 connect
+15:39:57.088 SELECT ./data/smartreco.db
+15:39:57.088 SELECT ./data/smartreco.db
+15:39:57.088 SELECT ./data/smartreco.db
+15:40:56.879 connect
+15:40:56.879 SELECT ./data/smartreco.db
+15:40:56.879 SELECT ./data/smartreco.db
+15:40:56.879 SELECT ./data/smartreco.db
+15:41:56.874 connect
+15:41:56.876 SELECT ./data/smartreco.db
+15:41:56.879 SELECT ./data/smartreco.db
+15:41:56.882 SELECT ./data/smartreco.db
+15:42:56.875 connect
+15:42:56.877 SELECT ./data/smartreco.db
+15:42:56.879 SELECT ./data/smartreco.db
+15:42:56.880 SELECT ./data/smartreco.db
+15:43:56.870 connect
+15:43:56.870 SELECT ./data/smartreco.db
+15:43:56.870 SELECT ./data/smartreco.db
+15:43:56.870 SELECT ./data/smartreco.db
+15:44:56.876 connect
+15:44:56.876 SELECT ./data/smartreco.db
+15:44:56.876 SELECT ./data/smartreco.db
+15:44:56.876 SELECT ./data/smartreco.db
+15:45:56.882 connect
+15:45:56.882 SELECT ./data/smartreco.db
+15:45:56.882 SELECT ./data/smartreco.db
+15:45:56.882 SELECT ./data/smartreco.db
+15:46:56.870 connect
+15:46:56.870 SELECT ./data/smartreco.db
+15:46:56.870 SELECT ./data/smartreco.db
+15:46:56.870 SELECT ./data/smartreco.db
+15:47:56.878 connect
+15:47:56.881 SELECT ./data/smartreco.db
+15:47:56.883 SELECT ./data/smartreco.db
+15:47:56.883 SELECT ./data/smartreco.db
+15:48:56.879 connect
+15:48:56.879 SELECT ./data/smartreco.db
+15:48:56.880 SELECT ./data/smartreco.db
+15:48:56.881 SELECT ./data/smartreco.db
+15:49:56.876 connect
+15:49:56.878 SELECT ./data/smartreco.db
+15:49:56.880 SELECT ./data/smartreco.db
+15:49:56.880 SELECT ./data/smartreco.db
+15:50:56.871 connect
+15:50:56.873 SELECT ./data/smartreco.db
+15:50:56.876 SELECT ./data/smartreco.db
+15:50:56.878 SELECT ./data/smartreco.db
+15:51:56.877 connect
+15:51:56.878 SELECT ./data/smartreco.db
+15:51:56.882 SELECT ./data/smartreco.db
+15:51:57.641 UPDATE ./data/smartreco.db
+15:51:57.644 UPDATE ./data/smartreco.db
+15:51:57.649 connect
+15:51:57.650 SELECT ./data/smartreco.db
+15:51:57.651 SELECT ./data/smartreco.db
+15:52:56.872 connect
+15:52:56.872 SELECT ./data/smartreco.db
+15:52:56.872 SELECT ./data/smartreco.db
+15:52:56.872 SELECT ./data/smartreco.db
+15:53:56.876 connect
+15:53:56.881 SELECT ./data/smartreco.db
+15:53:56.881 connect
+15:53:56.881 SELECT ./data/smartreco.db
+15:53:56.881 connect
+15:53:56.881 SELECT ./data/smartreco.db
+15:53:56.881 SELECT ./data/smartreco.db
+15:53:56.881 SELECT ./data/smartreco.db
+15:53:56.881 SELECT ./data/smartreco.db
+15:53:56.881 SELECT ./data/smartreco.db
+15:53:56.892 SELECT ./data/smartreco.db
+15:53:56.892 connect
+15:53:56.892 SELECT ./data/smartreco.db
+15:53:56.892 SELECT ./data/smartreco.db
+15:53:56.892 SELECT ./data/smartreco.db
+15:53:56.892 SELECT ./data/smartreco.db
+15:53:56.892 connect
+15:53:56.892 SELECT ./data/smartreco.db
+15:53:56.892 SELECT ./data/smartreco.db
+15:53:56.892 SELECT ./data/smartreco.db
+15:53:56.892 SELECT ./data/smartreco.db
+15:53:56.892 connect
+15:53:56.892 SELECT ./data/smartreco.db
+15:53:56.907 SELECT ./data/smartreco.db
+15:53:56.907 SELECT ./data/smartreco.db
+15:53:56.907 SELECT ./data/smartreco.db
+15:54:56.880 connect
+15:54:56.880 SELECT ./data/smartreco.db
+15:54:56.880 SELECT ./data/smartreco.db
+15:54:56.891 SELECT ./data/smartreco.db
+15:55:56.879 connect
+15:55:56.883 SELECT ./data/smartreco.db
+15:55:56.883 SELECT ./data/smartreco.db
+15:55:56.889 SELECT ./data/smartreco.db
+ 15:56:40.213 connect
+15:56:40.213 PRAGMA ./data/smartreco.db
+15:56:40.213 PRAGMA ./data/smartreco.db
+15:56:40.213 PRAGMA ./data/smartreco.db
+15:56:40.213 PRAGMA ./data/smartreco.db
+15:56:40.213 PRAGMA ./data/smartreco.db
+15:56:40.213 PRAGMA ./data/smartreco.db
+15:56:40.213 PRAGMA ./data/smartreco.db
+15:56:40.213 PRAGMA ./data/smartreco.db
+15:56:40.213 PRAGMA ./data/smartreco.db
+15:56:40.213 PRAGMA ./data/smartreco.db
+15:56:40.213 PRAGMA ./data/smartreco.db
+15:56:40.213 PRAGMA ./data/smartreco.db
+15:56:40.213 PRAGMA ./data/smartreco.db
+15:56:40.213 connect
+15:56:40.213 connect
+15:56:40.213 PRAGMA ./data/smartreco.db
+15:56:40.213 connect
+15:56:40.213 connect
+15:56:40.213 PRAGMA ./data/smartreco.db
+15:56:40.229 connect
+15:56:40.229 CREATE ./data/smartreco.db
+15:57:40.440 connect
+15:57:40.449 SELECT ./data/smartreco.db
+15:57:40.449 SELECT ./data/smartreco.db
+15:57:40.449 SELECT ./data/smartreco.db
+15:58:40.243 connect
+15:58:40.245 SELECT ./data/smartreco.db
+15:58:40.247 SELECT ./data/smartreco.db
+15:58:40.248 SELECT ./data/smartreco.db
+15:59:40.232 connect
+15:59:40.234 SELECT ./data/smartreco.db
+15:59:40.236 SELECT ./data/smartreco.db
+15:59:40.238 SELECT ./data/smartreco.db
+16:00:40.240 connect
+16:00:40.240 SELECT ./data/smartreco.db
+16:00:40.240 SELECT ./data/smartreco.db
+16:00:40.240 SELECT ./data/smartreco.db
+16:01:40.245 connect
+16:01:40.245 SELECT ./data/smartreco.db
+16:01:40.245 SELECT ./data/smartreco.db
+16:01:40.245 SELECT ./data/smartreco.db
+16:02:40.238 connect
+16:02:40.240 SELECT ./data/smartreco.db
+16:02:40.240 SELECT ./data/smartreco.db
+16:02:40.240 SELECT ./data/smartreco.db
+16:03:40.234 connect
+16:03:40.234 SELECT ./data/smartreco.db
+16:03:40.234 SELECT ./data/smartreco.db
+16:03:40.234 SELECT ./data/smartreco.db
+16:04:40.235 connect
+16:04:40.240 SELECT ./data/smartreco.db
+16:04:40.242 SELECT ./data/smartreco.db
+16:04:40.244 SELECT ./data/smartreco.db
+16:05:40.246 connect
+16:05:40.246 SELECT ./data/smartreco.db
+16:05:40.246 SELECT ./data/smartreco.db
+16:05:40.246 SELECT ./data/smartreco.db
+16:06:40.231 connect
+16:06:40.234 SELECT ./data/smartreco.db
+16:06:40.234 SELECT ./data/smartreco.db
+16:06:40.234 SELECT ./data/smartreco.db
+16:07:40.236 connect
+16:07:40.236 SELECT ./data/smartreco.db
+16:07:40.238 SELECT ./data/smartreco.db
+16:07:40.239 SELECT ./data/smartreco.db
+16:08:40.232 connect
+16:08:40.233 SELECT ./data/smartreco.db
+16:08:40.233 SELECT ./data/smartreco.db
+16:08:40.234 SELECT ./data/smartreco.db
+16:09:40.244 connect
+16:09:40.244 SELECT ./data/smartreco.db
+16:09:40.245 SELECT ./data/smartreco.db
+16:09:40.246 SELECT ./data/smartreco.db
+16:10:40.233 connect
+16:10:40.234 SELECT ./data/smartreco.db
+16:10:40.234 SELECT ./data/smartreco.db
+16:10:40.234 SELECT ./data/smartreco.db
+16:11:40.235 connect
+16:11:40.238 SELECT ./data/smartreco.db
+16:11:40.238 connect
+16:11:40.240 connect
+16:11:40.242 SELECT ./data/smartreco.db
+16:11:40.243 SELECT ./data/smartreco.db
+16:11:40.244 SELECT ./data/smartreco.db
+16:11:40.246 SELECT ./data/smartreco.db
+16:11:40.248 SELECT ./data/smartreco.db
+16:11:40.248 SELECT ./data/smartreco.db
+16:11:40.253 SELECT ./data/smartreco.db
+16:11:40.255 connect
+16:11:40.256 SELECT ./data/smartreco.db
+16:11:40.257 SELECT ./data/smartreco.db
+16:11:40.257 SELECT ./data/smartreco.db
+16:11:40.258 SELECT ./data/smartreco.db
+16:11:40.258 connect
+16:11:40.258 SELECT ./data/smartreco.db
+16:11:40.258 SELECT ./data/smartreco.db
+16:11:40.258 SELECT ./data/smartreco.db
+16:11:40.258 SELECT ./data/smartreco.db
+16:11:40.258 connect
+16:11:40.258 SELECT ./data/smartreco.db
+16:11:40.258 SELECT ./data/smartreco.db
+16:11:40.258 SELECT ./data/smartreco.db
+16:11:40.258 SELECT ./data/smartreco.db
+16:12:40.246 connect
+16:12:40.246 SELECT ./data/smartreco.db
+16:12:40.246 SELECT ./data/smartreco.db
+16:12:40.246 SELECT ./data/smartreco.db
+16:13:40.239 connect
+16:13:40.239 SELECT ./data/smartreco.db
+16:13:40.239 SELECT ./data/smartreco.db
+16:13:40.239 SELECT ./data/smartreco.db
+16:14:40.234 connect
+16:14:40.234 SELECT ./data/smartreco.db
+16:14:40.239 SELECT ./data/smartreco.db
+16:14:40.239 SELECT ./data/smartreco.db
+ 16:15:41.586 connect
+16:15:41.589 PRAGMA ./data/smartreco.db
+16:15:41.589 PRAGMA ./data/smartreco.db
+16:15:41.589 PRAGMA ./data/smartreco.db
+16:15:41.589 PRAGMA ./data/smartreco.db
+16:15:41.589 PRAGMA ./data/smartreco.db
+16:15:41.589 PRAGMA ./data/smartreco.db
+16:15:41.589 PRAGMA ./data/smartreco.db
+16:15:41.589 PRAGMA ./data/smartreco.db
+16:15:41.589 PRAGMA ./data/smartreco.db
+16:15:41.589 PRAGMA ./data/smartreco.db
+16:15:41.589 PRAGMA ./data/smartreco.db
+16:15:41.589 PRAGMA ./data/smartreco.db
+16:15:41.589 PRAGMA ./data/smartreco.db
+16:15:41.589 connect
+16:15:41.589 connect
+16:15:41.589 PRAGMA ./data/smartreco.db
+16:15:41.589 connect
+16:15:41.589 connect
+16:15:41.589 PRAGMA ./data/smartreco.db
+16:15:41.589 connect
+16:15:41.589 CREATE ./data/smartreco.db
+ 16:15:46.138 connect
+16:15:46.142 PRAGMA ./data/smartreco.db
+16:15:46.142 PRAGMA ./data/smartreco.db
+16:15:46.142 PRAGMA ./data/smartreco.db
+16:15:46.150 PRAGMA ./data/smartreco.db
+16:15:46.152 PRAGMA ./data/smartreco.db
+16:15:46.152 PRAGMA ./data/smartreco.db
+16:15:46.153 PRAGMA ./data/smartreco.db
+16:15:46.154 PRAGMA ./data/smartreco.db
+16:15:46.154 PRAGMA ./data/smartreco.db
+16:15:46.155 PRAGMA ./data/smartreco.db
+16:15:46.156 PRAGMA ./data/smartreco.db
+16:15:46.156 PRAGMA ./data/smartreco.db
+16:15:46.157 PRAGMA ./data/smartreco.db
+16:15:46.158 connect
+16:15:46.158 connect
+16:15:46.159 PRAGMA ./data/smartreco.db
+16:15:46.159 connect
+16:15:46.160 connect
+16:15:46.160 PRAGMA ./data/smartreco.db
+16:15:46.161 connect
+16:15:46.162 CREATE ./data/smartreco.db
+16:16:46.531 connect
+16:16:46.548 SELECT ./data/smartreco.db
+16:16:46.552 SELECT ./data/smartreco.db
+16:16:46.555 SELECT ./data/smartreco.db
+16:17:46.181 connect
+16:17:46.182 SELECT ./data/smartreco.db
+16:17:46.183 SELECT ./data/smartreco.db
+16:17:46.184 SELECT ./data/smartreco.db
+16:18:46.166 connect
+16:18:46.166 SELECT ./data/smartreco.db
+16:18:46.168 SELECT ./data/smartreco.db
+16:18:46.168 SELECT ./data/smartreco.db
+16:19:46.169 connect
+16:19:46.172 SELECT ./data/smartreco.db
+16:19:46.175 SELECT ./data/smartreco.db
+16:19:46.179 SELECT ./data/smartreco.db
+ 16:20:49.227 connect
+16:20:49.229 PRAGMA ./data/smartreco.db
+16:20:49.229 PRAGMA ./data/smartreco.db
+16:20:49.231 PRAGMA ./data/smartreco.db
+16:20:49.231 PRAGMA ./data/smartreco.db
+16:20:49.231 PRAGMA ./data/smartreco.db
+16:20:49.231 PRAGMA ./data/smartreco.db
+16:20:49.233 PRAGMA ./data/smartreco.db
+16:20:49.233 PRAGMA ./data/smartreco.db
+16:20:49.233 PRAGMA ./data/smartreco.db
+16:20:49.233 PRAGMA ./data/smartreco.db
+16:20:49.235 PRAGMA ./data/smartreco.db
+16:20:49.235 PRAGMA ./data/smartreco.db
+16:20:49.235 PRAGMA ./data/smartreco.db
+16:20:49.237 connect
+16:20:49.237 connect
+16:20:49.237 PRAGMA ./data/smartreco.db
+16:20:49.237 connect
+16:20:49.237 connect
+16:20:49.239 PRAGMA ./data/smartreco.db
+16:20:49.239 connect
+16:20:49.239 CREATE ./data/smartreco.db
+16:20:54.519 connect
+16:20:54.519 PRAGMA ./data/smartreco.db
+16:20:54.519 PRAGMA ./data/smartreco.db
+16:20:54.526 PRAGMA ./data/smartreco.db
+16:20:54.527 PRAGMA ./data/smartreco.db
+16:20:54.528 PRAGMA ./data/smartreco.db
+16:20:54.528 PRAGMA ./data/smartreco.db
+16:20:54.529 PRAGMA ./data/smartreco.db
+16:20:54.529 PRAGMA ./data/smartreco.db
+16:20:54.530 PRAGMA ./data/smartreco.db
+16:20:54.530 PRAGMA ./data/smartreco.db
+16:20:54.531 PRAGMA ./data/smartreco.db
+16:20:54.532 PRAGMA ./data/smartreco.db
+16:20:54.532 PRAGMA ./data/smartreco.db
+16:20:54.533 connect
+16:20:54.533 connect
+16:20:54.533 PRAGMA ./data/smartreco.db
+16:20:54.534 connect
+16:20:54.534 connect
+16:20:54.534 PRAGMA ./data/smartreco.db
+16:20:54.536 connect
+16:20:54.536 CREATE ./data/smartreco.db
+16:21:54.764 connect
+16:21:54.775 SELECT ./data/smartreco.db
+16:21:54.775 SELECT ./data/smartreco.db
+16:21:54.787 SELECT ./data/smartreco.db
+16:22:54.547 connect
+16:22:54.547 SELECT ./data/smartreco.db
+16:22:54.547 SELECT ./data/smartreco.db
+16:22:54.552 SELECT ./data/smartreco.db
+16:23:54.552 connect
+16:23:54.553 SELECT ./data/smartreco.db
+16:23:54.556 SELECT ./data/smartreco.db
+16:23:54.558 SELECT ./data/smartreco.db
+16:24:54.550 connect
+16:24:54.550 SELECT ./data/smartreco.db
+16:24:54.550 SELECT ./data/smartreco.db
+16:24:54.550 SELECT ./data/smartreco.db
+16:25:54.557 connect
+16:25:54.559 SELECT ./data/smartreco.db
+16:25:54.561 SELECT ./data/smartreco.db
+16:25:54.561 SELECT ./data/smartreco.db
+16:26:54.541 connect
+16:26:54.541 SELECT ./data/smartreco.db
+16:26:54.541 SELECT ./data/smartreco.db
+16:26:54.541 SELECT ./data/smartreco.db
+16:27:54.546 connect
+16:27:54.546 SELECT ./data/smartreco.db
+16:27:54.546 SELECT ./data/smartreco.db
+16:27:54.546 SELECT ./data/smartreco.db
+16:28:54.540 connect
+16:28:54.540 SELECT ./data/smartreco.db
+16:28:54.540 SELECT ./data/smartreco.db
+16:28:54.540 SELECT ./data/smartreco.db
+16:29:54.544 connect
+16:29:54.546 SELECT ./data/smartreco.db
+16:29:54.548 SELECT ./data/smartreco.db
+16:29:54.550 SELECT ./data/smartreco.db
+16:30:54.548 connect
+16:30:54.548 SELECT ./data/smartreco.db
+16:30:54.548 SELECT ./data/smartreco.db
+16:30:54.548 SELECT ./data/smartreco.db
+16:31:54.548 connect
+16:31:54.548 SELECT ./data/smartreco.db
+16:31:54.548 SELECT ./data/smartreco.db
+16:31:54.548 SELECT ./data/smartreco.db
+16:32:54.547 connect
+16:32:54.549 SELECT ./data/smartreco.db
+16:32:54.551 SELECT ./data/smartreco.db
+16:32:54.551 SELECT ./data/smartreco.db
+16:33:54.554 connect
+16:33:54.556 SELECT ./data/smartreco.db
+16:33:54.557 SELECT ./data/smartreco.db
+16:33:54.558 SELECT ./data/smartreco.db
+16:34:54.554 connect
+16:34:54.555 SELECT ./data/smartreco.db
+16:34:54.557 SELECT ./data/smartreco.db
+16:34:54.558 SELECT ./data/smartreco.db
+16:35:54.539 connect
+16:35:54.539 SELECT ./data/smartreco.db
+16:35:54.539 connect
+16:35:54.539 SELECT ./data/smartreco.db
+16:35:54.553 connect
+16:35:54.555 SELECT ./data/smartreco.db
+16:35:54.555 SELECT ./data/smartreco.db
+16:35:54.562 SELECT ./data/smartreco.db
+16:35:54.562 SELECT ./data/smartreco.db
+16:35:54.562 SELECT ./data/smartreco.db
+16:35:54.571 SELECT ./data/smartreco.db
+16:35:54.571 connect
+16:35:54.571 SELECT ./data/smartreco.db
+16:35:54.571 SELECT ./data/smartreco.db
+16:35:54.571 SELECT ./data/smartreco.db
+16:35:54.571 SELECT ./data/smartreco.db
+16:35:54.571 connect
+16:35:54.571 SELECT ./data/smartreco.db
+16:35:54.571 SELECT ./data/smartreco.db
+16:35:54.571 SELECT ./data/smartreco.db
+16:35:54.571 SELECT ./data/smartreco.db
+16:35:54.587 connect
+16:35:54.587 SELECT ./data/smartreco.db
+16:35:54.587 SELECT ./data/smartreco.db
+16:35:54.587 SELECT ./data/smartreco.db
+16:35:54.587 SELECT ./data/smartreco.db
+16:36:54.549 connect
+16:36:54.549 SELECT ./data/smartreco.db
+16:36:54.555 SELECT ./data/smartreco.db
+16:36:54.555 SELECT ./data/smartreco.db
+16:37:54.546 connect
+16:37:54.547 SELECT ./data/smartreco.db
+16:37:54.547 SELECT ./data/smartreco.db
+16:37:54.548 SELECT ./data/smartreco.db
+16:38:54.543 connect
+16:38:54.543 SELECT ./data/smartreco.db
+16:38:54.543 SELECT ./data/smartreco.db
+16:38:54.543 SELECT ./data/smartreco.db
+16:39:54.551 connect
+16:39:54.551 SELECT ./data/smartreco.db
+16:39:54.553 SELECT ./data/smartreco.db
+16:39:54.553 SELECT ./data/smartreco.db
+16:40:54.550 connect
+16:40:54.550 SELECT ./data/smartreco.db
+16:40:54.552 SELECT ./data/smartreco.db
+16:40:55.341 UPDATE ./data/smartreco.db
+16:40:55.344 UPDATE ./data/smartreco.db
+16:40:55.355 connect
+16:40:55.356 SELECT ./data/smartreco.db
+16:40:55.357 SELECT ./data/smartreco.db
+16:41:54.553 connect
+16:41:54.555 SELECT ./data/smartreco.db
+16:41:54.559 SELECT ./data/smartreco.db
+16:41:54.563 SELECT ./data/smartreco.db
+16:42:54.555 connect
+16:42:54.556 SELECT ./data/smartreco.db
+16:42:54.557 SELECT ./data/smartreco.db
+16:42:54.609 UPDATE ./data/smartreco.db
+16:42:54.611 UPDATE ./data/smartreco.db
+16:42:54.617 connect
+16:42:54.618 SELECT ./data/smartreco.db
+16:42:54.618 SELECT ./data/smartreco.db
+16:43:54.546 connect
+16:43:54.546 SELECT ./data/smartreco.db
+16:43:54.548 SELECT ./data/smartreco.db
+16:43:54.549 SELECT ./data/smartreco.db
+16:44:54.552 connect
+16:44:54.554 SELECT ./data/smartreco.db
+16:44:54.557 SELECT ./data/smartreco.db
+16:44:54.561 SELECT ./data/smartreco.db
+16:45:54.543 connect
+16:45:54.543 SELECT ./data/smartreco.db
+16:45:54.543 SELECT ./data/smartreco.db
+16:45:54.543 SELECT ./data/smartreco.db
+16:46:54.540 connect
+16:46:54.540 SELECT ./data/smartreco.db
+16:46:54.540 SELECT ./data/smartreco.db
+16:46:54.540 SELECT ./data/smartreco.db
+16:47:54.553 connect
+16:47:54.553 SELECT ./data/smartreco.db
+16:47:54.553 SELECT ./data/smartreco.db
+16:47:54.553 SELECT ./data/smartreco.db
+16:48:54.550 connect
+16:48:54.552 SELECT ./data/smartreco.db
+16:48:54.554 SELECT ./data/smartreco.db
+16:48:54.555 SELECT ./data/smartreco.db
+16:49:54.541 connect
+16:49:54.541 SELECT ./data/smartreco.db
+16:49:54.543 SELECT ./data/smartreco.db
+16:49:54.543 SELECT ./data/smartreco.db
+16:50:54.554 connect
+16:50:54.555 SELECT ./data/smartreco.db
+16:50:54.556 connect
+16:50:54.556 SELECT ./data/smartreco.db
+16:50:54.557 SELECT ./data/smartreco.db
+16:50:54.558 connect
+16:50:54.558 SELECT ./data/smartreco.db
+16:50:54.560 SELECT ./data/smartreco.db
+16:50:54.561 SELECT ./data/smartreco.db
+16:50:54.563 SELECT ./data/smartreco.db
+16:50:54.564 SELECT ./data/smartreco.db
+16:50:54.566 connect
+16:50:54.567 SELECT ./data/smartreco.db
+16:50:54.568 SELECT ./data/smartreco.db
+16:50:54.569 SELECT ./data/smartreco.db
+16:50:54.570 SELECT ./data/smartreco.db
+16:50:54.573 connect
+16:50:54.573 SELECT ./data/smartreco.db
+16:50:54.574 SELECT ./data/smartreco.db
+16:50:54.575 SELECT ./data/smartreco.db
+16:50:54.576 SELECT ./data/smartreco.db
+16:50:54.576 connect
+16:50:54.578 SELECT ./data/smartreco.db
+16:50:54.579 SELECT ./data/smartreco.db
+16:50:54.579 SELECT ./data/smartreco.db
+16:50:54.580 SELECT ./data/smartreco.db
+16:51:54.549 connect
+16:51:54.551 SELECT ./data/smartreco.db
+16:51:54.555 SELECT ./data/smartreco.db
+16:51:54.558 SELECT ./data/smartreco.db
+16:52:54.552 connect
+16:52:54.552 SELECT ./data/smartreco.db
+16:52:54.552 SELECT ./data/smartreco.db
+16:52:54.555 SELECT ./data/smartreco.db
+16:53:54.553 connect
+16:53:54.555 SELECT ./data/smartreco.db
+16:53:54.558 SELECT ./data/smartreco.db
+16:53:54.562 SELECT ./data/smartreco.db
+16:54:54.552 connect
+16:54:54.553 SELECT ./data/smartreco.db
+16:54:54.556 SELECT ./data/smartreco.db
+16:54:54.558 SELECT ./data/smartreco.db
+16:55:54.546 connect
+16:55:54.546 SELECT ./data/smartreco.db
+16:55:54.546 SELECT ./data/smartreco.db
+16:55:54.546 SELECT ./data/smartreco.db
+16:56:54.546 connect
+16:56:54.547 SELECT ./data/smartreco.db
+16:56:54.549 SELECT ./data/smartreco.db
+16:56:54.549 SELECT ./data/smartreco.db
+16:57:54.550 connect
+16:57:54.552 SELECT ./data/smartreco.db
+16:57:54.555 SELECT ./data/smartreco.db
+16:57:54.558 SELECT ./data/smartreco.db
+16:58:54.544 connect
+16:58:54.546 SELECT ./data/smartreco.db
+16:58:54.548 SELECT ./data/smartreco.db
+16:58:54.550 SELECT ./data/smartreco.db

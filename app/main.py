@@ -16,7 +16,7 @@ from sqlalchemy.orm import Session
 from starlette.middleware.sessions import SessionMiddleware
 
 from app.auth import current_user, hash_password, require_admin, require_user, verify_password
-from app.config import get_settings
+from app.config import get_settings, load_observability_environment
 from app.database import Base, SessionLocal, engine, get_db
 from app.mesh import MeshClient
 from app.models import (
@@ -41,6 +41,7 @@ from app.vector_outbox import (
 from app.vectors import ProductVectors
 
 settings = get_settings()
+load_observability_environment(settings)
 templates = Jinja2Templates(directory=str(Path(__file__).parent / "templates"))
 mesh = MeshClient(settings)
 vectors: ProductVectors | None = None
@@ -82,7 +83,11 @@ def learning_activity(events: list[BehaviorEvent], products: dict[int, Product])
 
 
 def configure_observability(app: FastAPI) -> None:
-    logfire.configure(service_name="smartreco", send_to_logfire="if-token-present")
+    logfire.configure(
+        service_name="smartreco",
+        send_to_logfire=settings.logfire_send_to_logfire,
+        token=settings.logfire_token or None,
+    )
     logfire.instrument_fastapi(
         app,
         request_attributes_mapper=lambda _request, attributes: {
@@ -306,7 +311,8 @@ def cody_ai_ask(
     by_id = {product.id: product for product in products}
     try:
         vector_ids = vector_store().search(question, limit=8)
-    except RuntimeError:
+    except Exception as error:
+        logfire.warn("Cody vector search unavailable", question=question, reason=str(error))
         vector_ids = []
     ranked_ids = list(dict.fromkeys([*vector_ids, *lexical_rank(question, products, limit=8)]))[:8]
     related_courses = [by_id[product_id] for product_id in ranked_ids if product_id in by_id]
@@ -340,7 +346,8 @@ def create_career_path(
     retrieval_query = f"{target_role} {career_interests} {' '.join(skills)} {skill_level}"
     try:
         vector_ids = vector_store().search(retrieval_query, limit=15)
-    except RuntimeError:
+    except Exception as error:
+        logfire.warn("career vector search unavailable", user_id=user.id, reason=str(error))
         vector_ids = []
     by_id = {product.id: product for product in products}
     candidate_ids = list(dict.fromkeys([*vector_ids, *lexical_rank(retrieval_query, products, limit=15)]))[:15]
@@ -567,10 +574,16 @@ def latest_recommendation(request: Request, db: Session = Depends(get_db)):
 def admin_products(request: Request, db: Session = Depends(get_db)):
     require_admin(request, db)
     products = list(db.scalars(select(Product).order_by(Product.created_at.desc())))
+    product_metrics = {
+        "total": len(products),
+        "active": sum(product.is_active for product in products),
+        "needs_sync": sum(product.is_active and product.vector_status != "synced" for product in products),
+        "inactive": sum(not product.is_active for product in products),
+    }
     return templates.TemplateResponse(
         request,
         "admin.html",
-        page_context(request, db, products=products, error=None),
+        page_context(request, db, products=products, product_metrics=product_metrics, error=None),
     )
 
 

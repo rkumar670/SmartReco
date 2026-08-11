@@ -1,0 +1,9 @@
+<aside class="ops-sidebar" aria-label="Administration">
+  <nav>
+    <span class="ops-nav-label">Catalogue</span>
+    <a class="{{ 'active' if admin_section == 'courses' else '' }}" href="/admin/products"><span aria-hidden="true">▦</span> All courses</a>
+    <span class="ops-nav-label">AI operations</span>
+    <a class="{{ 'active' if admin_section == 'agent-runs' else '' }}" href="/admin/agent-runs"><span aria-hidden="true">⌁</span> Agent runs</a>
+  </nav>
+  <div class="ops-sidebar-note"><strong>Recommendation agent</strong><span>LangGraph · Mesh API</span></div>
+</aside>
