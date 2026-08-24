@@ -12,7 +12,7 @@ from sqlalchemy.orm import Session
 
 from app.config import Settings
 from app.mesh import MeshClient
-from app.models import AgentRun, BehaviorEvent, Product, Recommendation, RecommendationItem, User, UserProfile, utcnow
+from app.models import AgentRun, BehaviorEvent, Enrollment, Product, Recommendation, RecommendationItem, User, UserProfile, utcnow
 from app.vectors import ProductVectors
 
 EVENT_WEIGHTS = {"product_view": 1, "product_click": 2, "search": 3, "category_view": 1, "time_spent": 1, "recommendation_impression": 0, "recommendation_click": 3}
@@ -23,7 +23,7 @@ def unprocessed_events(db: Session, user_id: int) -> list[BehaviorEvent]:
 
 
 def signature(events: list[BehaviorEvent]) -> str:
-    rows = [(event.event_type, event.product_id, event.search_query, event.category) for event in events]
+    # Include client id and timestamp so a new event with the same payload still\n    # produces a new behavior version.\n    rows = [(event.event_id, event.event_type, event.product_id, event.search_query, event.category, event.occurred_at.isoformat() if event.occurred_at else "") for event in events]
     return hashlib.sha256(repr(rows).encode()).hexdigest()[:16] if rows else "cold-start"
 
 
@@ -82,7 +82,7 @@ def refresh_profile(db: Session, user_id: int, behavior_signature: str) -> UserP
     return profile
 
 
-def lexical_rank(query: str, products: list[Product], limit: int = 15) -> list[int]:
+def filter_enrolled_products(products: list[Product], enrolled_ids: set[int]) -> list[Product]:\n    return [product for product in products if product.id not in enrolled_ids]\n\n\ndef lexical_rank(query: str, products: list[Product], limit: int = 15):
     terms = re.findall(r"[a-z0-9]+", query.lower())
     scored = []
     for product in products:
@@ -129,12 +129,17 @@ def generate_recommendation(db: Session, user: User, settings: Settings, mesh: M
     def prepare(_state: dict) -> dict:
         profile = refresh_profile(db, user.id, behavior_signature)
         products = list(db.scalars(select(Product).where(Product.is_active.is_(True))))
+        enrolled_ids = set(db.scalars(select(Enrollment.product_id).where(Enrollment.user_id == user.id)))
+        products = filter_enrolled_products(products, enrolled_ids)
+        if not products:
+            raise ValueError("No eligible products remain for this learner")
         if path == "cold_start":
-            ids = [p.id for p in sorted(products, key=lambda p: (p.rating, -p.price), reverse=True)[:8]]
+            ids = [p.id for p in sorted(products, key=lambda p: (p.rating, -p.price, -p.id), reverse=True)[:8]]
         else:
             tracks = {product.track for product in products if product.track}
             preferred_track = next((term for term in profile.interest_weights if term in tracks), None)
-            vector_ids = vectors.search(profile.summary, limit=15, track=preferred_track)
+            eligible_ids = {p.id for p in products}
+            vector_ids = [product_id for product_id in vectors.search(profile.summary, limit=15, track=preferred_track) if product_id in eligible_ids]
             ids = diversify(rrf(vector_ids, lexical_rank(profile.summary, products)), {p.id: p for p in products})
         by_id = {p.id: p for p in products}
         candidates = [by_id[pid] for pid in ids if pid in by_id]
