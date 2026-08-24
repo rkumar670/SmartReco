@@ -23,7 +23,9 @@ def unprocessed_events(db: Session, user_id: int) -> list[BehaviorEvent]:
 
 
 def signature(events: list[BehaviorEvent]) -> str:
-    # Include client id and timestamp so a new event with the same payload still\n    # produces a new behavior version.\n    rows = [(event.event_id, event.event_type, event.product_id, event.search_query, event.category, event.occurred_at.isoformat() if event.occurred_at else "") for event in events]
+    # Include client id and timestamp so a new event with the same payload still
+    # produces a new behavior version.
+    rows = [(event.event_id, event.event_type, event.product_id, event.search_query, event.category, event.occurred_at.isoformat() if event.occurred_at else "") for event in events]
     return hashlib.sha256(repr(rows).encode()).hexdigest()[:16] if rows else "cold-start"
 
 
@@ -82,7 +84,11 @@ def refresh_profile(db: Session, user_id: int, behavior_signature: str) -> UserP
     return profile
 
 
-def filter_enrolled_products(products: list[Product], enrolled_ids: set[int]) -> list[Product]:\n    return [product for product in products if product.id not in enrolled_ids]\n\n\ndef lexical_rank(query: str, products: list[Product], limit: int = 15):
+def filter_enrolled_products(products: list[Product], enrolled_ids: set[int]) -> list[Product]:
+    return [product for product in products if product.id not in enrolled_ids]
+
+
+def lexical_rank(query: str, products: list[Product], limit: int = 15) -> list[int]:
     terms = re.findall(r"[a-z0-9]+", query.lower())
     scored = []
     for product in products:
